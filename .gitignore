@@ -1,0 +1,9 @@
+﻿venv/
+__pycache__/
+*.pyc
+.env
+*.wav
+*.mp3
+/eval/audio/
+node_modules/
+.next/

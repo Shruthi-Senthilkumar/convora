@@ -1,0 +1,9 @@
+﻿fastapi
+uvicorn[standard]
+websockets
+python-dotenv
+deepgram-sdk
+groq
+praat-parselmouth
+pandas
+matplotlib
