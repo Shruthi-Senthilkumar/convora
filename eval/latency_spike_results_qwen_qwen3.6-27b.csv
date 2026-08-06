@@ -1,0 +1,51 @@
+index,prompt,elapsed_ms,response,error,over_deadline
+1,I think we should go with option B,252.2,complete,,False
+2,So I think... we should go with,426.0,incomplete,,True
+3,Can you send me the report by Friday,386.2,complete,,False
+4,mm-hmm,1097.8,complete,,True
+5,right,3064.1,incomplete,,True
+6,yeah,278.9,complete,,False
+7,"I went to the store and bought milk, eggs, and",6776.8,incomplete,,True
+8,The meeting is scheduled for next Tuesday at,44939.9,incomplete,,True
+9,"I guess we could try that approach, so, yeah",336.4,complete,,False
+10,"Is that the right way to do it, or",171.0,incomplete,,False
+11,We need to finish the first phase before we,136.6,incomplete,,False
+12,"Actually, I meant to say the second option, not the",1026.7,incomplete,,True
+13,Let's go over the budget numbers for this quarter,182.2,complete,,False
+14,"First we need to check the server, then the database, and finally",1299.0,incomplete,,True
+15,I was thinking maybe we should,273.4,incomplete,,False
+16,That sounds like a good plan to me,134.8,complete,,False
+17,"Wait, I don't think that's",128.0,incomplete,,False
+18,The results came back positive for all three,146.1,complete,,False
+19,Honestly I'm not sure what to,241.8,incomplete,,False
+20,Let me pull up the document real quick,185.8,incomplete,,False
+21,So basically what happened was,127.0,incomplete,,False
+22,Thanks for your help today,119.2,complete,,False
+23,Can we reschedule the call to,350.2,incomplete,,False
+24,I completed the task yesterday afternoon,128.7,complete,,False
+25,"There were a few issues with the deployment, namely",134.9,incomplete,,False
+26,"So, yeah",145.3,incomplete,,False
+27,I guess,139.1,incomplete,,False
+28,It's due next week I believe,547.3,complete,,True
+29,We should probably talk to the client about,162.6,incomplete,,False
+30,The presentation went well overall,8174.0,complete,,True
+31,Do you have any questions about the,987.1,incomplete,,True
+32,I'll follow up with you tomorrow morning,492.1,complete,,True
+33,Considering the budget constraints we discussed earlier,335.4,incomplete,,False
+34,That's exactly what I was thinking,162.6,complete,,False
+35,I need to check with the team before,1259.6,incomplete,,True
+36,The flight leaves at 6am so we should,164.4,incomplete,,False
+37,Everything looks good on my end,2072.4,complete,,True
+38,Give me a second to think about,214.9,incomplete,,False
+39,We finished the audit last week,242.8,complete,,False
+40,I'm going to need more time on,145.3,incomplete,,False
+41,"Sounds good, talk soon",238.6,complete,,False
+42,"The numbers don't quite add up, specifically",129.3,incomplete,,False
+43,Let's circle back to this after,153.7,incomplete,,False
+44,I really appreciate you taking the time to,154.9,incomplete,,False
+45,That should cover most of the requirements,748.2,complete,,True
+46,I'm not fully convinced that,192.7,incomplete,,False
+47,We can revisit this decision once,258.5,incomplete,,False
+48,"Thanks, that answers my question",179.0,complete,,False
+49,"The client wants three changes: first, second, and",116.8,incomplete,,False
+50,I think that wraps up everything for today,131.4,complete,,False

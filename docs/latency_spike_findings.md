@@ -1,0 +1,90 @@
+\# Phase 0 - Step 4: Latency Spike Findings (in progress)
+
+
+
+\## Status: INCOMPLETE - decision gate not yet resolved. Resume here.
+
+
+
+\## Runs completed (2026-08-06)
+
+
+
+\### Qwen3.6-27B, reasoning\_effort="none", 2.2s pacing
+
+\- p50: 171ms, p95: 1142ms, max: 2843ms
+
+\- 9/50 (18%) over 400ms deadline
+
+
+
+\### Qwen3.6-27B, reasoning\_effort="none", 3.5s pacing (re-run to rule out
+
+&#x20; rate-limit-window interaction)
+
+\- p50: 227ms, p95: 7406ms, max: 44940ms
+
+\- 14/50 (28%) over 400ms deadline
+
+\- Wider pacing made the tail WORSE, not better - rules out rate-limit
+
+&#x20; interaction as the cause. Tail latency appears to be genuine, unpredictable
+
+&#x20; instability on the preview endpoint itself.
+
+
+
+\### gpt-oss-20b, reasoning\_effort="low", 3.5s pacing
+
+\- p50: 404ms, p95: 1910ms, max: 3917ms
+
+\- 26/50 (52%) over 400ms deadline
+
+\- WORSE than Qwen on both p50 and miss rate - contradicts PRD's assumption
+
+&#x20; that gpt-oss-20b is the safe low-latency fallback.
+
+\- BUG: all responses came back empty. Suspect max\_tokens=5 is being consumed
+
+&#x20; by internal reasoning tokens even at "low" effort, leaving nothing for the
+
+&#x20; visible answer. Need to re-test with higher max\_tokens (50-100) before
+
+&#x20; gpt-oss-20b can be fairly judged - current numbers may not reflect a
+
+&#x20; working configuration.
+
+
+
+\## Both models currently FAIL the 250ms p95 budget in PRD sec 2.2.
+
+
+
+\## Next steps (resume here)
+
+1\. Fix gpt-oss-20b max\_tokens and re-run for a fair comparison (empty
+
+&#x20;  responses currently invalidate its numbers)
+
+2\. Re-run Qwen once more at a different time of day to check if tail
+
+&#x20;  latency is time-dependent congestion or a stable characteristic
+
+3\. Based on results, decide between:
+
+&#x20;  a. Accept the degraded-fallback architecture (PRD sec 2.2) as-is and
+
+&#x20;     report the real degraded-rate as a headline Phase 3 metric
+
+&#x20;  b. Split usage by phase - Qwen for Phase 1 batch (no latency
+
+&#x20;     constraint), faster option for Phase 2/3 streaming
+
+&#x20;  c. Investigate a local small model for the semantic step (PRD sec 2.2
+
+&#x20;     option 3), avoiding hosted-API tail latency entirely
+
+4\. Once resolved, this becomes the final "Latency Spike / decision gate"
+
+&#x20;  entry for Phase 0 exit (see docs/phase0\_exit.md)
+

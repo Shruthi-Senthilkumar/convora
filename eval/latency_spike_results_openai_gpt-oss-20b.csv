@@ -1,0 +1,51 @@
+index,prompt,elapsed_ms,response,error,over_deadline
+1,I think we should go with option B,367.1,,,False
+2,So I think... we should go with,452.4,,,True
+3,Can you send me the report by Friday,400.4,,,True
+4,mm-hmm,315.7,,,False
+5,right,354.5,,,False
+6,yeah,332.8,,,False
+7,"I went to the store and bought milk, eggs, and",381.8,,,False
+8,The meeting is scheduled for next Tuesday at,351.6,,,False
+9,"I guess we could try that approach, so, yeah",408.1,,,True
+10,"Is that the right way to do it, or",143.0,,,False
+11,We need to finish the first phase before we,371.6,,,False
+12,"Actually, I meant to say the second option, not the",336.9,,,False
+13,Let's go over the budget numbers for this quarter,411.3,,,True
+14,"First we need to check the server, then the database, and finally",399.4,,,False
+15,I was thinking maybe we should,338.2,,,False
+16,That sounds like a good plan to me,512.5,,,True
+17,"Wait, I don't think that's",157.4,,,False
+18,The results came back positive for all three,2022.2,,,True
+19,Honestly I'm not sure what to,411.3,,,True
+20,Let me pull up the document real quick,396.2,,,False
+21,So basically what happened was,360.9,,,False
+22,Thanks for your help today,152.8,,,False
+23,Can we reschedule the call to,568.0,,,True
+24,I completed the task yesterday afternoon,941.6,,,True
+25,"There were a few issues with the deployment, namely",1011.9,,,True
+26,"So, yeah",462.4,,,True
+27,I guess,491.9,,,True
+28,It's due next week I believe,368.7,,,False
+29,We should probably talk to the client about,504.4,,,True
+30,The presentation went well overall,731.2,,,True
+31,Do you have any questions about the,461.4,,,True
+32,I'll follow up with you tomorrow morning,1817.3,,,True
+33,Considering the budget constraints we discussed earlier,265.1,,,False
+34,That's exactly what I was thinking,722.6,,,True
+35,I need to check with the team before,3916.9,,,True
+36,The flight leaves at 6am so we should,458.4,,,True
+37,Everything looks good on my end,387.7,,,False
+38,Give me a second to think about,580.5,,,True
+39,We finished the audit last week,442.5,,,True
+40,I'm going to need more time on,449.4,,,True
+41,"Sounds good, talk soon",419.5,,,True
+42,"The numbers don't quite add up, specifically",383.7,,,False
+43,Let's circle back to this after,398.7,,,False
+44,I really appreciate you taking the time to,424.7,,,True
+45,That should cover most of the requirements,425.6,,,True
+46,I'm not fully convinced that,384.4,,,False
+47,We can revisit this decision once,493.1,,,True
+48,"Thanks, that answers my question",344.9,,,False
+49,"The client wants three changes: first, second, and",358.4,,,False
+50,I think that wraps up everything for today,327.5,,,False
