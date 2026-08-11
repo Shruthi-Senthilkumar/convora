@@ -88,3 +88,41 @@
 
 &#x20;  entry for Phase 0 exit (see docs/phase0\_exit.md)
 
+## Network latency isolation test (2026-08-11)
+
+
+
+Raw ICMP ping RTT (no model inference involved):
+
+\- api.groq.com: 21-69ms (avg \~36ms)
+
+\- generativelanguage.googleapis.com: 26-33ms (avg \~29ms)
+
+
+
+FINDING: Network distance hypothesis is FALSIFIED. Raw RTT to both
+
+providers is fast and unremarkable (\~20-70ms) - nowhere near enough to
+
+explain the 400-1500ms+ latency measured across all model tests.
+
+
+
+REVISED CONCLUSION: The consistent latency floor across 4 vendors/3
+
+architectures is most likely explained by INFERENCE-SIDE factors -
+
+actual compute time plus free-tier request queuing/priority on shared
+
+multi-tenant infrastructure - not network transport.
+
+
+
+This strengthens rather than weakens the case for local hosting: local
+
+inference on dedicated hardware (RTX 5070) has zero queuing contention
+
+and no shared-tenant priority deprioritization, directly addressing the
+
+now-identified bottleneck rather than a discarded one.
+

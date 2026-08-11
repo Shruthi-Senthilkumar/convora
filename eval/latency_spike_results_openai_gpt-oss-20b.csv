@@ -1,51 +1,51 @@
-index,prompt,elapsed_ms,response,error,over_deadline
-1,I think we should go with option B,367.1,,,False
-2,So I think... we should go with,452.4,,,True
-3,Can you send me the report by Friday,400.4,,,True
-4,mm-hmm,315.7,,,False
-5,right,354.5,,,False
-6,yeah,332.8,,,False
-7,"I went to the store and bought milk, eggs, and",381.8,,,False
-8,The meeting is scheduled for next Tuesday at,351.6,,,False
-9,"I guess we could try that approach, so, yeah",408.1,,,True
-10,"Is that the right way to do it, or",143.0,,,False
-11,We need to finish the first phase before we,371.6,,,False
-12,"Actually, I meant to say the second option, not the",336.9,,,False
-13,Let's go over the budget numbers for this quarter,411.3,,,True
-14,"First we need to check the server, then the database, and finally",399.4,,,False
-15,I was thinking maybe we should,338.2,,,False
-16,That sounds like a good plan to me,512.5,,,True
-17,"Wait, I don't think that's",157.4,,,False
-18,The results came back positive for all three,2022.2,,,True
-19,Honestly I'm not sure what to,411.3,,,True
-20,Let me pull up the document real quick,396.2,,,False
-21,So basically what happened was,360.9,,,False
-22,Thanks for your help today,152.8,,,False
-23,Can we reschedule the call to,568.0,,,True
-24,I completed the task yesterday afternoon,941.6,,,True
-25,"There were a few issues with the deployment, namely",1011.9,,,True
-26,"So, yeah",462.4,,,True
-27,I guess,491.9,,,True
-28,It's due next week I believe,368.7,,,False
-29,We should probably talk to the client about,504.4,,,True
-30,The presentation went well overall,731.2,,,True
-31,Do you have any questions about the,461.4,,,True
-32,I'll follow up with you tomorrow morning,1817.3,,,True
-33,Considering the budget constraints we discussed earlier,265.1,,,False
-34,That's exactly what I was thinking,722.6,,,True
-35,I need to check with the team before,3916.9,,,True
-36,The flight leaves at 6am so we should,458.4,,,True
-37,Everything looks good on my end,387.7,,,False
-38,Give me a second to think about,580.5,,,True
-39,We finished the audit last week,442.5,,,True
-40,I'm going to need more time on,449.4,,,True
-41,"Sounds good, talk soon",419.5,,,True
-42,"The numbers don't quite add up, specifically",383.7,,,False
-43,Let's circle back to this after,398.7,,,False
-44,I really appreciate you taking the time to,424.7,,,True
-45,That should cover most of the requirements,425.6,,,True
-46,I'm not fully convinced that,384.4,,,False
-47,We can revisit this decision once,493.1,,,True
-48,"Thanks, that answers my question",344.9,,,False
-49,"The client wants three changes: first, second, and",358.4,,,False
-50,I think that wraps up everything for today,327.5,,,False
+index,prompt,elapsed_ms,response,finish_reason,error,over_deadline
+1,I think we should go with option B,729.8,complete,stop,,True
+2,So I think... we should go with,374.0,incomplete,stop,,False
+3,Can you send me the report by Friday,945.3,complete,stop,,True
+4,mm-hmm,690.6,incomplete,stop,,True
+5,right,1102.4,incomplete,stop,,True
+6,yeah,802.0,incomplete,stop,,True
+7,"I went to the store and bought milk, eggs, and",650.0,incomplete,stop,,True
+8,The meeting is scheduled for next Tuesday at,617.8,incomplete,stop,,True
+9,"I guess we could try that approach, so, yeah",525.1,complete,stop,,True
+10,"Is that the right way to do it, or",688.9,incomplete,stop,,True
+11,We need to finish the first phase before we,622.1,incomplete,stop,,True
+12,"Actually, I meant to say the second option, not the",494.4,incomplete,stop,,True
+13,Let's go over the budget numbers for this quarter,493.0,incomplete,stop,,True
+14,"First we need to check the server, then the database, and finally",577.6,incomplete,stop,,True
+15,I was thinking maybe we should,479.8,incomplete,stop,,True
+16,That sounds like a good plan to me,605.7,complete,stop,,True
+17,"Wait, I don't think that's",622.7,incomplete,stop,,True
+18,The results came back positive for all three,609.3,,length,,True
+19,Honestly I'm not sure what to,633.5,incomplete,stop,,True
+20,Let me pull up the document real quick,1129.8,incomplete,stop,,True
+21,So basically what happened was,511.9,incomplete,stop,,True
+22,Thanks for your help today,672.8,complete,stop,,True
+23,Can we reschedule the call to,669.6,incomplete,stop,,True
+24,I completed the task yesterday afternoon,643.8,complete,stop,,True
+25,"There were a few issues with the deployment, namely",553.0,incomplete,stop,,True
+26,"So, yeah",576.9,incomplete,stop,,True
+27,I guess,524.1,incomplete,stop,,True
+28,It's due next week I believe,544.4,complete,stop,,True
+29,We should probably talk to the client about,528.0,incomplete,stop,,True
+30,The presentation went well overall,819.1,complete,stop,,True
+31,Do you have any questions about the,428.7,incomplete,stop,,True
+32,I'll follow up with you tomorrow morning,468.9,complete,stop,,True
+33,Considering the budget constraints we discussed earlier,444.0,incomplete,stop,,True
+34,That's exactly what I was thinking,582.8,complete,stop,,True
+35,I need to check with the team before,565.4,incomplete,stop,,True
+36,The flight leaves at 6am so we should,731.5,incomplete,stop,,True
+37,Everything looks good on my end,560.2,complete,stop,,True
+38,Give me a second to think about,577.2,incomplete,stop,,True
+39,We finished the audit last week,450.4,complete,stop,,True
+40,I'm going to need more time on,399.4,incomplete,stop,,False
+41,"Sounds good, talk soon",297.2,complete,stop,,False
+42,"The numbers don't quite add up, specifically",437.8,incomplete,stop,,True
+43,Let's circle back to this after,536.5,incomplete,stop,,True
+44,I really appreciate you taking the time to,509.6,incomplete,stop,,True
+45,That should cover most of the requirements,913.6,complete,stop,,True
+46,I'm not fully convinced that,508.6,incomplete,stop,,True
+47,We can revisit this decision once,262.7,incomplete,stop,,False
+48,"Thanks, that answers my question",384.2,complete,stop,,False
+49,"The client wants three changes: first, second, and",518.0,incomplete,stop,,True
+50,I think that wraps up everything for today,592.4,complete,stop,,True

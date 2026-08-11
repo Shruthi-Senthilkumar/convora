@@ -1,5 +1,5 @@
 ﻿"""
-Phase 0 - Step 4: Latency spike.
+Phase 0 - Step 4: Latency spike against Cerebras.
 """
 
 import os
@@ -9,27 +9,15 @@ import csv
 import statistics
 from datetime import datetime
 from dotenv import load_dotenv
-from groq import Groq
+from cerebras.cloud.sdk import Cerebras
 
 load_dotenv()
 
-client = Groq(api_key=os.getenv("GROQ_API_KEY"))
+client = Cerebras(api_key=os.getenv("CEREBRAS_API_KEY"))
 
-MODEL = sys.argv[1] if len(sys.argv) > 1 else "qwen/qwen3.6-27b"
-SECONDS_BETWEEN_CALLS = 3.5
+MODEL = sys.argv[1] if len(sys.argv) > 1 else "llama3.1-8b"
+SECONDS_BETWEEN_CALLS = 2.5
 DEADLINE_MS = 400
-
-
-def _reasoning_effort_for(model: str):
-    m = model.lower()
-    if "qwen" in m:
-        return "none"
-    if "gpt-oss" in m:
-        return "low"
-    return None
-
-
-REASONING_EFFORT = _reasoning_effort_for(MODEL)
 WARMUP_CALLS = 1
 
 SYSTEM_PROMPT = (
@@ -95,15 +83,14 @@ TEST_PROMPTS = [
 
 def run_spike():
     results = []
-    print(f"Model under test: {MODEL}")
-    print(f"reasoning_effort: {REASONING_EFFORT}")
-    print(f"Running latency spike: {len(TEST_PROMPTS)} calls, ~{SECONDS_BETWEEN_CALLS}s apart\n")
+    print(f"Model under test: {MODEL} (Cerebras)")
+    print(f"Running {len(TEST_PROMPTS)} calls, ~{SECONDS_BETWEEN_CALLS}s apart\n")
 
     if WARMUP_CALLS > 0:
         print(f"Running {WARMUP_CALLS} warmup call(s)...")
         for _ in range(WARMUP_CALLS):
             try:
-                warmup_kwargs = dict(
+                client.chat.completions.create(
                     model=MODEL,
                     messages=[
                         {"role": "system", "content": SYSTEM_PROMPT},
@@ -112,9 +99,6 @@ def run_spike():
                     max_tokens=60,
                     temperature=0,
                 )
-                if REASONING_EFFORT is not None:
-                    warmup_kwargs["reasoning_effort"] = REASONING_EFFORT
-                client.chat.completions.create(**warmup_kwargs)
             except Exception as e:
                 print(f"  warmup call failed (non-fatal): {e}")
             time.sleep(SECONDS_BETWEEN_CALLS)
@@ -126,7 +110,7 @@ def run_spike():
         response_text = None
         finish_reason = None
         try:
-            call_kwargs = dict(
+            completion = client.chat.completions.create(
                 model=MODEL,
                 messages=[
                     {"role": "system", "content": SYSTEM_PROMPT},
@@ -135,9 +119,6 @@ def run_spike():
                 max_tokens=60,
                 temperature=0,
             )
-            if REASONING_EFFORT is not None:
-                call_kwargs["reasoning_effort"] = REASONING_EFFORT
-            completion = client.chat.completions.create(**call_kwargs)
             response_text = completion.choices[0].message.content.strip()
             finish_reason = completion.choices[0].finish_reason
         except Exception as e:
@@ -156,8 +137,7 @@ def run_spike():
 
         status = f"{elapsed_ms:.0f}ms" if not error else f"ERROR: {error[:60]}"
         flag = " [OVER 400ms DEADLINE]" if elapsed_ms > DEADLINE_MS else ""
-        empty_flag = " [EMPTY RESPONSE]" if not error and not response_text else ""
-        print(f"[{i:2d}/{len(TEST_PROMPTS)}] {status}{flag}{empty_flag}  -> {response_text} (finish_reason={finish_reason})")
+        print(f"[{i:2d}/{len(TEST_PROMPTS)}] {status}{flag}  -> {response_text}")
 
         if i < len(TEST_PROMPTS):
             time.sleep(SECONDS_BETWEEN_CALLS)
@@ -169,21 +149,23 @@ def summarize(results):
     successful = [r["elapsed_ms"] for r in results if r["error"] is None]
     errors = [r for r in results if r["error"] is not None]
 
-    print("\n=== Latency Spike Summary ===")
+    print("\n=== Cerebras Latency Spike Summary ===")
     print(f"Total calls: {len(results)}")
     print(f"Successful: {len(successful)}")
-    print(f"Errors/timeouts: {len(errors)}")
+    print(f"Errors: {len(errors)}")
 
     if successful:
         p50 = statistics.median(successful)
         p95 = statistics.quantiles(successful, n=100)[94] if len(successful) >= 20 else max(successful)
         mean = statistics.mean(successful)
+        miss = sum(1 for e in successful if e > DEADLINE_MS)
         print(f"\nLatency (ms) over {len(successful)} successful calls:")
         print(f"  min:  {min(successful):.1f}")
         print(f"  p50:  {p50:.1f}")
         print(f"  p95:  {p95:.1f}")
         print(f"  max:  {max(successful):.1f}")
         print(f"  mean: {mean:.1f}")
+        print(f"  calls over 400ms: {miss}/{len(successful)} ({100*miss/len(successful):.0f}%)")
 
         print("\n=== DECISION GATE (PRD sec 2.2: 250ms p95 budget) ===")
         if p95 <= 250:
@@ -191,7 +173,7 @@ def summarize(results):
         else:
             print(f"FAIL - p95 ({p95:.1f}ms) EXCEEDS the 250ms budget.")
     else:
-        print("\nNo successful calls - cannot compute latency stats.")
+        print("\nNo successful calls - check API key and error messages above.")
 
     if errors:
         print(f"\n{len(errors)} call(s) failed - review errors above.")
@@ -212,6 +194,6 @@ def save_csv(results, path):
 if __name__ == "__main__":
     results = run_spike()
     summarize(results)
-    safe_model_name = MODEL.replace("/", "_")
-    save_csv(results, f"eval/latency_spike_results_{safe_model_name}.csv")
+    safe_model_name = MODEL.replace("/", "_").replace(".", "-")
+    save_csv(results, f"eval/latency_spike_results_cerebras_{safe_model_name}.csv")
     print(f"\nRun completed at {datetime.now().isoformat()}")
