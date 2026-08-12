@@ -126,3 +126,25 @@ and no shared-tenant priority deprioritization, directly addressing the
 
 now-identified bottleneck rather than a discarded one.
 
+## SemanticJudge implementation note (2026-08-11)
+
+
+
+Smoke test confirms rule gate + Groq LLM path both work correctly:
+
+\- Rule-resolved cases: 0-9ms, correct labels
+
+\- LLM-escalated case: 827ms, correct label ("complete")
+
+
+
+KNOWN GAP: client-level `timeout=0.4` on the Groq SDK does not appear to
+
+strictly enforce a 400ms hard cutoff (observed 827ms completion instead
+
+of abort+fallback). Not blocking for Phase 0 - deferred to Phase 2 when
+
+proper streaming timeout enforcement becomes load-bearing rather than
+
+a nice-to-have.
+
