@@ -1,0 +1,122 @@
+[
+  {
+    "candidate": {
+      "pause_start": 448.98,
+      "pause_end": 448.98,
+      "pause_duration_s": 0.0,
+      "speaker_changed": true,
+      "speaker": 0,
+      "fragment": "got lots of attention for doing it and yeah maybe been conditioned",
+      "word_index": 774,
+      "semantic_label": "incomplete",
+      "semantic_source": "llm",
+      "semantic_confidence": 0.75,
+      "semantic_latency_ms": 2339.2012999975123
+    },
+    "fusion": {
+      "is_end_of_speech": false,
+      "confidence": 0.4,
+      "contributing_signals": {
+        "semantic": {
+          "label": "incomplete",
+          "source": "llm",
+          "raw_confidence": 0.75,
+          "mapped_value": 0.25,
+          "weighted_contribution": 0.15
+        },
+        "pause": {
+          "duration_s": 0.0,
+          "mapped_value": 0.0,
+          "weighted_contribution": 0.0
+        },
+        "speaker_change": {
+          "changed": true,
+          "mapped_value": 1.0,
+          "weighted_contribution": 0.25
+        }
+      }
+    },
+    "human_says_end_of_speech": false,
+    "agrees_with_pipeline": true
+  },
+  {
+    "candidate": {
+      "pause_start": 256.63998,
+      "pause_end": 267.875,
+      "pause_duration_s": 11.235,
+      "speaker_changed": false,
+      "speaker": 0,
+      "fragment": "well my favorite animal would be a monkey",
+      "word_index": 374,
+      "semantic_label": "complete",
+      "semantic_source": "llm",
+      "semantic_confidence": 0.75,
+      "semantic_latency_ms": 2328.544399992097
+    },
+    "fusion": {
+      "is_end_of_speech": true,
+      "confidence": 0.6,
+      "contributing_signals": {
+        "semantic": {
+          "label": "complete",
+          "source": "llm",
+          "raw_confidence": 0.75,
+          "mapped_value": 0.75,
+          "weighted_contribution": 0.44999999999999996
+        },
+        "pause": {
+          "duration_s": 11.235,
+          "mapped_value": 1.0,
+          "weighted_contribution": 0.15
+        },
+        "speaker_change": {
+          "changed": false,
+          "mapped_value": 0.0,
+          "weighted_contribution": 0.0
+        }
+      }
+    },
+    "human_says_end_of_speech": true,
+    "agrees_with_pipeline": true
+  },
+  {
+    "candidate": {
+      "pause_start": 433.725,
+      "pause_end": 433.725,
+      "pause_duration_s": 0.0,
+      "speaker_changed": true,
+      "speaker": 0,
+      "fragment": "is he aware that this is his own tail that he's chasing",
+      "word_index": 714,
+      "semantic_label": "incomplete",
+      "semantic_source": "degraded",
+      "semantic_confidence": 0.3,
+      "semantic_latency_ms": 3674.9877000111155
+    },
+    "fusion": {
+      "is_end_of_speech": true,
+      "confidence": 0.55,
+      "contributing_signals": {
+        "semantic": {
+          "label": "incomplete",
+          "source": "degraded",
+          "raw_confidence": 0.3,
+          "mapped_value": 0.5,
+          "weighted_contribution": 0.3
+        },
+        "pause": {
+          "duration_s": 0.0,
+          "mapped_value": 0.0,
+          "weighted_contribution": 0.0
+        },
+        "speaker_change": {
+          "changed": true,
+          "mapped_value": 1.0,
+          "weighted_contribution": 0.25
+        }
+      }
+    },
+    "human_says_end_of_speech": true,
+    "agrees_with_pipeline": true
+  }
+]
