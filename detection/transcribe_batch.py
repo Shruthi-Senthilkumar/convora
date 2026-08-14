@@ -2,17 +2,17 @@
 detection/transcribe_batch.py
 
 Phase 1, Task 1: Transcribe an audio file with word-level timestamps
-using Deepgram's batch (prerecorded) API.
+AND speaker diarization using Deepgram's batch (prerecorded) API.
 
-NOTE: Written against deepgram-sdk v7.x, which is a full rewrite of the
-SDK's API surface compared to earlier v3-era examples (no more
-PrerecordedOptions/FileSource/listen.rest.v("1") - now
-client.listen.v1.media.transcribe_file(request=bytes, **kwargs)).
+Diarization added after Phase 1 Task 2 testing revealed that AMI's
+multi-party audio produces nonsensical cross-speaker fragments when
+pause-candidate windows aren't speaker-aware.
 
-This is the first building block of EndOfSpeechDetector.process_file().
-Output includes word-level start/end timestamps, needed later for:
-  - pause duration calculation (fusion signal 1, PRD sec 2.2)
-  - aligning semantic judgment calls to specific transcript boundaries
+Extended timeout added after a WriteTimeout on a ~39MB file upload -
+the SDK's default timeout is too short for large file bodies on
+typical upload speeds.
+
+Written against deepgram-sdk v7.x.
 
 Run standalone to test against a sample file:
     python detection/transcribe_batch.py "path/to/audio.wav"
@@ -26,27 +26,37 @@ from deepgram import DeepgramClient
 
 load_dotenv()
 
+UPLOAD_TIMEOUT_S = 300  # 5 minutes - generous for large file uploads
+                          # on typical connections; batch transcription
+                          # is not latency-sensitive like the live path
+
 
 def transcribe_file(audio_path: str) -> dict:
     """
-    Transcribes an audio file via Deepgram's batch API.
+    Transcribes an audio file via Deepgram's batch API, with diarization.
 
     Returns a dict with:
         - transcript: full text
-        - words: list of {word, start, end, confidence} dicts
+        - words: list of {word, start, end, confidence, speaker} dicts
         - duration: audio duration in seconds
     """
-    client = DeepgramClient(api_key=os.getenv("DEEPGRAM_API_KEY"))
+    client = DeepgramClient(
+        api_key=os.getenv("DEEPGRAM_API_KEY"),
+        timeout=UPLOAD_TIMEOUT_S,
+    )
 
     with open(audio_path, "rb") as f:
         audio_bytes = f.read()
+
+    file_size_mb = len(audio_bytes) / (1024 * 1024)
+    print(f"Uploading {file_size_mb:.1f}MB (timeout set to {UPLOAD_TIMEOUT_S}s)...")
 
     response = client.listen.v1.media.transcribe_file(
         request=audio_bytes,
         model="nova-3",
         smart_format=True,
         punctuate=True,
-        # word-level timestamps are included by default in the response
+        diarize=True,
     )
 
     result = response.results.channels[0].alternatives[0]
@@ -57,6 +67,7 @@ def transcribe_file(audio_path: str) -> dict:
             "start": w.start,
             "end": w.end,
             "confidence": w.confidence,
+            "speaker": getattr(w, "speaker", None),
         }
         for w in result.words
     ]
@@ -78,16 +89,20 @@ if __name__ == "__main__":
         print(f"File not found: {audio_path}")
         sys.exit(1)
 
-    print(f"Transcribing: {audio_path}")
+    print(f"Transcribing (with diarization): {audio_path}")
     result = transcribe_file(audio_path)
 
     print(f"\nDuration: {result['duration']:.1f}s")
     print(f"Word count: {len(result['words'])}")
+
+    speakers_seen = set(w["speaker"] for w in result["words"] if w["speaker"] is not None)
+    print(f"Speakers detected: {sorted(speakers_seen) if speakers_seen else 'NONE - diarization may not be available'}")
+
     print(f"\nFirst 200 chars of transcript:\n{result['transcript'][:200]}...")
 
-    print(f"\nFirst 10 words with timestamps:")
-    for w in result["words"][:10]:
-        print(f"  {w['word']:<15} {w['start']:.2f}s - {w['end']:.2f}s  (conf: {w['confidence']:.2f})")
+    print(f"\nFirst 15 words with timestamps + speaker:")
+    for w in result["words"][:15]:
+        print(f"  spk{w['speaker']}  {w['word']:<15} {w['start']:.2f}s - {w['end']:.2f}s")
 
     out_path = "eval/transcribe_batch_test_result.json"
     with open(out_path, "w", encoding="utf-8") as f:

@@ -1,0 +1,41 @@
+[
+  {
+    "pause_start": 129.07501,
+    "pause_end": 130.355,
+    "pause_duration_s": 1.28,
+    "fragment": "design i'm not really sure what what you guys have already received",
+    "word_index": 201,
+    "semantic_label": "incomplete",
+    "semantic_source": "llm",
+    "semantic_confidence": 0.75,
+    "semantic_latency_ms": 200.38609999755863,
+    "human_label": "complete",
+    "agrees_with_pipeline": false
+  },
+  {
+    "pause_start": 132.35501,
+    "pause_end": 133.075,
+    "pause_duration_s": 0.72,
+    "fragment": "you guys have already received in your emails what did you get",
+    "word_index": 208,
+    "semantic_label": "incomplete",
+    "semantic_source": "llm",
+    "semantic_confidence": 0.75,
+    "semantic_latency_ms": 1168.4195999987423,
+    "human_label": "incomplete",
+    "agrees_with_pipeline": true
+  },
+  {
+    "pause_start": 1052.1799,
+    "pause_end": 1052.7351,
+    "pause_duration_s": 0.555,
+    "fragment": "make sure we're all on the same page here mhmm do we",
+    "word_index": 2183,
+    "semantic_label": "incomplete",
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 3771.287499999744,
+    "human_label": "incomplete",
+    "agrees_with_pipeline": true
+  }
+]
