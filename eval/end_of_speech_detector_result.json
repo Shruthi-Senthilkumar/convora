@@ -1,0 +1,1550 @@
+{
+  "audio_file": "C:\\Users\\shrut\\ami-corpus-data\\amicorpus\\ES2002a\\audio\\ES2002a.Mix-Headset.wav",
+  "duration_s": 1272.64,
+  "events": [
+    {
+      "event_type": "end_of_speech",
+      "timestamp_s": 7.8399997,
+      "confidence": 0.7,
+      "speaker": 0,
+      "fragment": "my gosh you've already produced a powerpoint presentation",
+      "contributing_signals": {
+        "semantic": {
+          "label": "complete",
+          "source": "llm",
+          "raw_confidence": 0.75,
+          "mapped_value": 0.75,
+          "weighted_contribution": 0.44999999999999996
+        },
+        "pause": {
+          "duration_s": 0.0,
+          "mapped_value": 0.0,
+          "weighted_contribution": 0.0
+        },
+        "speaker_change": {
+          "changed": true,
+          "mapped_value": 1.0,
+          "weighted_contribution": 0.25
+        }
+      }
+    },
+    {
+      "event_type": "end_of_speech",
+      "timestamp_s": 77.445,
+      "confidence": 0.7,
+      "speaker": 1,
+      "fragment": "i'm the project manager great do you want to introduce yourself again",
+      "contributing_signals": {
+        "semantic": {
+          "label": "complete",
+          "source": "llm",
+          "raw_confidence": 0.75,
+          "mapped_value": 0.75,
+          "weighted_contribution": 0.44999999999999996
+        },
+        "pause": {
+          "duration_s": 0.0,
+          "mapped_value": 0.0,
+          "weighted_contribution": 0.0
+        },
+        "speaker_change": {
+          "changed": true,
+          "mapped_value": 1.0,
+          "weighted_contribution": 0.25
+        }
+      }
+    },
+    {
+      "event_type": "end_of_speech",
+      "timestamp_s": 102.045,
+      "confidence": 0.5838461538461538,
+      "speaker": 1,
+      "fragment": "record he's here actually so that's david andrew and craig isn't it",
+      "contributing_signals": {
+        "semantic": {
+          "label": "complete",
+          "source": "llm",
+          "raw_confidence": 0.75,
+          "mapped_value": 0.75,
+          "weighted_contribution": 0.44999999999999996
+        },
+        "pause": {
+          "duration_s": 2.72,
+          "mapped_value": 0.8923076923076924,
+          "weighted_contribution": 0.13384615384615384
+        },
+        "speaker_change": {
+          "changed": false,
+          "mapped_value": 0.0,
+          "weighted_contribution": 0.0
+        }
+      }
+    },
+    {
+      "event_type": "end_of_speech",
+      "timestamp_s": 116.11,
+      "confidence": 0.5423076923076923,
+      "speaker": 1,
+      "fragment": "you can see it's supposed to be original trendy and user friendly",
+      "contributing_signals": {
+        "semantic": {
+          "label": "complete",
+          "source": "llm",
+          "raw_confidence": 0.75,
+          "mapped_value": 0.75,
+          "weighted_contribution": 0.44999999999999996
+        },
+        "pause": {
+          "duration_s": 2.0,
+          "mapped_value": 0.6153846153846154,
+          "weighted_contribution": 0.09230769230769231
+        },
+        "speaker_change": {
+          "changed": false,
+          "mapped_value": 0.0,
+          "weighted_contribution": 0.0
+        }
+      }
+    },
+    {
+      "event_type": "end_of_speech",
+      "timestamp_s": 150.93999,
+      "confidence": 0.6,
+      "speaker": 1,
+      "fragment": "and then a meeting about it and repeat that process three times",
+      "contributing_signals": {
+        "semantic": {
+          "label": "complete",
+          "source": "llm",
+          "raw_confidence": 0.75,
+          "mapped_value": 0.75,
+          "weighted_contribution": 0.44999999999999996
+        },
+        "pause": {
+          "duration_s": 3.465,
+          "mapped_value": 1.0,
+          "weighted_contribution": 0.15
+        },
+        "speaker_change": {
+          "changed": false,
+          "mapped_value": 0.0,
+          "weighted_contribution": 0.0
+        }
+      }
+    },
+    {
+      "event_type": "end_of_speech",
+      "timestamp_s": 167.045,
+      "confidence": 0.7,
+      "speaker": 1,
+      "fragment": "your favorite characteristics of it so who would like to go first",
+      "contributing_signals": {
+        "semantic": {
+          "label": "complete",
+          "source": "llm",
+          "raw_confidence": 0.75,
+          "mapped_value": 0.75,
+          "weighted_contribution": 0.44999999999999996
+        },
+        "pause": {
+          "duration_s": 0.0,
+          "mapped_value": 0.0,
+          "weighted_contribution": 0.0
+        },
+        "speaker_change": {
+          "changed": true,
+          "mapped_value": 1.0,
+          "weighted_contribution": 0.25
+        }
+      }
+    },
+    {
+      "event_type": "end_of_speech",
+      "timestamp_s": 167.85,
+      "confidence": 0.7,
+      "speaker": 0,
+      "fragment": "oh gosh that's fine",
+      "contributing_signals": {
+        "semantic": {
+          "label": "complete",
+          "source": "llm",
+          "raw_confidence": 0.75,
+          "mapped_value": 0.75,
+          "weighted_contribution": 0.44999999999999996
+        },
+        "pause": {
+          "duration_s": 0.0,
+          "mapped_value": 0.0,
+          "weighted_contribution": 0.0
+        },
+        "speaker_change": {
+          "changed": true,
+          "mapped_value": 1.0,
+          "weighted_contribution": 0.25
+        }
+      }
+    },
+    {
+      "event_type": "end_of_speech",
+      "timestamp_s": 168.73001,
+      "confidence": 0.85,
+      "speaker": 1,
+      "fragment": "very good",
+      "contributing_signals": {
+        "semantic": {
+          "label": "complete",
+          "source": "llm",
+          "raw_confidence": 0.75,
+          "mapped_value": 0.75,
+          "weighted_contribution": 0.44999999999999996
+        },
+        "pause": {
+          "duration_s": 5.44,
+          "mapped_value": 1.0,
+          "weighted_contribution": 0.15
+        },
+        "speaker_change": {
+          "changed": true,
+          "mapped_value": 1.0,
+          "weighted_contribution": 0.25
+        }
+      }
+    },
+    {
+      "event_type": "end_of_speech",
+      "timestamp_s": 245.05501,
+      "confidence": 0.85,
+      "speaker": 1,
+      "fragment": "right lovely",
+      "contributing_signals": {
+        "semantic": {
+          "label": "complete",
+          "source": "llm",
+          "raw_confidence": 0.75,
+          "mapped_value": 0.75,
+          "weighted_contribution": 0.44999999999999996
+        },
+        "pause": {
+          "duration_s": 9.825,
+          "mapped_value": 1.0,
+          "weighted_contribution": 0.15
+        },
+        "speaker_change": {
+          "changed": true,
+          "mapped_value": 1.0,
+          "weighted_contribution": 0.25
+        }
+      }
+    },
+    {
+      "event_type": "end_of_speech",
+      "timestamp_s": 256.63998,
+      "confidence": 0.6,
+      "speaker": 0,
+      "fragment": "well my favorite animal would be a monkey",
+      "contributing_signals": {
+        "semantic": {
+          "label": "complete",
+          "source": "llm",
+          "raw_confidence": 0.75,
+          "mapped_value": 0.75,
+          "weighted_contribution": 0.44999999999999996
+        },
+        "pause": {
+          "duration_s": 11.235,
+          "mapped_value": 1.0,
+          "weighted_contribution": 0.15
+        },
+        "speaker_change": {
+          "changed": false,
+          "mapped_value": 0.0,
+          "weighted_contribution": 0.0
+        }
+      }
+    },
+    {
+      "event_type": "end_of_speech",
+      "timestamp_s": 273.635,
+      "confidence": 0.7914423076923076,
+      "speaker": 0,
+      "fragment": "when planet earth becomes real i'm gonna be up there with them",
+      "contributing_signals": {
+        "semantic": {
+          "label": "complete",
+          "source": "llm",
+          "raw_confidence": 0.75,
+          "mapped_value": 0.75,
+          "weighted_contribution": 0.44999999999999996
+        },
+        "pause": {
+          "duration_s": 1.985,
+          "mapped_value": 0.6096153846153846,
+          "weighted_contribution": 0.09144230769230768
+        },
+        "speaker_change": {
+          "changed": true,
+          "mapped_value": 1.0,
+          "weighted_contribution": 0.25
+        }
+      }
+    },
+    {
+      "event_type": "end_of_speech",
+      "timestamp_s": 276.5,
+      "confidence": 0.85,
+      "speaker": 1,
+      "fragment": "right cool",
+      "contributing_signals": {
+        "semantic": {
+          "label": "complete",
+          "source": "llm",
+          "raw_confidence": 0.75,
+          "mapped_value": 0.75,
+          "weighted_contribution": 0.44999999999999996
+        },
+        "pause": {
+          "duration_s": 4.0,
+          "mapped_value": 1.0,
+          "weighted_contribution": 0.15
+        },
+        "speaker_change": {
+          "changed": true,
+          "mapped_value": 1.0,
+          "weighted_contribution": 0.25
+        }
+      }
+    },
+    {
+      "event_type": "end_of_speech",
+      "timestamp_s": 282.02002,
+      "confidence": 0.85,
+      "speaker": 2,
+      "fragment": "that's too much gear",
+      "contributing_signals": {
+        "semantic": {
+          "label": "complete",
+          "source": "llm",
+          "raw_confidence": 0.75,
+          "mapped_value": 0.75,
+          "weighted_contribution": 0.44999999999999996
+        },
+        "pause": {
+          "duration_s": 3.84,
+          "mapped_value": 1.0,
+          "weighted_contribution": 0.15
+        },
+        "speaker_change": {
+          "changed": true,
+          "mapped_value": 1.0,
+          "weighted_contribution": 0.25
+        }
+      }
+    },
+    {
+      "event_type": "end_of_speech",
+      "timestamp_s": 293.505,
+      "confidence": 0.7,
+      "speaker": 1,
+      "fragment": "we do we do don't feel like you're in a rush anyway",
+      "contributing_signals": {
+        "semantic": {
+          "label": "complete",
+          "source": "llm",
+          "raw_confidence": 0.75,
+          "mapped_value": 0.75,
+          "weighted_contribution": 0.44999999999999996
+        },
+        "pause": {
+          "duration_s": 0.0,
+          "mapped_value": 0.0,
+          "weighted_contribution": 0.0
+        },
+        "speaker_change": {
+          "changed": true,
+          "mapped_value": 1.0,
+          "weighted_contribution": 0.25
+        }
+      }
+    },
+    {
+      "event_type": "end_of_speech",
+      "timestamp_s": 297.98502,
+      "confidence": 0.55,
+      "speaker": 0,
+      "fragment": "i actually told you a whole lot more about beagles",
+      "contributing_signals": {
+        "semantic": {
+          "label": "incomplete",
+          "source": "degraded",
+          "raw_confidence": 0.3,
+          "mapped_value": 0.5,
+          "weighted_contribution": 0.3
+        },
+        "pause": {
+          "duration_s": 0.0,
+          "mapped_value": 0.0,
+          "weighted_contribution": 0.0
+        },
+        "speaker_change": {
+          "changed": true,
+          "mapped_value": 1.0,
+          "weighted_contribution": 0.25
+        }
+      }
+    },
+    {
+      "event_type": "end_of_speech",
+      "timestamp_s": 303.58502,
+      "confidence": 0.55,
+      "speaker": 1,
+      "fragment": "what mine is i'm gonna have to think on the spot now",
+      "contributing_signals": {
+        "semantic": {
+          "label": "incomplete",
+          "source": "llm",
+          "raw_confidence": 0.75,
+          "mapped_value": 0.25,
+          "weighted_contribution": 0.15
+        },
+        "pause": {
+          "duration_s": 3.505,
+          "mapped_value": 1.0,
+          "weighted_contribution": 0.15
+        },
+        "speaker_change": {
+          "changed": true,
+          "mapped_value": 1.0,
+          "weighted_contribution": 0.25
+        }
+      }
+    },
+    {
+      "event_type": "end_of_speech",
+      "timestamp_s": 313.88998,
+      "confidence": 0.7,
+      "speaker": 1,
+      "fragment": "that a whale yeah yay",
+      "contributing_signals": {
+        "semantic": {
+          "label": "incomplete",
+          "source": "degraded",
+          "raw_confidence": 0.3,
+          "mapped_value": 0.5,
+          "weighted_contribution": 0.3
+        },
+        "pause": {
+          "duration_s": 6.085,
+          "mapped_value": 1.0,
+          "weighted_contribution": 0.15
+        },
+        "speaker_change": {
+          "changed": true,
+          "mapped_value": 1.0,
+          "weighted_contribution": 0.25
+        }
+      }
+    },
+    {
+      "event_type": "end_of_speech",
+      "timestamp_s": 337.07,
+      "confidence": 0.7415384615384615,
+      "speaker": 2,
+      "fragment": "kinda like whales they come in and go eat everything in sight",
+      "contributing_signals": {
+        "semantic": {
+          "label": "complete",
+          "source": "llm",
+          "raw_confidence": 0.75,
+          "mapped_value": 0.75,
+          "weighted_contribution": 0.44999999999999996
+        },
+        "pause": {
+          "duration_s": 1.12,
+          "mapped_value": 0.27692307692307694,
+          "weighted_contribution": 0.04153846153846154
+        },
+        "speaker_change": {
+          "changed": true,
+          "mapped_value": 1.0,
+          "weighted_contribution": 0.25
+        }
+      }
+    },
+    {
+      "event_type": "end_of_speech",
+      "timestamp_s": 341.71002,
+      "confidence": 0.55,
+      "speaker": 2,
+      "fragment": "palmless and mild and interesting",
+      "contributing_signals": {
+        "semantic": {
+          "label": "incomplete",
+          "source": "degraded",
+          "raw_confidence": 0.3,
+          "mapped_value": 0.5,
+          "weighted_contribution": 0.3
+        },
+        "pause": {
+          "duration_s": 0.16,
+          "mapped_value": 0.0,
+          "weighted_contribution": 0.0
+        },
+        "speaker_change": {
+          "changed": true,
+          "mapped_value": 1.0,
+          "weighted_contribution": 0.25
+        }
+      }
+    },
+    {
+      "event_type": "end_of_speech",
+      "timestamp_s": 351.325,
+      "confidence": 0.82,
+      "speaker": 0,
+      "fragment": "superb sketch by the way",
+      "contributing_signals": {
+        "semantic": {
+          "label": "complete",
+          "source": "llm",
+          "raw_confidence": 0.75,
+          "mapped_value": 0.75,
+          "weighted_contribution": 0.44999999999999996
+        },
+        "pause": {
+          "duration_s": 2.48,
+          "mapped_value": 0.8,
+          "weighted_contribution": 0.12
+        },
+        "speaker_change": {
+          "changed": true,
+          "mapped_value": 1.0,
+          "weighted_contribution": 0.25
+        }
+      }
+    },
+    {
+      "event_type": "end_of_speech",
+      "timestamp_s": 363.28,
+      "confidence": 0.6,
+      "speaker": 1,
+      "fragment": "of dog yeah my favorite animal is my own dog at home",
+      "contributing_signals": {
+        "semantic": {
+          "label": "complete",
+          "source": "llm",
+          "raw_confidence": 0.75,
+          "mapped_value": 0.75,
+          "weighted_contribution": 0.44999999999999996
+        },
+        "pause": {
+          "duration_s": 3.6,
+          "mapped_value": 1.0,
+          "weighted_contribution": 0.15
+        },
+        "speaker_change": {
+          "changed": false,
+          "mapped_value": 0.0,
+          "weighted_contribution": 0.0
+        }
+      }
+    },
+    {
+      "event_type": "end_of_speech",
+      "timestamp_s": 376.575,
+      "confidence": 0.7784615384615384,
+      "speaker": 1,
+      "fragment": "like him actually he looks more like a pig actually oh well",
+      "contributing_signals": {
+        "semantic": {
+          "label": "complete",
+          "source": "llm",
+          "raw_confidence": 0.75,
+          "mapped_value": 0.75,
+          "weighted_contribution": 0.44999999999999996
+        },
+        "pause": {
+          "duration_s": 1.76,
+          "mapped_value": 0.523076923076923,
+          "weighted_contribution": 0.07846153846153844
+        },
+        "speaker_change": {
+          "changed": true,
+          "mapped_value": 1.0,
+          "weighted_contribution": 0.25
+        }
+      }
+    },
+    {
+      "event_type": "end_of_speech",
+      "timestamp_s": 379.535,
+      "confidence": 0.7,
+      "speaker": 0,
+      "fragment": "i see a dog in there",
+      "contributing_signals": {
+        "semantic": {
+          "label": "complete",
+          "source": "llm",
+          "raw_confidence": 0.75,
+          "mapped_value": 0.75,
+          "weighted_contribution": 0.44999999999999996
+        },
+        "pause": {
+          "duration_s": 0.0,
+          "mapped_value": 0.0,
+          "weighted_contribution": 0.0
+        },
+        "speaker_change": {
+          "changed": true,
+          "mapped_value": 1.0,
+          "weighted_contribution": 0.25
+        }
+      }
+    },
+    {
+      "event_type": "end_of_speech",
+      "timestamp_s": 381.45502,
+      "confidence": 0.5961538461538461,
+      "speaker": 1,
+      "fragment": "do you oh that's very good of you",
+      "contributing_signals": {
+        "semantic": {
+          "label": "incomplete",
+          "source": "degraded",
+          "raw_confidence": 0.3,
+          "mapped_value": 0.5,
+          "weighted_contribution": 0.3
+        },
+        "pause": {
+          "duration_s": 1.2,
+          "mapped_value": 0.30769230769230765,
+          "weighted_contribution": 0.04615384615384615
+        },
+        "speaker_change": {
+          "changed": true,
+          "mapped_value": 1.0,
+          "weighted_contribution": 0.25
+        }
+      }
+    },
+    {
+      "event_type": "end_of_speech",
+      "timestamp_s": 383.695,
+      "confidence": 0.6,
+      "speaker": 0,
+      "fragment": "now i see a rooster",
+      "contributing_signals": {
+        "semantic": {
+          "label": "complete",
+          "source": "llm",
+          "raw_confidence": 0.75,
+          "mapped_value": 0.75,
+          "weighted_contribution": 0.44999999999999996
+        },
+        "pause": {
+          "duration_s": 9.565,
+          "mapped_value": 1.0,
+          "weighted_contribution": 0.15
+        },
+        "speaker_change": {
+          "changed": false,
+          "mapped_value": 0.0,
+          "weighted_contribution": 0.0
+        }
+      }
+    },
+    {
+      "event_type": "end_of_speech",
+      "timestamp_s": 394.46,
+      "confidence": 0.7184615384615385,
+      "speaker": 0,
+      "fragment": "now i see a rooster what kind is it",
+      "contributing_signals": {
+        "semantic": {
+          "label": "complete",
+          "source": "llm",
+          "raw_confidence": 0.75,
+          "mapped_value": 0.75,
+          "weighted_contribution": 0.44999999999999996
+        },
+        "pause": {
+          "duration_s": 0.72,
+          "mapped_value": 0.12307692307692306,
+          "weighted_contribution": 0.018461538461538456
+        },
+        "speaker_change": {
+          "changed": true,
+          "mapped_value": 1.0,
+          "weighted_contribution": 0.25
+        }
+      }
+    },
+    {
+      "event_type": "end_of_speech",
+      "timestamp_s": 431.245,
+      "confidence": 0.7,
+      "speaker": 1,
+      "fragment": "thing where he chases his tail as well this is quite amusing",
+      "contributing_signals": {
+        "semantic": {
+          "label": "complete",
+          "source": "llm",
+          "raw_confidence": 0.75,
+          "mapped_value": 0.75,
+          "weighted_contribution": 0.44999999999999996
+        },
+        "pause": {
+          "duration_s": 0.0,
+          "mapped_value": 0.0,
+          "weighted_contribution": 0.0
+        },
+        "speaker_change": {
+          "changed": true,
+          "mapped_value": 1.0,
+          "weighted_contribution": 0.25
+        }
+      }
+    },
+    {
+      "event_type": "end_of_speech",
+      "timestamp_s": 433.725,
+      "confidence": 0.7,
+      "speaker": 0,
+      "fragment": "is he aware that this is his own tail that he's chasing",
+      "contributing_signals": {
+        "semantic": {
+          "label": "complete",
+          "source": "llm",
+          "raw_confidence": 0.75,
+          "mapped_value": 0.75,
+          "weighted_contribution": 0.44999999999999996
+        },
+        "pause": {
+          "duration_s": 0.0,
+          "mapped_value": 0.0,
+          "weighted_contribution": 0.0
+        },
+        "speaker_change": {
+          "changed": true,
+          "mapped_value": 1.0,
+          "weighted_contribution": 0.25
+        }
+      }
+    },
+    {
+      "event_type": "end_of_speech",
+      "timestamp_s": 513.9,
+      "confidence": 0.5122115384615384,
+      "speaker": 0,
+      "fragment": "but selling prices is that wholesale or retail like on the shelf",
+      "contributing_signals": {
+        "semantic": {
+          "label": "incomplete",
+          "source": "llm",
+          "raw_confidence": 0.75,
+          "mapped_value": 0.25,
+          "weighted_contribution": 0.15
+        },
+        "pause": {
+          "duration_s": 2.345,
+          "mapped_value": 0.7480769230769232,
+          "weighted_contribution": 0.11221153846153847
+        },
+        "speaker_change": {
+          "changed": true,
+          "mapped_value": 1.0,
+          "weighted_contribution": 0.25
+        }
+      }
+    },
+    {
+      "event_type": "end_of_speech",
+      "timestamp_s": 518.40497,
+      "confidence": 0.55,
+      "speaker": 1,
+      "fragment": "i don't know i imagine that's a good question",
+      "contributing_signals": {
+        "semantic": {
+          "label": "incomplete",
+          "source": "degraded",
+          "raw_confidence": 0.3,
+          "mapped_value": 0.5,
+          "weighted_contribution": 0.3
+        },
+        "pause": {
+          "duration_s": 0.0,
+          "mapped_value": 0.0,
+          "weighted_contribution": 0.0
+        },
+        "speaker_change": {
+          "changed": true,
+          "mapped_value": 1.0,
+          "weighted_contribution": 0.25
+        }
+      }
+    },
+    {
+      "event_type": "end_of_speech",
+      "timestamp_s": 519.605,
+      "confidence": 0.55,
+      "speaker": 0,
+      "fragment": "our sale our sale",
+      "contributing_signals": {
+        "semantic": {
+          "label": "incomplete",
+          "source": "degraded",
+          "raw_confidence": 0.3,
+          "mapped_value": 0.5,
+          "weighted_contribution": 0.3
+        },
+        "pause": {
+          "duration_s": 0.0,
+          "mapped_value": 0.0,
+          "weighted_contribution": 0.0
+        },
+        "speaker_change": {
+          "changed": true,
+          "mapped_value": 1.0,
+          "weighted_contribution": 0.25
+        }
+      }
+    },
+    {
+      "event_type": "end_of_speech",
+      "timestamp_s": 529.49,
+      "confidence": 0.783076923076923,
+      "speaker": 1,
+      "fragment": "to the retailer to sell it for whatever price they want mhmm",
+      "contributing_signals": {
+        "semantic": {
+          "label": "complete",
+          "source": "llm",
+          "raw_confidence": 0.75,
+          "mapped_value": 0.75,
+          "weighted_contribution": 0.44999999999999996
+        },
+        "pause": {
+          "duration_s": 1.84,
+          "mapped_value": 0.5538461538461538,
+          "weighted_contribution": 0.08307692307692306
+        },
+        "speaker_change": {
+          "changed": true,
+          "mapped_value": 1.0,
+          "weighted_contribution": 0.25
+        }
+      }
+    },
+    {
+      "event_type": "end_of_speech",
+      "timestamp_s": 580.435,
+      "confidence": 0.7,
+      "speaker": 2,
+      "fragment": "have more complicated characters like european languages then you need more buttons",
+      "contributing_signals": {
+        "semantic": {
+          "label": "complete",
+          "source": "llm",
+          "raw_confidence": 0.75,
+          "mapped_value": 0.75,
+          "weighted_contribution": 0.44999999999999996
+        },
+        "pause": {
+          "duration_s": 0.0,
+          "mapped_value": 0.0,
+          "weighted_contribution": 0.0
+        },
+        "speaker_change": {
+          "changed": true,
+          "mapped_value": 1.0,
+          "weighted_contribution": 0.25
+        }
+      }
+    },
+    {
+      "event_type": "end_of_speech",
+      "timestamp_s": 603.025,
+      "confidence": 0.55,
+      "speaker": 1,
+      "fragment": "the country like how much money people have to spend on things",
+      "contributing_signals": {
+        "semantic": {
+          "label": "incomplete",
+          "source": "degraded",
+          "raw_confidence": 0.3,
+          "mapped_value": 0.5,
+          "weighted_contribution": 0.3
+        },
+        "pause": {
+          "duration_s": 0.0,
+          "mapped_value": 0.0,
+          "weighted_contribution": 0.0
+        },
+        "speaker_change": {
+          "changed": true,
+          "mapped_value": 1.0,
+          "weighted_contribution": 0.25
+        }
+      }
+    },
+    {
+      "event_type": "end_of_speech",
+      "timestamp_s": 615.7,
+      "confidence": 0.7,
+      "speaker": 0,
+      "fragment": "london might not be such a big hit in greece who knows",
+      "contributing_signals": {
+        "semantic": {
+          "label": "complete",
+          "source": "llm",
+          "raw_confidence": 0.75,
+          "mapped_value": 0.75,
+          "weighted_contribution": 0.44999999999999996
+        },
+        "pause": {
+          "duration_s": 0.0,
+          "mapped_value": 0.0,
+          "weighted_contribution": 0.0
+        },
+        "speaker_change": {
+          "changed": true,
+          "mapped_value": 1.0,
+          "weighted_contribution": 0.25
+        }
+      }
+    },
+    {
+      "event_type": "end_of_speech",
+      "timestamp_s": 691.945,
+      "confidence": 0.7,
+      "speaker": 0,
+      "fragment": "yeah i'd say so",
+      "contributing_signals": {
+        "semantic": {
+          "label": "complete",
+          "source": "llm",
+          "raw_confidence": 0.75,
+          "mapped_value": 0.75,
+          "weighted_contribution": 0.44999999999999996
+        },
+        "pause": {
+          "duration_s": 0.0,
+          "mapped_value": 0.0,
+          "weighted_contribution": 0.0
+        },
+        "speaker_change": {
+          "changed": true,
+          "mapped_value": 1.0,
+          "weighted_contribution": 0.25
+        }
+      }
+    },
+    {
+      "event_type": "end_of_speech",
+      "timestamp_s": 721.835,
+      "confidence": 0.7276923076923076,
+      "speaker": 1,
+      "fragment": "anybody have anything to add to to the finance issue at all",
+      "contributing_signals": {
+        "semantic": {
+          "label": "complete",
+          "source": "llm",
+          "raw_confidence": 0.75,
+          "mapped_value": 0.75,
+          "weighted_contribution": 0.44999999999999996
+        },
+        "pause": {
+          "duration_s": 0.88,
+          "mapped_value": 0.1846153846153846,
+          "weighted_contribution": 0.02769230769230769
+        },
+        "speaker_change": {
+          "changed": true,
+          "mapped_value": 1.0,
+          "weighted_contribution": 0.25
+        }
+      }
+    },
+    {
+      "event_type": "end_of_speech",
+      "timestamp_s": 732.63,
+      "confidence": 0.55,
+      "speaker": 1,
+      "fragment": "if you knew like yeah what your money would get you no",
+      "contributing_signals": {
+        "semantic": {
+          "label": "incomplete",
+          "source": "llm",
+          "raw_confidence": 0.75,
+          "mapped_value": 0.25,
+          "weighted_contribution": 0.15
+        },
+        "pause": {
+          "duration_s": 20.925,
+          "mapped_value": 1.0,
+          "weighted_contribution": 0.15
+        },
+        "speaker_change": {
+          "changed": true,
+          "mapped_value": 1.0,
+          "weighted_contribution": 0.25
+        }
+      }
+    },
+    {
+      "event_type": "end_of_speech",
+      "timestamp_s": 772.39,
+      "confidence": 0.7,
+      "speaker": 0,
+      "fragment": "it's just like getting shoelaces with shoes or something",
+      "contributing_signals": {
+        "semantic": {
+          "label": "complete",
+          "source": "llm",
+          "raw_confidence": 0.75,
+          "mapped_value": 0.75,
+          "weighted_contribution": 0.44999999999999996
+        },
+        "pause": {
+          "duration_s": 0.32,
+          "mapped_value": 0.0,
+          "weighted_contribution": 0.0
+        },
+        "speaker_change": {
+          "changed": true,
+          "mapped_value": 1.0,
+          "weighted_contribution": 0.25
+        }
+      }
+    },
+    {
+      "event_type": "end_of_speech",
+      "timestamp_s": 776.125,
+      "confidence": 0.7,
+      "speaker": 1,
+      "fragment": "getting to end of meeting oh okay we're a bit behind",
+      "contributing_signals": {
+        "semantic": {
+          "label": "complete",
+          "source": "llm",
+          "raw_confidence": 0.75,
+          "mapped_value": 0.75,
+          "weighted_contribution": 0.44999999999999996
+        },
+        "pause": {
+          "duration_s": 0.0,
+          "mapped_value": 0.0,
+          "weighted_contribution": 0.0
+        },
+        "speaker_change": {
+          "changed": true,
+          "mapped_value": 1.0,
+          "weighted_contribution": 0.25
+        }
+      }
+    },
+    {
+      "event_type": "end_of_speech",
+      "timestamp_s": 814.965,
+      "confidence": 0.55,
+      "speaker": 1,
+      "fragment": "be like a main design aim of remote control do you know",
+      "contributing_signals": {
+        "semantic": {
+          "label": "incomplete",
+          "source": "degraded",
+          "raw_confidence": 0.3,
+          "mapped_value": 0.5,
+          "weighted_contribution": 0.3
+        },
+        "pause": {
+          "duration_s": 0.08,
+          "mapped_value": 0.0,
+          "weighted_contribution": 0.0
+        },
+        "speaker_change": {
+          "changed": true,
+          "mapped_value": 1.0,
+          "weighted_contribution": 0.25
+        }
+      }
+    },
+    {
+      "event_type": "end_of_speech",
+      "timestamp_s": 815.525,
+      "confidence": 0.7,
+      "speaker": 0,
+      "fragment": "i think so",
+      "contributing_signals": {
+        "semantic": {
+          "label": "complete",
+          "source": "llm",
+          "raw_confidence": 0.75,
+          "mapped_value": 0.75,
+          "weighted_contribution": 0.44999999999999996
+        },
+        "pause": {
+          "duration_s": 0.08,
+          "mapped_value": 0.0,
+          "weighted_contribution": 0.0
+        },
+        "speaker_change": {
+          "changed": true,
+          "mapped_value": 1.0,
+          "weighted_contribution": 0.25
+        }
+      }
+    },
+    {
+      "event_type": "end_of_speech",
+      "timestamp_s": 879.56,
+      "confidence": 0.85,
+      "speaker": 0,
+      "fragment": "it's just one system but each one's got its own little part",
+      "contributing_signals": {
+        "semantic": {
+          "label": "complete",
+          "source": "llm",
+          "raw_confidence": 0.75,
+          "mapped_value": 0.75,
+          "weighted_contribution": 0.44999999999999996
+        },
+        "pause": {
+          "duration_s": 4.88,
+          "mapped_value": 1.0,
+          "weighted_contribution": 0.15
+        },
+        "speaker_change": {
+          "changed": true,
+          "mapped_value": 1.0,
+          "weighted_contribution": 0.25
+        }
+      }
+    },
+    {
+      "event_type": "end_of_speech",
+      "timestamp_s": 904.37,
+      "confidence": 0.55,
+      "speaker": 2,
+      "fragment": "and you keep losing them",
+      "contributing_signals": {
+        "semantic": {
+          "label": "incomplete",
+          "source": "degraded",
+          "raw_confidence": 0.3,
+          "mapped_value": 0.5,
+          "weighted_contribution": 0.3
+        },
+        "pause": {
+          "duration_s": 0.16,
+          "mapped_value": 0.0,
+          "weighted_contribution": 0.0
+        },
+        "speaker_change": {
+          "changed": true,
+          "mapped_value": 1.0,
+          "weighted_contribution": 0.25
+        }
+      }
+    },
+    {
+      "event_type": "end_of_speech",
+      "timestamp_s": 922.78503,
+      "confidence": 0.5653846153846154,
+      "speaker": 1,
+      "fragment": "i mean is that something we'd want to include do you think",
+      "contributing_signals": {
+        "semantic": {
+          "label": "complete",
+          "source": "llm",
+          "raw_confidence": 0.75,
+          "mapped_value": 0.75,
+          "weighted_contribution": 0.44999999999999996
+        },
+        "pause": {
+          "duration_s": 2.4,
+          "mapped_value": 0.7692307692307692,
+          "weighted_contribution": 0.11538461538461536
+        },
+        "speaker_change": {
+          "changed": false,
+          "mapped_value": 0.0,
+          "weighted_contribution": 0.0
+        }
+      }
+    },
+    {
+      "event_type": "end_of_speech",
+      "timestamp_s": 925.745,
+      "confidence": 0.7,
+      "speaker": 1,
+      "fragment": "that something we'd want to include do you think i don't know",
+      "contributing_signals": {
+        "semantic": {
+          "label": "complete",
+          "source": "llm",
+          "raw_confidence": 0.75,
+          "mapped_value": 0.75,
+          "weighted_contribution": 0.44999999999999996
+        },
+        "pause": {
+          "duration_s": 0.0,
+          "mapped_value": 0.0,
+          "weighted_contribution": 0.0
+        },
+        "speaker_change": {
+          "changed": true,
+          "mapped_value": 1.0,
+          "weighted_contribution": 0.25
+        }
+      }
+    },
+    {
+      "event_type": "end_of_speech",
+      "timestamp_s": 946.225,
+      "confidence": 0.55,
+      "speaker": 0,
+      "fragment": "of i don't know like a massive junky thing on the table",
+      "contributing_signals": {
+        "semantic": {
+          "label": "incomplete",
+          "source": "degraded",
+          "raw_confidence": 0.3,
+          "mapped_value": 0.5,
+          "weighted_contribution": 0.3
+        },
+        "pause": {
+          "duration_s": 0.0,
+          "mapped_value": 0.0,
+          "weighted_contribution": 0.0
+        },
+        "speaker_change": {
+          "changed": true,
+          "mapped_value": 1.0,
+          "weighted_contribution": 0.25
+        }
+      }
+    },
+    {
+      "event_type": "end_of_speech",
+      "timestamp_s": 956.5,
+      "confidence": 0.7,
+      "speaker": 0,
+      "fragment": "something like that yeah okay or whatever would be technologically reasonable",
+      "contributing_signals": {
+        "semantic": {
+          "label": "complete",
+          "source": "llm",
+          "raw_confidence": 0.75,
+          "mapped_value": 0.75,
+          "weighted_contribution": 0.44999999999999996
+        },
+        "pause": {
+          "duration_s": 0.0,
+          "mapped_value": 0.0,
+          "weighted_contribution": 0.0
+        },
+        "speaker_change": {
+          "changed": true,
+          "mapped_value": 1.0,
+          "weighted_contribution": 0.25
+        }
+      }
+    },
+    {
+      "event_type": "end_of_speech",
+      "timestamp_s": 959.38,
+      "confidence": 0.7,
+      "speaker": 1,
+      "fragment": "okay well i guess that's up to end as a field designer",
+      "contributing_signals": {
+        "semantic": {
+          "label": "complete",
+          "source": "llm",
+          "raw_confidence": 0.75,
+          "mapped_value": 0.75,
+          "weighted_contribution": 0.44999999999999996
+        },
+        "pause": {
+          "duration_s": 0.0,
+          "mapped_value": 0.0,
+          "weighted_contribution": 0.0
+        },
+        "speaker_change": {
+          "changed": true,
+          "mapped_value": 1.0,
+          "weighted_contribution": 0.25
+        }
+      }
+    },
+    {
+      "event_type": "end_of_speech",
+      "timestamp_s": 977.195,
+      "confidence": 0.7,
+      "speaker": 0,
+      "fragment": "be worth exploring anyway",
+      "contributing_signals": {
+        "semantic": {
+          "label": "complete",
+          "source": "llm",
+          "raw_confidence": 0.75,
+          "mapped_value": 0.75,
+          "weighted_contribution": 0.44999999999999996
+        },
+        "pause": {
+          "duration_s": 0.0,
+          "mapped_value": 0.0,
+          "weighted_contribution": 0.0
+        },
+        "speaker_change": {
+          "changed": true,
+          "mapped_value": 1.0,
+          "weighted_contribution": 0.25
+        }
+      }
+    },
+    {
+      "event_type": "end_of_speech",
+      "timestamp_s": 996.59503,
+      "confidence": 0.5007692307692307,
+      "speaker": 1,
+      "fragment": "actual working design of it so you know what you're doing there",
+      "contributing_signals": {
+        "semantic": {
+          "label": "complete",
+          "source": "llm",
+          "raw_confidence": 0.75,
+          "mapped_value": 0.75,
+          "weighted_contribution": 0.44999999999999996
+        },
+        "pause": {
+          "duration_s": 1.28,
+          "mapped_value": 0.3384615384615384,
+          "weighted_contribution": 0.05076923076923076
+        },
+        "speaker_change": {
+          "changed": false,
+          "mapped_value": 0.0,
+          "weighted_contribution": 0.0
+        }
+      }
+    },
+    {
+      "event_type": "end_of_speech",
+      "timestamp_s": 1019.45,
+      "confidence": 0.7,
+      "speaker": 1,
+      "fragment": "to fulfill and you'll all get instructions emailed to you i guess",
+      "contributing_signals": {
+        "semantic": {
+          "label": "complete",
+          "source": "llm",
+          "raw_confidence": 0.75,
+          "mapped_value": 0.75,
+          "weighted_contribution": 0.44999999999999996
+        },
+        "pause": {
+          "duration_s": 0.16,
+          "mapped_value": 0.0,
+          "weighted_contribution": 0.0
+        },
+        "speaker_change": {
+          "changed": true,
+          "mapped_value": 1.0,
+          "weighted_contribution": 0.25
+        }
+      }
+    },
+    {
+      "event_type": "end_of_speech",
+      "timestamp_s": 1031.705,
+      "confidence": 0.5930769230769231,
+      "speaker": 1,
+      "fragment": "yeah so it's the the functional design stage is next i guess",
+      "contributing_signals": {
+        "semantic": {
+          "label": "complete",
+          "source": "llm",
+          "raw_confidence": 0.75,
+          "mapped_value": 0.75,
+          "weighted_contribution": 0.44999999999999996
+        },
+        "pause": {
+          "duration_s": 2.88,
+          "mapped_value": 0.9538461538461538,
+          "weighted_contribution": 0.14307692307692307
+        },
+        "speaker_change": {
+          "changed": false,
+          "mapped_value": 0.0,
+          "weighted_contribution": 0.0
+        }
+      }
+    },
+    {
+      "event_type": "end_of_speech",
+      "timestamp_s": 1037.7051,
+      "confidence": 0.5004807692307692,
+      "speaker": 1,
+      "fragment": "is next i guess and and that's the end of the meeting",
+      "contributing_signals": {
+        "semantic": {
+          "label": "complete",
+          "source": "llm",
+          "raw_confidence": 0.75,
+          "mapped_value": 0.75,
+          "weighted_contribution": 0.44999999999999996
+        },
+        "pause": {
+          "duration_s": 1.275,
+          "mapped_value": 0.3365384615384615,
+          "weighted_contribution": 0.050480769230769225
+        },
+        "speaker_change": {
+          "changed": false,
+          "mapped_value": 0.0,
+          "weighted_contribution": 0.0
+        }
+      }
+    },
+    {
+      "event_type": "end_of_speech",
+      "timestamp_s": 1042.6599,
+      "confidence": 0.55,
+      "speaker": 1,
+      "fragment": "that little message a lot sooner than i thought i would so",
+      "contributing_signals": {
+        "semantic": {
+          "label": "incomplete",
+          "source": "llm",
+          "raw_confidence": 0.75,
+          "mapped_value": 0.25,
+          "weighted_contribution": 0.15
+        },
+        "pause": {
+          "duration_s": 4.48,
+          "mapped_value": 1.0,
+          "weighted_contribution": 0.15
+        },
+        "speaker_change": {
+          "changed": true,
+          "mapped_value": 1.0,
+          "weighted_contribution": 0.25
+        }
+      }
+    },
+    {
+      "event_type": "end_of_speech",
+      "timestamp_s": 1093.465,
+      "confidence": 0.55,
+      "speaker": 2,
+      "fragment": "so okay depends on how much you can cram into that price",
+      "contributing_signals": {
+        "semantic": {
+          "label": "incomplete",
+          "source": "degraded",
+          "raw_confidence": 0.3,
+          "mapped_value": 0.5,
+          "weighted_contribution": 0.3
+        },
+        "pause": {
+          "duration_s": 0.32,
+          "mapped_value": 0.0,
+          "weighted_contribution": 0.0
+        },
+        "speaker_change": {
+          "changed": true,
+          "mapped_value": 1.0,
+          "weighted_contribution": 0.25
+        }
+      }
+    },
+    {
+      "event_type": "end_of_speech",
+      "timestamp_s": 1102.83,
+      "confidence": 0.6,
+      "speaker": 1,
+      "fragment": "right okay well that's that's the end of the meeting then mhmm",
+      "contributing_signals": {
+        "semantic": {
+          "label": "complete",
+          "source": "llm",
+          "raw_confidence": 0.75,
+          "mapped_value": 0.75,
+          "weighted_contribution": 0.44999999999999996
+        },
+        "pause": {
+          "duration_s": 3.68,
+          "mapped_value": 1.0,
+          "weighted_contribution": 0.15
+        },
+        "speaker_change": {
+          "changed": false,
+          "mapped_value": 0.0,
+          "weighted_contribution": 0.0
+        }
+      }
+    },
+    {
+      "event_type": "end_of_speech",
+      "timestamp_s": 1107.4701,
+      "confidence": 0.6,
+      "speaker": 1,
+      "fragment": "the end of the meeting then mhmm thank you all for coming",
+      "contributing_signals": {
+        "semantic": {
+          "label": "complete",
+          "source": "llm",
+          "raw_confidence": 0.75,
+          "mapped_value": 0.75,
+          "weighted_contribution": 0.44999999999999996
+        },
+        "pause": {
+          "duration_s": 3.485,
+          "mapped_value": 1.0,
+          "weighted_contribution": 0.15
+        },
+        "speaker_change": {
+          "changed": false,
+          "mapped_value": 0.0,
+          "weighted_contribution": 0.0
+        }
+      }
+    },
+    {
+      "event_type": "end_of_speech",
+      "timestamp_s": 1130.66,
+      "confidence": 0.8153846153846154,
+      "speaker": 1,
+      "fragment": "turn this thing off is it function and ah there we go",
+      "contributing_signals": {
+        "semantic": {
+          "label": "complete",
+          "source": "llm",
+          "raw_confidence": 0.75,
+          "mapped_value": 0.75,
+          "weighted_contribution": 0.44999999999999996
+        },
+        "pause": {
+          "duration_s": 2.4,
+          "mapped_value": 0.7692307692307692,
+          "weighted_contribution": 0.11538461538461536
+        },
+        "speaker_change": {
+          "changed": true,
+          "mapped_value": 1.0,
+          "weighted_contribution": 0.25
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "total_pause_candidates": 260,
+    "resolved_to_end_of_speech": 59,
+    "processing_time_s": 589.3976449000183,
+    "semantic_source_breakdown": {
+      "rule": 92,
+      "llm": 143,
+      "degraded": 25
+    }
+  }
+}
