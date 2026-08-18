@@ -108,9 +108,12 @@ class SemanticJudge:
         # timeout set on the CLIENT itself so it actually aborts the
         # request at the deadline, rather than letting create() run to
         # completion and only checking the elapsed time afterward
+        # max_retries=0 prevents the client from retrying on timeout/rate-limit,
+        # ensuring the fallback is returned within the hard deadline.
         self.client = Groq(
             api_key=os.getenv("GROQ_API_KEY"),
             timeout=HARD_DEADLINE_S,
+            max_retries=0,
         )
         self.model = model
 

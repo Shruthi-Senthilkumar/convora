@@ -1,0 +1,45 @@
+Audio file : ES2002a.Mix-Headset.wav
+WAV info   : 16000 Hz, 1ch, 16-bit, 1272.6s total
+Streaming  : first 60.0s (2000 chunks of 30ms)
+Server     : ws://localhost:8000/ws/transcribe
+------------------------------------------------------------
+Connected to server.
+[  20.1s wall | audio @  4.32s] partial  'My gosh.'
+[  20.5s wall | audio @  4.32s] partial  "My gosh. You've already pris"
+[  20.9s wall | audio @  4.32s] partial  "My gosh. You've already produced a PowerPoint"
+[  21.1s wall | audio @  4.32s] partial  "My gosh. You've already produced a PowerPoint presentation. I think"
+[  21.4s wall | audio @  4.32s] FINAL    "My gosh. You've already produced a PowerPoint presentation."
+[  21.4s wall | audio @  7.94s] partial  "Think it's already on, actually."
+[  21.5s wall | audio @  7.94s] partial  "Think it's already on, actually."
+[  21.6s wall | audio @  7.94s] FINAL    "Think it's already on, actually."
+[  21.6s wall | audio @  9.30s] CANDIDATE: CONT (conf: 0.08, latency: 14.0ms) fragment: "think it's already on actually"
+[  22.2s wall | audio @  7.68s] CANDIDATE: EOS  (conf: 0.70, latency: 578.6ms) fragment: "my gosh you've already produced a powerpoint presentation"
+[  23.5s wall | audio @ 13.92s] partial  'God, how to make this thing'
+[  23.8s wall | audio @ 13.92s] FINAL    'God, to make this thing work?'
+[  23.8s wall | audio @  9.30s] CANDIDATE: CONT (conf: 0.21, latency: 25.0ms) fragment: "think it's already on actually"
+[  24.0s wall | audio @ 16.24s] CANDIDATE: CONT (conf: 0.15, latency: 250.3ms) fragment: "think it's already on actually god to make this thing work"
+[  51.0s wall | audio @ 33.10s] partial  "I've plugged in"
+[  51.0s wall | audio @ 33.10s] partial  "I've plugged it in the back."
+[  51.0s wall | audio @ 33.10s] partial  "I've plugged it in the back, but"
+[  51.0s wall | audio @ 33.10s] partial  "I've plugged it in the back, but"
+[  51.0s wall | audio @ 33.10s] FINAL    "I've plugged it in the back, but"
+[  51.0s wall | audio @ 16.24s] CANDIDATE: CONT (conf: 0.30, latency: 3.7ms) fragment: "think it's already on actually god to make this thing work"
+[  51.1s wall | audio @ 35.02s] CANDIDATE: CONT (conf: 0.10, latency: 71.5ms) fragment: "to make this thing work i've plugged it in the back but"
+[  53.4s wall | audio @ 39.48s] partial  'Okay.'
+[  54.3s wall | audio @ 39.48s] partial  'Okay. Right.'
+[  55.4s wall | audio @ 39.48s] partial  'Okay. Right. I know.'
+[  56.4s wall | audio @ 39.48s] partial  'Okay. Right.'
+[  56.7s wall | audio @ 39.48s] partial  'Okay. Right.'
+[  57.9s wall | audio @ 39.48s] FINAL    'Okay. Right.'
+[  57.9s wall | audio @ 35.02s] CANDIDATE: CONT (conf: 0.21, latency: 2.7ms) fragment: "to make this thing work i've plugged it in the back but"
+[  58.0s wall | audio @ 40.84s] CANDIDATE: CONT (conf: 0.20, latency: 44.8ms) fragment: "this thing work i've plugged it in the back but okay right"
+[  76.4s wall | audio @ 49.93s] partial  'Okay.'
+[  78.7s wall | audio @ 49.93s] partial  'Okay.'
+[  78.8s wall | audio @ 49.93s] partial  'Okay.'
+
+[Sender done - sent 2000 chunks, waiting 5.0s for remaining transcripts...]
+[  79.4s wall | audio @ 49.93s] FINAL    'Okay.'
+[  79.4s wall | audio @ 40.84s] CANDIDATE: CONT (conf: 0.21, latency: 4.9ms) fragment: "this thing work i've plugged it in the back but okay right"
+[  79.4s wall | audio @ 50.81s] CANDIDATE: CONT (conf: 0.14, latency: 41.6ms) fragment: "thing work i've plugged it in the back but okay right okay"
+------------------------------------------------------------
+Done. Received 35 transcript messages in 84.0s.

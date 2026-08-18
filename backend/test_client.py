@@ -135,6 +135,16 @@ async def stream_audio(audio_path: str) -> None:
                         print(f"[{wall:6.1f}s wall | audio @{ts:6.2f}s] "
                               f"{label}  {text!r}")
                         msg_count += 1
+                    elif msg_type == "end_of_speech_candidate":
+                        is_eos = msg.get("is_end_of_speech", False)
+                        confidence = msg.get("confidence", 0.0)
+                        fragment = msg.get("fragment", "")
+                        lat = msg.get("detection_latency_ms", 0.0)
+                        decision = "EOS" if is_eos else "CONT"
+                        print(f"[{wall:6.1f}s wall | audio @{ts:6.2f}s] "
+                              f"CANDIDATE: {decision:<4} (conf: {confidence:.2f}, latency: {lat:.1f}ms) "
+                              f"fragment: {fragment!r}")
+                        msg_count += 1
                     elif msg_type == "error":
                         print(f"[ERROR from server] {msg.get('detail')}")
                     else:
