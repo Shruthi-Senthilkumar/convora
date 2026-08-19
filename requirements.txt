@@ -1,4 +1,4 @@
-﻿fastapi
+fastapi
 uvicorn[standard]
 websockets
 python-dotenv
@@ -8,4 +8,4 @@ praat-parselmouth
 pandas
 matplotlib
 spacy
-praat-parselmouth
+sounddevice

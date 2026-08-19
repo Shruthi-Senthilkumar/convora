@@ -140,9 +140,17 @@ async def stream_audio(audio_path: str) -> None:
                         confidence = msg.get("confidence", 0.0)
                         fragment = msg.get("fragment", "")
                         lat = msg.get("detection_latency_ms", 0.0)
+                        spk = msg.get("speaker")
+                        spk_chg = msg.get("speaker_changed", False)
+
+                        if spk is not None:
+                            spk_tag = f"spk{spk}*" if spk_chg else f"spk{spk} "
+                        else:
+                            spk_tag = "spk?*" if spk_chg else "spk? "
+
                         decision = "EOS" if is_eos else "CONT"
                         print(f"[{wall:6.1f}s wall | audio @{ts:6.2f}s] "
-                              f"CANDIDATE: {decision:<4} (conf: {confidence:.2f}, latency: {lat:.1f}ms) "
+                              f"CANDIDATE: {decision:<4} {spk_tag:<5} (conf: {confidence:.2f}, latency: {lat:.1f}ms) "
                               f"fragment: {fragment!r}")
                         msg_count += 1
                     elif msg_type == "error":
@@ -160,13 +168,13 @@ async def stream_audio(audio_path: str) -> None:
             # Give Deepgram time to flush final transcripts.
             try:
                 await asyncio.wait_for(recv_task, timeout=DRAIN_WAIT_S)
-            except asyncio.TimeoutError:
+            except (asyncio.TimeoutError, websockets.exceptions.ConnectionClosed):
                 pass  # expected - recv loop stays alive until server closes
             finally:
                 recv_task.cancel()
                 try:
                     await recv_task
-                except asyncio.CancelledError:
+                except (asyncio.CancelledError, websockets.exceptions.ConnectionClosed):
                     pass
 
             elapsed = time.monotonic() - start_wall

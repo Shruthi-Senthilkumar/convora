@@ -285,6 +285,8 @@ async def _evaluate_and_send_candidate(
         "timestamp_s": candidate["timestamp_s"],
         "is_end_of_speech": fusion_res.is_end_of_speech,
         "confidence": fusion_res.confidence,
+        "speaker": speaker,
+        "speaker_changed": candidate["speaker_changed"],
         "fragment": fragment,
         "contributing_signals": fusion_res.contributing_signals,
         "detection_latency_ms": detection_latency_ms

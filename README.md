@@ -92,6 +92,20 @@ Or spin up the live streaming server:
 uvicorn backend.main:app --reload
 ```
 
+Test with file streaming:
+```bash
+python backend/test_client.py
+```
+
+Test with your own microphone:
+```bash
+# List available audio input devices
+python backend/live_mic_test.py --list-devices
+
+# Stream live mic input to the server
+python backend/live_mic_test.py
+```
+
 ---
 
 ## Dig deeper
