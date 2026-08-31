@@ -1,4 +1,4 @@
-# Phase 3 Baseline Comparison: Silence-Threshold and Deepgram Native Endpointing Controls
+﻿# Phase 3 Baseline Comparison: Silence-Threshold and Deepgram Native Endpointing Controls
 
 This document presents a side-by-side empirical comparison of Convora's tuned end-of-speech (EOS) detection pipeline against two standalone controls on official human-annotated turn boundaries from the **AMI Meeting Corpus** (meeting `ES2002a`, 4 speakers, 1,272 seconds).
 
@@ -24,7 +24,7 @@ All metrics are evaluated against the same **224 genuine floor-transfer turn bou
 * **Convora Decisively Beats Silence Controls on All Fronts**:
   * **Recall**: Convora detects **29.02%** of boundaries, outperforming the 300ms silence control (**24.11%**), 500ms control (**20.54%**), and 700ms control (**17.41%**).
   * **Precision**: Convora's precision (**63.44%**) is more than **double** that of any silence control (which hover between 23% and 27%).
-  * **Early Cutoffs (FPR)**: A naive 300ms silence timer cuts off the speaker early on **84.41%** of natural pauses. Even at 700ms, it cuts off early **51.61%** of the time. Convora reduces this critical user-experience failure mode to just **18.28%** (a **64%–78% relative reduction** in false cuts).
+  * **Early Cutoffs (FPR)**: A naive 300ms silence timer cuts off the speaker early on **84.41%** of natural pauses. Even at 700ms, it cuts off early **51.61%** of the time. Convora reduces this critical user-experience failure mode to just **18.28%** (a **64%-78% relative reduction** in false cuts).
   * **Conclusion**: Convora meets the PRD Section 2.1 validation target: it is significantly superior to naive silence-thresholding.
 
 ### 2.2 Convora Tuned Pipeline vs. Deepgram Native Endpointing
@@ -116,3 +116,4 @@ python eval/baseline_deepgram_endpointing.py
 # Convora pipeline
 python eval/evaluate_against_ami_ground_truth.py
 ```
+
