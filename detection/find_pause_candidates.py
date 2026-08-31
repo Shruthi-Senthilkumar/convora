@@ -24,7 +24,7 @@ import sys
 import json
 from detection.semantic_judge import SemanticJudge
 
-PAUSE_THRESHOLD_S = 0.4  # PRD sec 2.4: pauses >= 400ms are scoreable
+PAUSE_THRESHOLD_S = 0.3  # PRD sec 2.4 updated: pauses >= 300ms are scoreable
 TRAILING_WORD_WINDOW = 12  # how many words of context to feed the judge
 
 

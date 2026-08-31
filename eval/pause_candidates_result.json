@@ -10,7 +10,7 @@
     "semantic_label": "complete",
     "semantic_source": "llm",
     "semantic_confidence": 0.75,
-    "semantic_latency_ms": 782.8490999818314
+    "semantic_latency_ms": 687.7289999974892
   },
   {
     "pause_start": 9.44,
@@ -23,7 +23,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 4.952899995259941
+    "semantic_latency_ms": 6.529000005684793
   },
   {
     "pause_start": 16.225,
@@ -34,9 +34,9 @@
     "fragment": "think it's already on actually god how do make this thing work",
     "word_index": 20,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 181.98989998199977
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 424.4930000277236
   },
   {
     "pause_start": 35.84,
@@ -49,7 +49,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 9.331999986898154
+    "semantic_latency_ms": 13.648599968291819
   },
   {
     "pause_start": 39.2,
@@ -60,9 +60,9 @@
     "fragment": "it's got it",
     "word_index": 31,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 195.9367000090424
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 480.95110000576824
   },
   {
     "pause_start": 39.68,
@@ -75,7 +75,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 0.0037999998312443495
+    "semantic_latency_ms": 0.005200039595365524
   },
   {
     "pause_start": 40.8,
@@ -88,7 +88,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 6.160099990665913
+    "semantic_latency_ms": 6.2327999621629715
   },
   {
     "pause_start": 42.355,
@@ -101,7 +101,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "llm",
     "semantic_confidence": 0.75,
-    "semantic_latency_ms": 189.3829999899026
+    "semantic_latency_ms": 308.2735000643879
   },
   {
     "pause_start": 49.075,
@@ -114,7 +114,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 7.4961999780498445
+    "semantic_latency_ms": 8.616199949756265
   },
   {
     "pause_start": 53.875,
@@ -127,7 +127,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 5.236700002569705
+    "semantic_latency_ms": 6.616700091399252
   },
   {
     "pause_start": 59.53,
@@ -140,7 +140,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "llm",
     "semantic_confidence": 0.75,
-    "semantic_latency_ms": 217.87399999448098
+    "semantic_latency_ms": 148.75629998277873
   },
   {
     "pause_start": 62.969997,
@@ -153,7 +153,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 9.005800005979836
+    "semantic_latency_ms": 8.430699934251606
   },
   {
     "pause_start": 67.77,
@@ -166,7 +166,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "llm",
     "semantic_confidence": 0.75,
-    "semantic_latency_ms": 1281.3671000185423
+    "semantic_latency_ms": 155.94799991231412
   },
   {
     "pause_start": 77.445,
@@ -179,7 +179,7 @@
     "semantic_label": "complete",
     "semantic_source": "llm",
     "semantic_confidence": 0.75,
-    "semantic_latency_ms": 216.9041000015568
+    "semantic_latency_ms": 132.44329998269677
   },
   {
     "pause_start": 81.525,
@@ -192,7 +192,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 9.283300023525953
+    "semantic_latency_ms": 10.903400019742548
   },
   {
     "pause_start": 83.765,
@@ -205,7 +205,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "llm",
     "semantic_confidence": 0.75,
-    "semantic_latency_ms": 191.1965000035707
+    "semantic_latency_ms": 130.85279997903854
   },
   {
     "pause_start": 88.99,
@@ -218,7 +218,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "llm",
     "semantic_confidence": 0.75,
-    "semantic_latency_ms": 180.51900001592003
+    "semantic_latency_ms": 122.70629999693483
   },
   {
     "pause_start": 90.67,
@@ -231,7 +231,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 8.365799993043765
+    "semantic_latency_ms": 7.524599903263152
   },
   {
     "pause_start": 95.549995,
@@ -244,7 +244,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 8.48950000363402
+    "semantic_latency_ms": 6.211200030520558
   },
   {
     "pause_start": 98.19,
@@ -257,7 +257,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 9.262800012947991
+    "semantic_latency_ms": 4.272600053809583
   },
   {
     "pause_start": 99.645,
@@ -270,7 +270,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "llm",
     "semantic_confidence": 0.75,
-    "semantic_latency_ms": 1179.9517000035848
+    "semantic_latency_ms": 135.37749997340143
   },
   {
     "pause_start": 102.045,
@@ -280,10 +280,10 @@
     "speaker": 1,
     "fragment": "record he's here actually so that's david andrew and craig isn't it",
     "word_index": 146,
-    "semantic_label": "complete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 171.20550002437085
+    "semantic_label": "incomplete",
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 413.4537000209093
   },
   {
     "pause_start": 106.525,
@@ -294,9 +294,9 @@
     "fragment": "david andrew and craig isn't it and you all arrived on time",
     "word_index": 152,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 179.92550000781193
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 602.8392999432981
   },
   {
     "pause_start": 111.965,
@@ -307,9 +307,9 @@
     "fragment": "you all arrived on time yes so design a new remote control",
     "word_index": 159,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 191.3487999991048
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 558.8550999527797
   },
   {
     "pause_start": 116.11,
@@ -322,7 +322,20 @@
     "semantic_label": "complete",
     "semantic_source": "llm",
     "semantic_confidence": 0.75,
-    "semantic_latency_ms": 185.65640001907013
+    "semantic_latency_ms": 331.040000077337
+  },
+  {
+    "pause_start": 120.27,
+    "pause_end": 120.59,
+    "pause_duration_s": 0.32,
+    "speaker_changed": false,
+    "speaker": 1,
+    "fragment": "original trendy and user friendly so that's kind of our our brief",
+    "word_index": 179,
+    "semantic_label": "complete",
+    "semantic_source": "llm",
+    "semantic_confidence": 0.75,
+    "semantic_latency_ms": 137.39809999242425
   },
   {
     "pause_start": 121.71,
@@ -335,7 +348,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 8.296599989989772
+    "semantic_latency_ms": 11.39779994264245
   },
   {
     "pause_start": 125.55,
@@ -346,9 +359,9 @@
     "fragment": "brief so and so there are three different stages to the design",
     "word_index": 190,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 193.15469998400658
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 421.2939999997616
   },
   {
     "pause_start": 129.07501,
@@ -361,7 +374,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "llm",
     "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2686.440699995728
+    "semantic_latency_ms": 641.200799960643
   },
   {
     "pause_start": 132.35501,
@@ -374,7 +387,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "llm",
     "semantic_confidence": 0.75,
-    "semantic_latency_ms": 189.90909997955896
+    "semantic_latency_ms": 164.14430004078895
   },
   {
     "pause_start": 138.115,
@@ -387,7 +400,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "llm",
     "semantic_confidence": 0.75,
-    "semantic_latency_ms": 182.14300001272932
+    "semantic_latency_ms": 125.99899992346764
   },
   {
     "pause_start": 140.29999,
@@ -400,7 +413,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 6.524900003569201
+    "semantic_latency_ms": 10.641200002282858
   },
   {
     "pause_start": 142.38,
@@ -413,7 +426,33 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 5.4737999744247645
+    "semantic_latency_ms": 6.369499955326319
+  },
+  {
+    "pause_start": 147.58,
+    "pause_end": 147.9,
+    "pause_duration_s": 0.32,
+    "speaker_changed": false,
+    "speaker": 1,
+    "fragment": "we're gonna have like individual work and then a meeting about it",
+    "word_index": 241,
+    "semantic_label": "complete",
+    "semantic_source": "llm",
+    "semantic_confidence": 0.75,
+    "semantic_latency_ms": 186.0478000016883
+  },
+  {
+    "pause_start": 148.46,
+    "pause_end": 148.78,
+    "pause_duration_s": 0.32,
+    "speaker_changed": false,
+    "speaker": 1,
+    "fragment": "gonna have like individual work and then a meeting about it and",
+    "word_index": 242,
+    "semantic_label": "incomplete",
+    "semantic_source": "rule",
+    "semantic_confidence": 0.9,
+    "semantic_latency_ms": 9.802600019611418
   },
   {
     "pause_start": 150.93999,
@@ -426,7 +465,7 @@
     "semantic_label": "complete",
     "semantic_source": "llm",
     "semantic_confidence": 0.75,
-    "semantic_latency_ms": 204.57999999052845
+    "semantic_latency_ms": 132.148600067012
   },
   {
     "pause_start": 157.765,
@@ -439,7 +478,7 @@
     "semantic_label": "complete",
     "semantic_source": "llm",
     "semantic_confidence": 0.75,
-    "semantic_latency_ms": 207.0845999987796
+    "semantic_latency_ms": 184.49039990082383
   },
   {
     "pause_start": 159.445,
@@ -450,9 +489,9 @@
     "fragment": "this point we get to try out the whiteboard over there so",
     "word_index": 261,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 193.28800000948831
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 419.7419999400154
   },
   {
     "pause_start": 167.045,
@@ -462,10 +501,10 @@
     "speaker": 1,
     "fragment": "your favorite characteristics of it so who would like to go first",
     "word_index": 283,
-    "semantic_label": "complete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 191.69680000049993
+    "semantic_label": "incomplete",
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 830.3224999690428
   },
   {
     "pause_start": 167.85,
@@ -475,10 +514,10 @@
     "speaker": 0,
     "fragment": "oh gosh that's fine",
     "word_index": 287,
-    "semantic_label": "complete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 185.70450000697747
+    "semantic_label": "incomplete",
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 816.8603000231087
   },
   {
     "pause_start": 168.73001,
@@ -488,10 +527,10 @@
     "speaker": 1,
     "fragment": "very good",
     "word_index": 289,
-    "semantic_label": "complete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 182.67830001423135
+    "semantic_label": "incomplete",
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 819.3887999514118
   },
   {
     "pause_start": 174.89001,
@@ -502,9 +541,9 @@
     "fragment": "alright",
     "word_index": 290,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 199.47639998281375
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 989.9506000801921
   },
   {
     "pause_start": 177.05,
@@ -515,9 +554,9 @@
     "fragment": "alright so",
     "word_index": 291,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 221.47920000134036
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 1016.1962999263778
   },
   {
     "pause_start": 182.585,
@@ -530,7 +569,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 6.777800008421764
+    "semantic_latency_ms": 6.829400081187487
   },
   {
     "pause_start": 184.585,
@@ -543,7 +582,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 5.60640002368018
+    "semantic_latency_ms": 5.0122999818995595
   },
   {
     "pause_start": 188.66501,
@@ -554,9 +593,9 @@
     "fragment": "this one here right mhmm okay very nice alright my favorite animal",
     "word_index": 303,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 189.3880999996327
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 822.3976999288425
   },
   {
     "pause_start": 192.265,
@@ -569,7 +608,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 11.887200002092868
+    "semantic_latency_ms": 6.8552999291568995
   },
   {
     "pause_start": 204.03,
@@ -580,9 +619,9 @@
     "fragment": "right mhmm okay very nice alright my favorite animal is like abigo",
     "word_index": 306,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 195.42770000407472
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 817.4088000087067
   },
   {
     "pause_start": 215.74501,
@@ -595,7 +634,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 9.196900005917996
+    "semantic_latency_ms": 12.009999947622418
   },
   {
     "pause_start": 216.465,
@@ -608,7 +647,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 0.0024999899324029684
+    "semantic_latency_ms": 0.002800021320581436
   },
   {
     "pause_start": 218.705,
@@ -621,7 +660,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "llm",
     "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2285.599099996034
+    "semantic_latency_ms": 315.75700000394136
   },
   {
     "pause_start": 224.52002,
@@ -634,7 +673,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 9.756999992532656
+    "semantic_latency_ms": 9.850400034338236
   },
   {
     "pause_start": 226.52002,
@@ -647,7 +686,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "llm",
     "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2331.869599991478
+    "semantic_latency_ms": 172.971099964343
   },
   {
     "pause_start": 228.76001,
@@ -658,9 +697,9 @@
     "fragment": "be willing to take a lot of physical affection from their family",
     "word_index": 339,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2350.395999994362
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 421.7746000504121
   },
   {
     "pause_start": 230.04001,
@@ -673,7 +712,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 8.56079999357462
+    "semantic_latency_ms": 11.566299945116043
   },
   {
     "pause_start": 233.96,
@@ -686,7 +725,20 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 8.615200000349432
+    "semantic_latency_ms": 7.8483999241143465
+  },
+  {
+    "pause_start": 239.29501,
+    "pause_end": 239.615,
+    "pause_duration_s": 0.32,
+    "speaker_changed": false,
+    "speaker": 0,
+    "fragment": "and be fit and in robust good health so this is blue",
+    "word_index": 359,
+    "semantic_label": "incomplete",
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 727.7491999557242
   },
   {
     "pause_start": 240.81502,
@@ -699,7 +751,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "llm",
     "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2354.9470999860205
+    "semantic_latency_ms": 274.4329000124708
   },
   {
     "pause_start": 242.73502,
@@ -712,7 +764,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "llm",
     "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2281.5327999996953
+    "semantic_latency_ms": 182.5136000989005
   },
   {
     "pause_start": 244.09502,
@@ -725,7 +777,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 0.003100023604929447
+    "semantic_latency_ms": 0.003300025127828121
   },
   {
     "pause_start": 245.05501,
@@ -738,7 +790,7 @@
     "semantic_label": "complete",
     "semantic_source": "llm",
     "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2319.3680999975186
+    "semantic_latency_ms": 218.25100004207343
   },
   {
     "pause_start": 256.63998,
@@ -748,10 +800,10 @@
     "speaker": 0,
     "fragment": "well my favorite animal would be a monkey",
     "word_index": 374,
-    "semantic_label": "complete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2328.544399992097
+    "semantic_label": "incomplete",
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 423.7751999171451
   },
   {
     "pause_start": 273.635,
@@ -761,10 +813,10 @@
     "speaker": 0,
     "fragment": "when planet earth becomes real i'm gonna be up there with them",
     "word_index": 394,
-    "semantic_label": "complete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2339.9756000144407
+    "semantic_label": "incomplete",
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 574.6089000022039
   },
   {
     "pause_start": 276.5,
@@ -774,10 +826,10 @@
     "speaker": 1,
     "fragment": "right cool",
     "word_index": 396,
-    "semantic_label": "complete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2383.103400003165
+    "semantic_label": "incomplete",
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 479.3111999752
   },
   {
     "pause_start": 282.02002,
@@ -787,10 +839,10 @@
     "speaker": 2,
     "fragment": "that's too much gear",
     "word_index": 400,
-    "semantic_label": "complete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2266.6666000150144
+    "semantic_label": "incomplete",
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 921.5037999674678
   },
   {
     "pause_start": 293.505,
@@ -800,10 +852,10 @@
     "speaker": 1,
     "fragment": "we do we do don't feel like you're in a rush anyway",
     "word_index": 433,
-    "semantic_label": "complete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2298.3173999818973
+    "semantic_label": "incomplete",
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 115.75060000177473
   },
   {
     "pause_start": 293.98502,
@@ -816,7 +868,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 0.0030999945010989904
+    "semantic_latency_ms": 0.004900037311017513
   },
   {
     "pause_start": 297.98502,
@@ -829,7 +881,7 @@
     "semantic_label": "complete",
     "semantic_source": "llm",
     "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2301.384699996561
+    "semantic_latency_ms": 250.20240002777427
   },
   {
     "pause_start": 300.625,
@@ -840,9 +892,9 @@
     "fragment": "so we might we might have to get you up again i",
     "word_index": 457,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2350.6769000086933
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 91.92000003531575
   },
   {
     "pause_start": 303.58502,
@@ -853,9 +905,9 @@
     "fragment": "what mine is i'm gonna have to think on the spot now",
     "word_index": 471,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2329.6802999975625
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 82.40910002496094
   },
   {
     "pause_start": 308.29,
@@ -866,9 +918,9 @@
     "fragment": "impressionist",
     "word_index": 472,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2328.6121000128333
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 380.00210002064705
   },
   {
     "pause_start": 310.05002,
@@ -881,7 +933,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 7.515300007071346
+    "semantic_latency_ms": 4.57079999614507
   },
   {
     "pause_start": 313.88998,
@@ -891,10 +943,10 @@
     "speaker": 1,
     "fragment": "that a whale yeah yay",
     "word_index": 478,
-    "semantic_label": "complete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2323.089399986202
+    "semantic_label": "incomplete",
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 73.289499967359
   },
   {
     "pause_start": 320.535,
@@ -907,7 +959,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 7.851299975300208
+    "semantic_latency_ms": 3.014800022356212
   },
   {
     "pause_start": 324.375,
@@ -918,9 +970,9 @@
     "fragment": "first animal i can think of off the top of my head",
     "word_index": 498,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2315.090699994471
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 419.9247999349609
   },
   {
     "pause_start": 329.495,
@@ -931,9 +983,9 @@
     "fragment": "is because i'm allergic to most animals alergic to animal fur so",
     "word_index": 513,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2305.6280999735463
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 471.6076999902725
   },
   {
     "pause_start": 331.335,
@@ -943,10 +995,23 @@
     "speaker": 2,
     "fragment": "most animals alergic to animal fur so fish was a natural choice",
     "word_index": 518,
-    "semantic_label": "complete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 3374.89489998552
+    "semantic_label": "incomplete",
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 64.00110002141446
+  },
+  {
+    "pause_start": 335.55002,
+    "pause_end": 335.95,
+    "pause_duration_s": 0.4,
+    "speaker_changed": false,
+    "speaker": 2,
+    "fragment": "yeah and i kinda like whales they come in and go eat",
+    "word_index": 530,
+    "semantic_label": "incomplete",
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 96.07990004587919
   },
   {
     "pause_start": 337.07,
@@ -956,10 +1021,10 @@
     "speaker": 2,
     "fragment": "kinda like whales they come in and go eat everything in sight",
     "word_index": 533,
-    "semantic_label": "complete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2348.9132999966387
+    "semantic_label": "incomplete",
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 67.66190007328987
   },
   {
     "pause_start": 338.83002,
@@ -970,9 +1035,9 @@
     "fragment": "they're quite",
     "word_index": 535,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2367.083899996942
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 184.131299960427
   },
   {
     "pause_start": 341.71002,
@@ -985,7 +1050,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "llm",
     "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2310.57659999351
+    "semantic_latency_ms": 185.0617000600323
   },
   {
     "pause_start": 342.99002,
@@ -998,7 +1063,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 0.0037999998312443495
+    "semantic_latency_ms": 0.003200024366378784
   },
   {
     "pause_start": 345.31,
@@ -1011,7 +1076,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 10.07489999756217
+    "semantic_latency_ms": 8.514100103639066
   },
   {
     "pause_start": 351.325,
@@ -1021,10 +1086,10 @@
     "speaker": 0,
     "fragment": "superb sketch by the way",
     "word_index": 556,
-    "semantic_label": "complete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2283.248099993216
+    "semantic_label": "incomplete",
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 385.2529999567196
   },
   {
     "pause_start": 354.685,
@@ -1035,9 +1100,9 @@
     "fragment": "teal's a bit bigger",
     "word_index": 560,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2328.1157000164967
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 400.31749999616295
   },
   {
     "pause_start": 356.925,
@@ -1047,10 +1112,10 @@
     "speaker": 1,
     "fragment": "i think i was gonna choose a dog as well",
     "word_index": 570,
-    "semantic_label": "complete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2643.4115000010934
+    "semantic_label": "incomplete",
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 96.7670000391081
   },
   {
     "pause_start": 359.88498,
@@ -1063,7 +1128,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 10.029299999587238
+    "semantic_latency_ms": 9.830099996179342
   },
   {
     "pause_start": 363.28,
@@ -1073,10 +1138,10 @@
     "speaker": 1,
     "fragment": "of dog yeah my favorite animal is my own dog at home",
     "word_index": 589,
-    "semantic_label": "complete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2362.689799978398
+    "semantic_label": "incomplete",
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 68.71559994760901
   },
   {
     "pause_start": 368.96002,
@@ -1089,7 +1154,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 7.792499993229285
+    "semantic_latency_ms": 9.836200042627752
   },
   {
     "pause_start": 374.72,
@@ -1102,7 +1167,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 7.517999998526648
+    "semantic_latency_ms": 6.931300042197108
   },
   {
     "pause_start": 376.575,
@@ -1112,10 +1177,10 @@
     "speaker": 1,
     "fragment": "like him actually he looks more like a pig actually oh well",
     "word_index": 605,
-    "semantic_label": "complete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2291.184899979271
+    "semantic_label": "incomplete",
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 61.768599902279675
   },
   {
     "pause_start": 379.535,
@@ -1125,10 +1190,10 @@
     "speaker": 0,
     "fragment": "i see a dog in there",
     "word_index": 611,
-    "semantic_label": "complete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2322.2330000135116
+    "semantic_label": "incomplete",
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 76.71289995778352
   },
   {
     "pause_start": 381.45502,
@@ -1138,10 +1203,10 @@
     "speaker": 1,
     "fragment": "do you oh that's very good of you",
     "word_index": 619,
-    "semantic_label": "complete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2362.9011000157334
+    "semantic_label": "incomplete",
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 133.67679994553328
   },
   {
     "pause_start": 383.695,
@@ -1151,10 +1216,10 @@
     "speaker": 0,
     "fragment": "now i see a rooster",
     "word_index": 624,
-    "semantic_label": "complete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 3467.365799995605
+    "semantic_label": "incomplete",
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 92.36969996709377
   },
   {
     "pause_start": 394.46,
@@ -1164,10 +1229,23 @@
     "speaker": 0,
     "fragment": "now i see a rooster what kind is it",
     "word_index": 628,
-    "semantic_label": "complete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2279.114299977664
+    "semantic_label": "incomplete",
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 70.47410006634891
+  },
+  {
+    "pause_start": 397.1,
+    "pause_end": 397.41998,
+    "pause_duration_s": 0.32,
+    "speaker_changed": false,
+    "speaker": 1,
+    "fragment": "he's a mixture of",
+    "word_index": 632,
+    "semantic_label": "incomplete",
+    "semantic_source": "rule",
+    "semantic_confidence": 0.9,
+    "semantic_latency_ms": 6.763699930161238
   },
   {
     "pause_start": 398.62,
@@ -1177,10 +1255,10 @@
     "speaker": 1,
     "fragment": "he's a mixture of various things",
     "word_index": 634,
-    "semantic_label": "complete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2326.6258999938145
+    "semantic_label": "incomplete",
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 82.68659992609173
   },
   {
     "pause_start": 401.41998,
@@ -1191,9 +1269,9 @@
     "fragment": "a mixture of various things and what do i like about him",
     "word_index": 641,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2309.547400014708
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 85.36480006296188
   },
   {
     "pause_start": 411.705,
@@ -1206,7 +1284,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 9.57870000274852
+    "semantic_latency_ms": 6.746100028976798
   },
   {
     "pause_start": 421.3,
@@ -1219,7 +1297,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 6.885300012072548
+    "semantic_latency_ms": 4.572100006043911
   },
   {
     "pause_start": 431.245,
@@ -1229,10 +1307,10 @@
     "speaker": 1,
     "fragment": "thing where he chases his tail as well this is quite amusing",
     "word_index": 702,
-    "semantic_label": "complete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2276.725899981102
+    "semantic_label": "incomplete",
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 72.70679995417595
   },
   {
     "pause_start": 433.725,
@@ -1245,7 +1323,20 @@
     "semantic_label": "incomplete",
     "semantic_source": "degraded",
     "semantic_confidence": 0.3,
-    "semantic_latency_ms": 3674.9877000111155
+    "semantic_latency_ms": 83.53569998871535
+  },
+  {
+    "pause_start": 436.605,
+    "pause_end": 437.005,
+    "pause_duration_s": 0.4,
+    "speaker_changed": false,
+    "speaker": 1,
+    "fragment": "think it is he only does it after he's had his dinner",
+    "word_index": 729,
+    "semantic_label": "complete",
+    "semantic_source": "llm",
+    "semantic_confidence": 0.75,
+    "semantic_latency_ms": 223.38659991510212
   },
   {
     "pause_start": 441.885,
@@ -1256,9 +1347,9 @@
     "fragment": "get up and start chasing his tail he's around the living room",
     "word_index": 749,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2284.746500023175
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 392.12199999019504
   },
   {
     "pause_start": 443.94,
@@ -1271,7 +1362,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 7.4099999910686165
+    "semantic_latency_ms": 10.275599895976484
   },
   {
     "pause_start": 448.98,
@@ -1282,9 +1373,9 @@
     "fragment": "got lots of attention for doing it and yeah maybe been conditioned",
     "word_index": 774,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2339.2012999975123
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 74.61529993452132
   },
   {
     "pause_start": 449.7,
@@ -1295,9 +1386,9 @@
     "fragment": "maybe",
     "word_index": 775,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2377.397899981588
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 75.736099970527
   },
   {
     "pause_start": 453.94,
@@ -1310,7 +1401,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 9.342200006358325
+    "semantic_latency_ms": 8.398700039833784
   },
   {
     "pause_start": 462.07498,
@@ -1323,7 +1414,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 7.367600017460063
+    "semantic_latency_ms": 5.666900076903403
   },
   {
     "pause_start": 468.395,
@@ -1334,9 +1425,9 @@
     "fragment": "we doing next okay we now need to discuss the project finance",
     "word_index": 799,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2320.6460000074003
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 68.52380000054836
   },
   {
     "pause_start": 476.94,
@@ -1347,9 +1438,9 @@
     "fragment": "to the brief we're gonna be selling this remote control for \u20ac25",
     "word_index": 813,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2305.8332999935374
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 189.87430003471673
   },
   {
     "pause_start": 482.06,
@@ -1359,10 +1450,10 @@
     "speaker": 1,
     "fragment": "be selling this remote control for \u20ac25 we're aiming to make \u20ac15,000,000",
     "word_index": 818,
-    "semantic_label": "complete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2492.565900000045
+    "semantic_label": "incomplete",
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 165.41110002435744
   },
   {
     "pause_start": 486.54,
@@ -1372,10 +1463,23 @@
     "speaker": 1,
     "fragment": "make \u20ac15,000,000 so we're gonna be selling this on an international scale",
     "word_index": 828,
-    "semantic_label": "complete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2329.5439000066835
+    "semantic_label": "incomplete",
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 165.9619000274688
+  },
+  {
+    "pause_start": 487.945,
+    "pause_end": 488.265,
+    "pause_duration_s": 0.32,
+    "speaker_changed": false,
+    "speaker": 1,
+    "fragment": "\u20ac15,000,000 so we're gonna be selling this on an international scale and",
+    "word_index": 829,
+    "semantic_label": "incomplete",
+    "semantic_source": "rule",
+    "semantic_confidence": 0.9,
+    "semantic_latency_ms": 12.35350000206381
   },
   {
     "pause_start": 492.58502,
@@ -1388,7 +1492,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "degraded",
     "semantic_confidence": 0.3,
-    "semantic_latency_ms": 3808.9334000251256
+    "semantic_latency_ms": 84.70040000975132
   },
   {
     "pause_start": 494.98502,
@@ -1399,9 +1503,9 @@
     "fragment": "cost any more than $12.50 euros so 50% of the selling price",
     "word_index": 846,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2327.6866000087466
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 81.17559994570911
   },
   {
     "pause_start": 498.74503,
@@ -1414,7 +1518,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 7.792699994752184
+    "semantic_latency_ms": 6.499300012364984
   },
   {
     "pause_start": 500.505,
@@ -1425,9 +1529,22 @@
     "fragment": "can we just go over that again sure so basically",
     "word_index": 856,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2353.9958000183105
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 82.81460008583963
+  },
+  {
+    "pause_start": 501.66,
+    "pause_end": 502.06,
+    "pause_duration_s": 0.4,
+    "speaker_changed": false,
+    "speaker": 0,
+    "fragment": "can we just go over that again sure so basically 12",
+    "word_index": 857,
+    "semantic_label": "incomplete",
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 102.52940002828836
   },
   {
     "pause_start": 503.02002,
@@ -1440,7 +1557,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 9.485100017627701
+    "semantic_latency_ms": 4.548699944280088
   },
   {
     "pause_start": 504.38,
@@ -1450,10 +1567,10 @@
     "speaker": 0,
     "fragment": "just go over that again sure so basically 12 alright yeah k",
     "word_index": 860,
-    "semantic_label": "complete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2440.9715000074357
+    "semantic_label": "incomplete",
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 80.12679999228567
   },
   {
     "pause_start": 507.74,
@@ -1466,7 +1583,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 7.8381000203080475
+    "semantic_latency_ms": 9.670799947343767
   },
   {
     "pause_start": 508.86002,
@@ -1477,9 +1594,9 @@
     "fragment": "altogether",
     "word_index": 867,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2295.227700000396
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 122.98469990491867
   },
   {
     "pause_start": 512.54004,
@@ -1490,9 +1607,9 @@
     "fragment": "$12.50 but selling prices is that wholesale or retail",
     "word_index": 876,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2313.695099990582
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 124.97959996107966
   },
   {
     "pause_start": 513.9,
@@ -1505,7 +1622,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "llm",
     "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2285.847500024829
+    "semantic_latency_ms": 145.12379991356283
   },
   {
     "pause_start": 518.40497,
@@ -1515,10 +1632,10 @@
     "speaker": 1,
     "fragment": "i don't know i imagine that's a good question",
     "word_index": 889,
-    "semantic_label": "complete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2293.164600007003
+    "semantic_label": "incomplete",
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 382.7899000607431
   },
   {
     "pause_start": 519.605,
@@ -1529,9 +1646,9 @@
     "fragment": "our sale our sale",
     "word_index": 893,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2299.5728999958374
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 90.63550003338605
   },
   {
     "pause_start": 523.285,
@@ -1544,7 +1661,20 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 9.49120000586845
+    "semantic_latency_ms": 6.294499966315925
+  },
+  {
+    "pause_start": 528.40497,
+    "pause_end": 528.77,
+    "pause_duration_s": 0.365,
+    "speaker_changed": false,
+    "speaker": 1,
+    "fragment": "up to the retailer to sell it for whatever price they want",
+    "word_index": 917,
+    "semantic_label": "incomplete",
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 416.3552999962121
   },
   {
     "pause_start": 529.49,
@@ -1554,10 +1684,10 @@
     "speaker": 1,
     "fragment": "to the retailer to sell it for whatever price they want mhmm",
     "word_index": 918,
-    "semantic_label": "complete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2283.0346999980975
+    "semantic_label": "incomplete",
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 392.08620006684214
   },
   {
     "pause_start": 531.81,
@@ -1568,9 +1698,9 @@
     "fragment": "alright",
     "word_index": 919,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2314.8827999830246
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 414.26910005975515
   },
   {
     "pause_start": 539.97003,
@@ -1583,7 +1713,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 7.894299982581288
+    "semantic_latency_ms": 11.248000082559884
   },
   {
     "pause_start": 550.105,
@@ -1594,9 +1724,9 @@
     "fragment": "well right away i'm wondering if there's",
     "word_index": 961,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2309.4053999811877
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 605.2682000445202
   },
   {
     "pause_start": 553.865,
@@ -1609,7 +1739,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "degraded",
     "semantic_confidence": 0.3,
-    "semantic_latency_ms": 4086.7159999907017
+    "semantic_latency_ms": 425.07590004242957
   },
   {
     "pause_start": 555.545,
@@ -1622,7 +1752,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 10.582700022496283
+    "semantic_latency_ms": 6.730100023560226
   },
   {
     "pause_start": 556.665,
@@ -1633,9 +1763,9 @@
     "fragment": "frequencies or something",
     "word_index": 978,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2306.9258999894373
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 85.72970004752278
   },
   {
     "pause_start": 557.865,
@@ -1648,7 +1778,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 7.587799977045506
+    "semantic_latency_ms": 2.8360000578686595
   },
   {
     "pause_start": 559.42,
@@ -1661,7 +1791,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 4.8528999905101955
+    "semantic_latency_ms": 2.6397000765427947
   },
   {
     "pause_start": 561.18,
@@ -1672,9 +1802,9 @@
     "fragment": "as well as characters",
     "word_index": 984,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 175.44849999831058
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 138.75470007769763
   },
   {
     "pause_start": 563.26,
@@ -1685,9 +1815,9 @@
     "fragment": "as well as characters different keypad",
     "word_index": 986,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2317.1787000028417
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 122.2878999542445
   },
   {
     "pause_start": 565.33997,
@@ -1698,9 +1828,9 @@
     "fragment": "as well as characters different keypad styles and symbols",
     "word_index": 989,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2285.0947999977507
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 146.49179996922612
   },
   {
     "pause_start": 571.26,
@@ -1713,7 +1843,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 6.038699997588992
+    "semantic_latency_ms": 5.16479997895658
   },
   {
     "pause_start": 576.59503,
@@ -1726,7 +1856,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 4.952499992214143
+    "semantic_latency_ms": 4.804200027137995
   },
   {
     "pause_start": 580.435,
@@ -1736,10 +1866,10 @@
     "speaker": 2,
     "fragment": "have more complicated characters like european languages then you need more buttons",
     "word_index": 1036,
-    "semantic_label": "complete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2379.497199988691
+    "semantic_label": "incomplete",
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 136.06679998338223
   },
   {
     "pause_start": 580.99506,
@@ -1752,7 +1882,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 0.0035999983083456755
+    "semantic_latency_ms": 0.003600027412176132
   },
   {
     "pause_start": 581.955,
@@ -1765,7 +1895,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 7.698799978243187
+    "semantic_latency_ms": 6.693699979223311
   },
   {
     "pause_start": 582.91504,
@@ -1778,7 +1908,20 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 5.76349999755621
+    "semantic_latency_ms": 4.712599911727011
+  },
+  {
+    "pause_start": 587.315,
+    "pause_end": 587.69,
+    "pause_duration_s": 0.375,
+    "speaker_changed": false,
+    "speaker": 0,
+    "fragment": "then and then the other thing international on the topic of price",
+    "word_index": 1053,
+    "semantic_label": "incomplete",
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 143.8215000089258
   },
   {
     "pause_start": 588.73,
@@ -1789,9 +1932,9 @@
     "fragment": "then the other thing international on the topic of price i'm thinking",
     "word_index": 1055,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2307.845300005283
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 98.21750002447516
   },
   {
     "pause_start": 596.81,
@@ -1802,9 +1945,9 @@
     "fragment": "a certain market in one region whereas in another it'll be different",
     "word_index": 1073,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2333.1215000071097
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 70.806699921377
   },
   {
     "pause_start": 603.025,
@@ -1815,9 +1958,22 @@
     "fragment": "the country like how much money people have to spend on things",
     "word_index": 1094,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2294.603999995161
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 107.87079995498061
+  },
+  {
+    "pause_start": 607.825,
+    "pause_end": 608.145,
+    "pause_duration_s": 0.32,
+    "speaker_changed": false,
+    "speaker": 0,
+    "fragment": "or just like basic product positioning the \u20ac25",
+    "word_index": 1102,
+    "semantic_label": "incomplete",
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 91.81240003090352
   },
   {
     "pause_start": 613.185,
@@ -1830,7 +1986,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 7.427100004861131
+    "semantic_latency_ms": 10.013299994170666
   },
   {
     "pause_start": 615.7,
@@ -1840,10 +1996,10 @@
     "speaker": 0,
     "fragment": "london might not be such a big hit in greece who knows",
     "word_index": 1122,
-    "semantic_label": "complete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2279.1331999760587
+    "semantic_label": "incomplete",
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 74.51549998950213
   },
   {
     "pause_start": 617.06,
@@ -1856,7 +2012,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 8.42589998501353
+    "semantic_latency_ms": 8.536499924957752
   },
   {
     "pause_start": 622.74,
@@ -1869,7 +2025,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 8.65689999773167
+    "semantic_latency_ms": 8.543999982066453
   },
   {
     "pause_start": 661.395,
@@ -1880,9 +2036,9 @@
     "fragment": "some kind of assumptions about what what information we're given here thinking",
     "word_index": 1154,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2332.5662999995984
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 77.12390006054193
   },
   {
     "pause_start": 667.955,
@@ -1895,7 +2051,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "llm",
     "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2365.494099998614
+    "semantic_latency_ms": 171.56470008194447
   },
   {
     "pause_start": 676.67004,
@@ -1906,9 +2062,22 @@
     "fragment": "that sort of the is this gonna be like the premium product",
     "word_index": 1190,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2324.34339998872
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 65.74819993693382
+  },
+  {
+    "pause_start": 681.15,
+    "pause_end": 681.55,
+    "pause_duration_s": 0.4,
+    "speaker_changed": false,
+    "speaker": 1,
+    "fragment": "yeah like how much does you know a remote control cost uh-huh",
+    "word_index": 1203,
+    "semantic_label": "incomplete",
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 82.45180000085384
   },
   {
     "pause_start": 683.63,
@@ -1919,9 +2088,9 @@
     "fragment": "you know a remote control cost uh-huh well \u20ac25 i mean that's",
     "word_index": 1208,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2297.642799996538
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 81.87059999909252
   },
   {
     "pause_start": 691.22504,
@@ -1932,9 +2101,9 @@
     "fragment": "isn't it or no is it as much as that $16.17 \u00a318",
     "word_index": 1226,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2323.508599976776
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 80.13899996876717
   },
   {
     "pause_start": 691.945,
@@ -1944,10 +2113,10 @@
     "speaker": 0,
     "fragment": "yeah i'd say so",
     "word_index": 1230,
-    "semantic_label": "complete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2252.8655999922194
+    "semantic_label": "incomplete",
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 366.08930001966655
   },
   {
     "pause_start": 692.42505,
@@ -1960,7 +2129,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 0.0030999945010989904
+    "semantic_latency_ms": 0.003800028935074806
   },
   {
     "pause_start": 696.025,
@@ -1973,7 +2142,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 10.40520000969991
+    "semantic_latency_ms": 8.889200049452484
   },
   {
     "pause_start": 696.66504,
@@ -1984,9 +2153,9 @@
     "fragment": "know no",
     "word_index": 1245,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 3378.8980999961495
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 75.65819995943457
   },
   {
     "pause_start": 699.065,
@@ -1997,9 +2166,9 @@
     "fragment": "how how good a remote control that would get you",
     "word_index": 1255,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2344.1736999957357
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 164.83120003249496
   },
   {
     "pause_start": 705.28,
@@ -2010,9 +2179,22 @@
     "fragment": "you but yes because it has to look kind of cool gimmicky",
     "word_index": 1266,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2309.2155999911483
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 63.593999948352575
+  },
+  {
+    "pause_start": 709.28,
+    "pause_end": 709.68,
+    "pause_duration_s": 0.4,
+    "speaker_changed": false,
+    "speaker": 1,
+    "fragment": "but yes because it has to look kind of cool gimmicky right",
+    "word_index": 1267,
+    "semantic_label": "incomplete",
+    "semantic_source": "rule",
+    "semantic_confidence": 0.9,
+    "semantic_latency_ms": 6.809700047597289
   },
   {
     "pause_start": 710.4,
@@ -2025,7 +2207,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 7.817600009730086
+    "semantic_latency_ms": 4.552699974738061
   },
   {
     "pause_start": 713.28,
@@ -2036,9 +2218,9 @@
     "fragment": "of cool gimmicky right okay let me just scoot on ahead here",
     "word_index": 1275,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2296.543799981009
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 83.82890000939369
   },
   {
     "pause_start": 714.16,
@@ -2051,7 +2233,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 8.949600014602765
+    "semantic_latency_ms": 3.8201999850571156
   },
   {
     "pause_start": 717.995,
@@ -2064,7 +2246,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 6.384700012858957
+    "semantic_latency_ms": 3.4391001099720597
   },
   {
     "pause_start": 721.835,
@@ -2074,10 +2256,10 @@
     "speaker": 1,
     "fragment": "anybody have anything to add to to the finance issue at all",
     "word_index": 1290,
-    "semantic_label": "complete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2297.8151999996044
+    "semantic_label": "incomplete",
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 91.4056000765413
   },
   {
     "pause_start": 727.195,
@@ -2088,9 +2270,9 @@
     "fragment": "have any other background information on like how that compares to other",
     "word_index": 1304,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2304.9906000087503
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 70.14409999828786
   },
   {
     "pause_start": 732.63,
@@ -2101,9 +2283,9 @@
     "fragment": "if you knew like yeah what your money would get you no",
     "word_index": 1325,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2264.729200018337
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 73.05699994321913
   },
   {
     "pause_start": 756.435,
@@ -2114,9 +2296,9 @@
     "fragment": "the interesting thing about discussing",
     "word_index": 1330,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2579.1725000017323
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 73.2669000281021
   },
   {
     "pause_start": 759.155,
@@ -2129,7 +2311,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 7.434900006046519
+    "semantic_latency_ms": 8.700300008058548
   },
   {
     "pause_start": 767.51,
@@ -2140,9 +2322,9 @@
     "fragment": "control is being something something people consciously assess in their purchasing habits",
     "word_index": 1359,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2303.6829000047874
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 112.6632000086829
   },
   {
     "pause_start": 767.91003,
@@ -2155,7 +2337,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 0.0041000021155923605
+    "semantic_latency_ms": 0.004500034265220165
   },
   {
     "pause_start": 769.27,
@@ -2166,9 +2348,9 @@
     "fragment": "it's just like",
     "word_index": 1363,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2305.122999998275
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 137.06249999813735
   },
   {
     "pause_start": 772.39,
@@ -2178,10 +2360,10 @@
     "speaker": 0,
     "fragment": "it's just like getting shoelaces with shoes or something",
     "word_index": 1369,
-    "semantic_label": "complete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2321.893500018632
+    "semantic_label": "incomplete",
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 191.63160002790391
   },
   {
     "pause_start": 776.125,
@@ -2191,10 +2373,10 @@
     "speaker": 1,
     "fragment": "getting to end of meeting oh okay we're a bit behind",
     "word_index": 1380,
-    "semantic_label": "complete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2320.5998000048567
+    "semantic_label": "incomplete",
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 86.42830001190305
   },
   {
     "pause_start": 782.84503,
@@ -2207,7 +2389,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "llm",
     "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2420.206299982965
+    "semantic_latency_ms": 142.0016000047326
   },
   {
     "pause_start": 793.88,
@@ -2218,9 +2400,9 @@
     "fragment": "their remote control and they really want a better one or something",
     "word_index": 1445,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2333.4830999956466
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 382.4891000986099
   },
   {
     "pause_start": 801.16003,
@@ -2233,7 +2415,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 8.909900003345683
+    "semantic_latency_ms": 8.610000018961728
   },
   {
     "pause_start": 807.68506,
@@ -2246,7 +2428,20 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 15.163500007474795
+    "semantic_latency_ms": 6.65969995316118
+  },
+  {
+    "pause_start": 809.60504,
+    "pause_end": 809.92505,
+    "pause_duration_s": 0.32,
+    "speaker_changed": false,
+    "speaker": 0,
+    "fragment": "function one of the priorities might be yeah to combine as many",
+    "word_index": 1496,
+    "semantic_label": "incomplete",
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 413.57390000484884
   },
   {
     "pause_start": 810.72504,
@@ -2259,7 +2454,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "degraded",
     "semantic_confidence": 0.3,
-    "semantic_latency_ms": 3958.5530000040308
+    "semantic_latency_ms": 75.27969998773187
   },
   {
     "pause_start": 814.965,
@@ -2270,9 +2465,9 @@
     "fragment": "be like a main design aim of remote control do you know",
     "word_index": 1516,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2439.718800014816
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 70.33530005719513
   },
   {
     "pause_start": 815.525,
@@ -2285,7 +2480,20 @@
     "semantic_label": "incomplete",
     "semantic_source": "degraded",
     "semantic_confidence": 0.3,
-    "semantic_latency_ms": 4046.9204999972135
+    "semantic_latency_ms": 75.27630007825792
+  },
+  {
+    "pause_start": 817.28503,
+    "pause_end": 817.64996,
+    "pause_duration_s": 0.365,
+    "speaker_changed": false,
+    "speaker": 1,
+    "fragment": "do your your satellite and your",
+    "word_index": 1525,
+    "semantic_label": "incomplete",
+    "semantic_source": "rule",
+    "semantic_confidence": 0.9,
+    "semantic_latency_ms": 5.945899989455938
   },
   {
     "pause_start": 819.81,
@@ -2296,9 +2504,22 @@
     "fragment": "your your satellite and your regular tally and your vcr and everything",
     "word_index": 1532,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 3931.6061999998055
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 79.19740001671016
+  },
+  {
+    "pause_start": 820.93,
+    "pause_end": 821.25,
+    "pause_duration_s": 0.32,
+    "speaker_changed": false,
+    "speaker": 0,
+    "fragment": "well like maybe",
+    "word_index": 1535,
+    "semantic_label": "incomplete",
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 74.90240002516657
   },
   {
     "pause_start": 834.235,
@@ -2309,9 +2530,9 @@
     "fragment": "little sort of scribble boards to cameras m p three players telephones",
     "word_index": 1575,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2592.472299991641
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 420.9803999401629
   },
   {
     "pause_start": 843.115,
@@ -2324,7 +2545,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 5.607300001429394
+    "semantic_latency_ms": 8.929100004024804
   },
   {
     "pause_start": 845.83496,
@@ -2337,7 +2558,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 4.435200011357665
+    "semantic_latency_ms": 6.650600000284612
   },
   {
     "pause_start": 852.94,
@@ -2348,9 +2569,35 @@
     "fragment": "such and look at it that's a good idea so extra functionalities",
     "word_index": 1637,
     "semantic_label": "incomplete",
+    "semantic_source": "llm",
+    "semantic_confidence": 0.75,
+    "semantic_latency_ms": 455.50240005832165
+  },
+  {
+    "pause_start": 859.1,
+    "pause_end": 859.485,
+    "pause_duration_s": 0.385,
+    "speaker_changed": false,
+    "speaker": 0,
+    "fragment": "at home i've i've combined the the audio video of my television",
+    "word_index": 1654,
+    "semantic_label": "incomplete",
     "semantic_source": "degraded",
     "semantic_confidence": 0.3,
-    "semantic_latency_ms": 4160.135199985234
+    "semantic_latency_ms": 80.39489993825555
+  },
+  {
+    "pause_start": 862.445,
+    "pause_end": 862.845,
+    "pause_duration_s": 0.4,
+    "speaker_changed": false,
+    "speaker": 0,
+    "fragment": "of my television set and my dvd player and my cd player",
+    "word_index": 1663,
+    "semantic_label": "incomplete",
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 66.80649996269494
   },
   {
     "pause_start": 870.045,
@@ -2363,7 +2610,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 9.264599997550249
+    "semantic_latency_ms": 9.829299990087748
   },
   {
     "pause_start": 878.28,
@@ -2376,7 +2623,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "degraded",
     "semantic_confidence": 0.3,
-    "semantic_latency_ms": 4164.964800002053
+    "semantic_latency_ms": 72.34179996885359
   },
   {
     "pause_start": 879.56,
@@ -2386,10 +2633,10 @@
     "speaker": 0,
     "fragment": "it's just one system but each one's got its own little part",
     "word_index": 1710,
-    "semantic_label": "complete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2495.130800001789
+    "semantic_label": "incomplete",
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 102.16879996005446
   },
   {
     "pause_start": 885.0,
@@ -2402,7 +2649,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 0.003100023604929447
+    "semantic_latency_ms": 0.002399901859462261
   },
   {
     "pause_start": 892.585,
@@ -2415,7 +2662,20 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 8.435299998382106
+    "semantic_latency_ms": 6.4830000046640635
+  },
+  {
+    "pause_start": 900.69,
+    "pause_end": 901.09,
+    "pause_duration_s": 0.4,
+    "speaker_changed": false,
+    "speaker": 1,
+    "fragment": "remote controls they've used what they would really like to be part",
+    "word_index": 1759,
+    "semantic_label": "incomplete",
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 63.79679997917265
   },
   {
     "pause_start": 902.85004,
@@ -2426,9 +2686,9 @@
     "fragment": "would really like to be part of this new one at all",
     "word_index": 1765,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2443.9218000043184
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 63.41740000061691
   },
   {
     "pause_start": 904.37,
@@ -2441,7 +2701,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "degraded",
     "semantic_confidence": 0.3,
-    "semantic_latency_ms": 4239.900300017325
+    "semantic_latency_ms": 82.0652999682352
   },
   {
     "pause_start": 906.21,
@@ -2454,7 +2714,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 7.286699983524159
+    "semantic_latency_ms": 8.533000014722347
   },
   {
     "pause_start": 912.85004,
@@ -2465,9 +2725,9 @@
     "fragment": "quite small or when you want it right sitting behind the couch",
     "word_index": 1801,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2625.616599980276
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 87.8108999459073
   },
   {
     "pause_start": 913.505,
@@ -2480,7 +2740,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 7.030799984931946
+    "semantic_latency_ms": 6.678600097075105
   },
   {
     "pause_start": 915.105,
@@ -2493,7 +2753,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 6.086699984734878
+    "semantic_latency_ms": 9.075499954633415
   },
   {
     "pause_start": 916.465,
@@ -2506,7 +2766,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 6.979400001000613
+    "semantic_latency_ms": 6.884099915623665
   },
   {
     "pause_start": 916.625,
@@ -2517,9 +2777,9 @@
     "fragment": "is really",
     "word_index": 1822,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 215.94319998985156
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 73.98380001541227
   },
   {
     "pause_start": 922.78503,
@@ -2529,10 +2789,10 @@
     "speaker": 1,
     "fragment": "i mean is that something we'd want to include do you think",
     "word_index": 1849,
-    "semantic_label": "complete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2456.948300008662
+    "semantic_label": "incomplete",
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 71.27329998183995
   },
   {
     "pause_start": 925.745,
@@ -2542,10 +2802,10 @@
     "speaker": 1,
     "fragment": "that something we'd want to include do you think i don't know",
     "word_index": 1852,
-    "semantic_label": "complete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 3491.71080000815
+    "semantic_label": "incomplete",
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 400.08249995298684
   },
   {
     "pause_start": 926.065,
@@ -2558,7 +2818,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 0.0039000005926936865
+    "semantic_latency_ms": 0.004100031219422817
   },
   {
     "pause_start": 927.47,
@@ -2571,7 +2831,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "degraded",
     "semantic_confidence": 0.3,
-    "semantic_latency_ms": 5003.568899992388
+    "semantic_latency_ms": 90.47850000206381
   },
   {
     "pause_start": 936.99,
@@ -2584,7 +2844,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "degraded",
     "semantic_confidence": 0.3,
-    "semantic_latency_ms": 4555.822000023909
+    "semantic_latency_ms": 83.75510002952069
   },
   {
     "pause_start": 937.55,
@@ -2595,9 +2855,22 @@
     "fragment": "my goodness",
     "word_index": 1893,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2731.6066999919713
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 77.57580000907183
+  },
+  {
+    "pause_start": 939.71,
+    "pause_end": 940.065,
+    "pause_duration_s": 0.355,
+    "speaker_changed": false,
+    "speaker": 0,
+    "fragment": "and you know when i think about what they are now",
+    "word_index": 1904,
+    "semantic_label": "incomplete",
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 89.0895000193268
   },
   {
     "pause_start": 942.545,
@@ -2608,9 +2881,22 @@
     "fragment": "what they are now it's better but actually it's still kind of",
     "word_index": 1912,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2631.7909999925178
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 86.56270010396838
+  },
+  {
+    "pause_start": 943.905,
+    "pause_end": 944.225,
+    "pause_duration_s": 0.32,
+    "speaker_changed": false,
+    "speaker": 0,
+    "fragment": "it's better but actually it's still kind of i don't know like",
+    "word_index": 1916,
+    "semantic_label": "incomplete",
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 102.75940003339201
   },
   {
     "pause_start": 946.225,
@@ -2621,9 +2907,9 @@
     "fragment": "of i don't know like a massive junky thing on the table",
     "word_index": 1923,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2493.0134000023827
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 94.14669999387115
   },
   {
     "pause_start": 946.465,
@@ -2634,9 +2920,9 @@
     "fragment": "still",
     "word_index": 1924,
     "semantic_label": "incomplete",
-    "semantic_source": "degraded",
-    "semantic_confidence": 0.3,
-    "semantic_latency_ms": 4487.255899992306
+    "semantic_source": "llm",
+    "semantic_confidence": 0.75,
+    "semantic_latency_ms": 379.9120000330731
   },
   {
     "pause_start": 951.34503,
@@ -2647,9 +2933,9 @@
     "fragment": "we could think about how it could be more you know streamlined",
     "word_index": 1938,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 513.866399996914
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 65.93919999431819
   },
   {
     "pause_start": 952.705,
@@ -2662,7 +2948,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "degraded",
     "semantic_confidence": 0.3,
-    "semantic_latency_ms": 4242.757200001506
+    "semantic_latency_ms": 70.89520001318306
   },
   {
     "pause_start": 956.5,
@@ -2672,10 +2958,10 @@
     "speaker": 0,
     "fragment": "something like that yeah okay or whatever would be technologically reasonable",
     "word_index": 1956,
-    "semantic_label": "complete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2380.7672999973875
+    "semantic_label": "incomplete",
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 84.87779996357858
   },
   {
     "pause_start": 959.38,
@@ -2685,10 +2971,10 @@
     "speaker": 1,
     "fragment": "okay well i guess that's up to end as a field designer",
     "word_index": 1969,
-    "semantic_label": "complete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2311.25840000459
+    "semantic_label": "incomplete",
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 71.11229992005974
   },
   {
     "pause_start": 962.33997,
@@ -2699,9 +2985,9 @@
     "fragment": "functionally that doesn't make it any better but that just the appeal",
     "word_index": 1985,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 3616.2659999972675
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 85.5598000343889
   },
   {
     "pause_start": 963.06,
@@ -2714,7 +3000,20 @@
     "semantic_label": "incomplete",
     "semantic_source": "degraded",
     "semantic_confidence": 0.3,
-    "semantic_latency_ms": 3497.6474000141025
+    "semantic_latency_ms": 112.65640007331967
+  },
+  {
+    "pause_start": 965.06,
+    "pause_end": 965.435,
+    "pause_duration_s": 0.375,
+    "speaker_changed": false,
+    "speaker": 0,
+    "fragment": "of not having you know these days it's every",
+    "word_index": 1996,
+    "semantic_label": "incomplete",
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 94.38529994804412
   },
   {
     "pause_start": 969.195,
@@ -2727,7 +3026,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "degraded",
     "semantic_confidence": 0.3,
-    "semantic_latency_ms": 4865.098899987061
+    "semantic_latency_ms": 106.76160000730306
   },
   {
     "pause_start": 969.675,
@@ -2740,7 +3039,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 0.005799985956400633
+    "semantic_latency_ms": 0.002700020559132099
   },
   {
     "pause_start": 971.595,
@@ -2753,7 +3052,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 8.383900014450774
+    "semantic_latency_ms": 12.89000001270324
   },
   {
     "pause_start": 972.39496,
@@ -2766,7 +3065,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 0.0028999929782003164
+    "semantic_latency_ms": 0.004999921657145023
   },
   {
     "pause_start": 973.355,
@@ -2779,7 +3078,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "degraded",
     "semantic_confidence": 0.3,
-    "semantic_latency_ms": 4949.223300005542
+    "semantic_latency_ms": 76.11669995822012
   },
   {
     "pause_start": 975.595,
@@ -2792,7 +3091,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 0.0045000051613897085
+    "semantic_latency_ms": 0.004799920134246349
   },
   {
     "pause_start": 977.195,
@@ -2805,7 +3104,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "degraded",
     "semantic_confidence": 0.3,
-    "semantic_latency_ms": 5089.677199983271
+    "semantic_latency_ms": 98.50149997510016
   },
   {
     "pause_start": 978.15497,
@@ -2818,7 +3117,20 @@
     "semantic_label": "incomplete",
     "semantic_source": "degraded",
     "semantic_confidence": 0.3,
-    "semantic_latency_ms": 5114.115900010802
+    "semantic_latency_ms": 362.5202999683097
+  },
+  {
+    "pause_start": 982.85,
+    "pause_end": 983.25,
+    "pause_duration_s": 0.4,
+    "speaker_changed": false,
+    "speaker": 1,
+    "fragment": "the next meeting is gonna be in thirty minutes so that's about",
+    "word_index": 2040,
+    "semantic_label": "incomplete",
+    "semantic_source": "rule",
+    "semantic_confidence": 0.9,
+    "semantic_latency_ms": 10.733300005085766
   },
   {
     "pause_start": 986.76996,
@@ -2829,9 +3141,9 @@
     "fragment": "minutes so that's about about ten to twelve by my watch so",
     "word_index": 2048,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 3041.1518000182696
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 150.86170006543398
   },
   {
     "pause_start": 988.69,
@@ -2842,9 +3154,9 @@
     "fragment": "ten to twelve by my watch so in between now and then",
     "word_index": 2053,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 1883.7417000031564
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 60.074000037275255
   },
   {
     "pause_start": 992.61,
@@ -2857,7 +3169,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 9.117000008700415
+    "semantic_latency_ms": 7.489799987524748
   },
   {
     "pause_start": 996.59503,
@@ -2867,10 +3179,10 @@
     "speaker": 1,
     "fragment": "actual working design of it so you know what you're doing there",
     "word_index": 2077,
-    "semantic_label": "complete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 2315.364399983082
+    "semantic_label": "incomplete",
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 93.6721001053229
   },
   {
     "pause_start": 1004.515,
@@ -2883,7 +3195,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 10.431300004711375
+    "semantic_latency_ms": 7.022899924777448
   },
   {
     "pause_start": 1006.515,
@@ -2896,7 +3208,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 6.422000005841255
+    "semantic_latency_ms": 5.377299967221916
   },
   {
     "pause_start": 1008.755,
@@ -2909,7 +3221,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "degraded",
     "semantic_confidence": 0.3,
-    "semantic_latency_ms": 3461.8334000115283
+    "semantic_latency_ms": 89.31089995894581
   },
   {
     "pause_start": 1019.45,
@@ -2919,10 +3231,10 @@
     "speaker": 1,
     "fragment": "to fulfill and you'll all get instructions emailed to you i guess",
     "word_index": 2129,
-    "semantic_label": "complete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 3380.2942000038456
+    "semantic_label": "incomplete",
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 103.82199997548014
   },
   {
     "pause_start": 1020.01,
@@ -2935,7 +3247,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 0.003600027412176132
+    "semantic_latency_ms": 0.005100038833916187
   },
   {
     "pause_start": 1026.745,
@@ -2948,7 +3260,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 0.000800006091594696
+    "semantic_latency_ms": 0.001100008375942707
   },
   {
     "pause_start": 1031.705,
@@ -2961,7 +3273,7 @@
     "semantic_label": "complete",
     "semantic_source": "llm",
     "semantic_confidence": 0.75,
-    "semantic_latency_ms": 211.77789999637753
+    "semantic_latency_ms": 297.988900099881
   },
   {
     "pause_start": 1035.145,
@@ -2974,7 +3286,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 7.553500006906688
+    "semantic_latency_ms": 5.36489998921752
   },
   {
     "pause_start": 1037.7051,
@@ -2987,7 +3299,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "degraded",
     "semantic_confidence": 0.3,
-    "semantic_latency_ms": 4181.796799995936
+    "semantic_latency_ms": 63.894699909724295
   },
   {
     "pause_start": 1042.6599,
@@ -2998,9 +3310,9 @@
     "fragment": "that little message a lot sooner than i thought i would so",
     "word_index": 2165,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 856011.5160999994
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 409.4367999350652
   },
   {
     "pause_start": 1049.62,
@@ -3011,9 +3323,9 @@
     "fragment": "up just to make sure we're all on the same page here",
     "word_index": 2180,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 253.92529999953695
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 70.7054000813514
   },
   {
     "pause_start": 1050.1,
@@ -3024,9 +3336,9 @@
     "fragment": "mhmm",
     "word_index": 2181,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 228.77190000144765
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 367.42459994275123
   },
   {
     "pause_start": 1050.82,
@@ -3039,7 +3351,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 7.48800000292249
+    "semantic_latency_ms": 3.2850001007318497
   },
   {
     "pause_start": 1052.1799,
@@ -3050,9 +3362,9 @@
     "fragment": "do we",
     "word_index": 2183,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 181.7536000162363
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 72.26110005285591
   },
   {
     "pause_start": 1057.615,
@@ -3063,9 +3375,9 @@
     "fragment": "of an example of a coffee machine or something right yeah well",
     "word_index": 2199,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 178.38950001168996
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 77.79800007119775
   },
   {
     "pause_start": 1066.8151,
@@ -3076,9 +3388,22 @@
     "fragment": "our television remote control may have features which go beyond the television",
     "word_index": 2219,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 173.0194000119809
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 60.39130000863224
+  },
+  {
+    "pause_start": 1071.88,
+    "pause_end": 1072.2001,
+    "pause_duration_s": 0.32,
+    "speaker_changed": false,
+    "speaker": 0,
+    "fragment": "or are we keeping sort of like a a design commitment to",
+    "word_index": 2231,
+    "semantic_label": "incomplete",
+    "semantic_source": "rule",
+    "semantic_confidence": 0.9,
+    "semantic_latency_ms": 5.456399987451732
   },
   {
     "pause_start": 1073.48,
@@ -3089,9 +3414,9 @@
     "fragment": "we keeping sort of like a a design commitment to television features",
     "word_index": 2233,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 157.5983999937307
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 100.66910006571561
   },
   {
     "pause_start": 1077.08,
@@ -3102,9 +3427,9 @@
     "fragment": "okay well just very quickly because we're supposed to finish no",
     "word_index": 2244,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 165.76130001340061
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 169.94219995103776
   },
   {
     "pause_start": 1083.145,
@@ -3115,9 +3440,9 @@
     "fragment": "probably want some kind of unique selling point of it okay so",
     "word_index": 2265,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 179.3863000057172
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 101.11459996551275
   },
   {
     "pause_start": 1084.665,
@@ -3128,9 +3453,9 @@
     "fragment": "some kind of unique selling point of it okay so you know",
     "word_index": 2267,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 185.5824000085704
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 288.5833000764251
   },
   {
     "pause_start": 1086.985,
@@ -3141,9 +3466,9 @@
     "fragment": "factor would be production cost",
     "word_index": 2272,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 183.418000000529
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 106.62350000347942
   },
   {
     "pause_start": 1087.865,
@@ -3156,7 +3481,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 5.049500003224239
+    "semantic_latency_ms": 2.931399969384074
   },
   {
     "pause_start": 1089.0651,
@@ -3167,9 +3492,9 @@
     "fragment": "there's a cap there so",
     "word_index": 2279,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 239.6729000029154
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 406.163000036031
   },
   {
     "pause_start": 1093.465,
@@ -3180,9 +3505,9 @@
     "fragment": "so okay depends on how much you can cram into that price",
     "word_index": 2290,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 220.43819999089465
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 198.204500018619
   },
   {
     "pause_start": 1094.185,
@@ -3195,7 +3520,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 0.00200001522898674
+    "semantic_latency_ms": 0.002900022082030773
   },
   {
     "pause_start": 1096.11,
@@ -3208,7 +3533,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 6.957100005820394
+    "semantic_latency_ms": 9.096699999645352
   },
   {
     "pause_start": 1099.15,
@@ -3221,7 +3546,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 6.460300006438047
+    "semantic_latency_ms": 5.349499988369644
   },
   {
     "pause_start": 1102.83,
@@ -3231,10 +3556,10 @@
     "speaker": 1,
     "fragment": "right okay well that's that's the end of the meeting then mhmm",
     "word_index": 2311,
-    "semantic_label": "complete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 330.5658000172116
+    "semantic_label": "incomplete",
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 103.90069999266416
   },
   {
     "pause_start": 1107.4701,
@@ -3244,10 +3569,10 @@
     "speaker": 1,
     "fragment": "the end of the meeting then mhmm thank you all for coming",
     "word_index": 2316,
-    "semantic_label": "complete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 187.19359999522567
+    "semantic_label": "incomplete",
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 81.60269993823022
   },
   {
     "pause_start": 1113.6749,
@@ -3260,7 +3585,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 5.7366999972146
+    "semantic_latency_ms": 9.732399950735271
   },
   {
     "pause_start": 1120.315,
@@ -3270,10 +3595,10 @@
     "speaker": 0,
     "fragment": "great",
     "word_index": 2329,
-    "semantic_label": "complete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 165.57209999882616
+    "semantic_label": "incomplete",
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 204.2729000095278
   },
   {
     "pause_start": 1121.115,
@@ -3286,7 +3611,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 5.095600005006418
+    "semantic_latency_ms": 9.096399997361004
   },
   {
     "pause_start": 1122.315,
@@ -3299,7 +3624,20 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 4.539799992926419
+    "semantic_latency_ms": 4.759100032970309
+  },
+  {
+    "pause_start": 1127.38,
+    "pause_end": 1127.7001,
+    "pause_duration_s": 0.32,
+    "speaker_changed": false,
+    "speaker": 1,
+    "fragment": "do you turn this thing off is it",
+    "word_index": 2338,
+    "semantic_label": "incomplete",
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 101.5974999172613
   },
   {
     "pause_start": 1128.9,
@@ -3312,7 +3650,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 4.741699987789616
+    "semantic_latency_ms": 7.836600067093968
   },
   {
     "pause_start": 1130.66,
@@ -3322,10 +3660,10 @@
     "speaker": 1,
     "fragment": "turn this thing off is it function and ah there we go",
     "word_index": 2344,
-    "semantic_label": "complete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 167.04050000407733
+    "semantic_label": "incomplete",
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 76.19500008877367
   },
   {
     "pause_start": 1133.4601,
@@ -3336,9 +3674,9 @@
     "fragment": "so",
     "word_index": 2345,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 183.9445999939926
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 169.24029996152967
   },
   {
     "pause_start": 1138.4849,
@@ -3349,9 +3687,9 @@
     "fragment": "think if you can just leave it on maybe and then oh",
     "word_index": 2358,
     "semantic_label": "incomplete",
-    "semantic_source": "llm",
-    "semantic_confidence": 0.75,
-    "semantic_latency_ms": 279.4026999908965
+    "semantic_source": "degraded",
+    "semantic_confidence": 0.3,
+    "semantic_latency_ms": 197.23249995149672
   },
   {
     "pause_start": 1140.725,
@@ -3364,7 +3702,7 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 5.378700006986037
+    "semantic_latency_ms": 5.063599906861782
   },
   {
     "pause_start": 1155.8499,
@@ -3377,6 +3715,6 @@
     "semantic_label": "incomplete",
     "semantic_source": "rule",
     "semantic_confidence": 0.9,
-    "semantic_latency_ms": 5.154200014658272
+    "semantic_latency_ms": 3.5732999676838517
   }
 ]

@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Convora - Annotation Tool</title>
+<style>
+  :root {
+    --bg: #14161a;
+    --panel: #1c1f26;
+    --border: #2a2e37;
+    --text: #e8e9ec;
+    --muted: #8b909c;
+    --complete: #3fb97e;
+    --incomplete: #e0685a;
+    --skip: #4a4f5c;
+    --accent: #d97757;
+  }
+  * { box-sizing: border-box; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, "Segoe UI", Roboto, sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 16px;
+  }
+  h1 { font-size: 1.1rem; color: var(--muted); font-weight: 500; margin: 0 0 4px; }
+  .subtitle { color: var(--muted); font-size: 0.85rem; margin-bottom: 24px; }
+
+  #loader {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 32px;
+    max-width: 520px;
+    width: 100%;
+    text-align: center;
+  }
+  #loader input[type=file] { margin-top: 16px; }
+  #loader p { color: var(--muted); font-size: 0.9rem; line-height: 1.5; }
+
+  #main { display: none; width: 100%; max-width: 720px; }
+
+  .progress-row {
+    display: flex; justify-content: space-between; align-items: center;
+    margin-bottom: 8px; font-size: 0.85rem; color: var(--muted);
+  }
+  .progress-bar {
+    height: 6px; background: var(--border); border-radius: 3px; overflow: hidden; margin-bottom: 28px;
+  }
+  .progress-fill { height: 100%; background: var(--accent); transition: width 0.2s; }
+
+  .card {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 28px;
+  }
+  .meta { display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 18px; font-size: 0.8rem; color: var(--muted); }
+  .meta span b { color: var(--text); }
+
+  .fragment {
+    font-size: 1.4rem;
+    line-height: 1.5;
+    margin-bottom: 24px;
+    padding: 20px;
+    background: #101216;
+    border-radius: 10px;
+    border-left: 3px solid var(--accent);
+  }
+  .fragment .ellipsis { color: var(--muted); }
+
+  .pipeline-hint {
+    font-size: 0.8rem; color: var(--muted); margin-bottom: 20px;
+    display: flex; align-items: center; gap: 8px;
+  }
+  .pipeline-hint .badge {
+    padding: 2px 8px; border-radius: 20px; font-size: 0.75rem; font-weight: 600;
+  }
+  .badge.eos { background: rgba(63,185,126,0.15); color: var(--complete); }
+  .badge.cont { background: rgba(224,104,90,0.15); color: var(--incomplete); }
+
+  .buttons { display: flex; gap: 12px; }
+  .buttons button {
+    flex: 1;
+    padding: 18px;
+    border-radius: 10px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.1s, opacity 0.1s;
+    color: white;
+  }
+  .buttons button:active { transform: scale(0.97); }
+  .buttons button:hover { opacity: 0.9; }
+  #btnComplete { background: var(--complete); }
+  #btnIncomplete { background: var(--incomplete); }
+  #btnSkip { background: var(--skip); color: var(--text); }
+
+  .kbd-hint { text-align: center; color: var(--muted); font-size: 0.75rem; margin-top: 14px; }
+  kbd {
+    background: var(--border); padding: 2px 6px; border-radius: 4px;
+    font-family: monospace; font-size: 0.75rem;
+  }
+
+  #summary { display: none; width: 100%; max-width: 520px; }
+  #summary .card { text-align: center; }
+  #summary h2 { margin-top: 0; }
+  #summary .stat { font-size: 2.2rem; font-weight: 700; color: var(--accent); }
+  #exportBtn {
+    margin-top: 20px; padding: 14px 28px; border-radius: 10px; border: none;
+    background: var(--accent); color: white; font-weight: 600; cursor: pointer; font-size: 0.95rem;
+  }
+
+  #topbar { display: flex; gap: 10px; justify-content: flex-end; width: 100%; max-width: 720px; margin-bottom: 12px; }
+  #topbar button {
+    background: transparent; border: 1px solid var(--border); color: var(--muted);
+    padding: 6px 14px; border-radius: 8px; font-size: 0.8rem; cursor: pointer;
+  }
+  #topbar button:hover { color: var(--text); border-color: var(--muted); }
+</style>
+</head>
+<body>
+
+<h1>CONVORA ANNOTATION TOOL</h1>
+<div class="subtitle">Phase 3 - building the labeled evaluation set (PRD sec 2.4)</div>
+
+<div id="loader">
+  <p>Load a candidates JSON file to begin (e.g. <code>eval/pause_candidates_result.json</code> or <code>eval/fusion_result.json</code>).</p>
+  <div style="margin: 16px 0;">
+    <label style="font-size:0.85rem; color:var(--muted);">
+      How many fragments to review:
+      <input type="number" id="sampleSizeInput" value="25" min="5" max="500"
+             style="width:60px; margin-left:8px; padding:4px 8px; border-radius:6px; border:1px solid var(--border); background:#101216; color:var(--text);">
+    </label>
+  </div>
+  <input type="file" id="fileInput" accept=".json">
+  <p style="margin-top:20px; font-size:0.8rem;">You will NOT see every fragment - only the most informative ones (the pipeline's least-confident, near-threshold calls), so a small number is genuinely enough. Progress exports as a JSON file - nothing is sent anywhere.</p>
+</div>
+
+<div id="topbar" style="display:none;">
+  <button id="exportProgressBtn">Export progress now</button>
+</div>
+
+<div id="main">
+  <div class="progress-row">
+    <span id="progressText">0 / 0</span>
+    <span id="progressPct">0%</span>
+  </div>
+  <div class="progress-bar"><div class="progress-fill" id="progressFill" style="width:0%"></div></div>
+
+  <div class="card">
+    <div class="meta">
+      <span>Pause: <b id="metaPause">-</b></span>
+      <span>Speaker: <b id="metaSpeaker">-</b></span>
+      <span>Speaker changed: <b id="metaSpkChg">-</b></span>
+    </div>
+
+    <div class="fragment"><span class="ellipsis">...</span><span id="fragmentText"></span></div>
+
+    <div class="pipeline-hint" id="pipelineHint" style="display:none;">
+      Pipeline predicted: <span class="badge" id="pipelineBadge"></span>
+      <span id="pipelineConf"></span>
+    </div>
+
+    <div class="buttons">
+      <button id="btnComplete">Complete <span style="opacity:0.7">(C / &rarr;)</span></button>
+      <button id="btnIncomplete">Incomplete <span style="opacity:0.7">(I / &larr;)</span></button>
+      <button id="btnSkip">Skip <span style="opacity:0.7">(S / &darr;)</span></button>
+    </div>
+    <div class="kbd-hint">Press <kbd>C</kbd> complete &middot; <kbd>I</kbd> incomplete &middot; <kbd>S</kbd> skip &middot; <kbd>Z</kbd> undo last</div>
+  </div>
+</div>
+
+<div id="summary">
+  <div class="card">
+    <h2>All done for this session</h2>
+    <div class="stat" id="summaryCount">0</div>
+    <div style="color:var(--muted); margin-bottom:4px;">fragments labeled</div>
+    <div id="summaryAgree" style="color:var(--muted); font-size:0.9rem; margin-top:10px;"></div>
+    <button id="exportBtn">Download labeled results (JSON)</button>
+  </div>
+</div>
+
+<script>
+let candidates = [];
+let results = [];
+let idx = 0;
+let TARGET_SAMPLE_SIZE = 25; // small, deliberately bounded - see selection logic below
+
+const el = id => document.getElementById(id);
+
+el('fileInput').addEventListener('change', e => {
+  const file = e.target.files[0];
+  if (!file) return;
+  TARGET_SAMPLE_SIZE = parseInt(el('sampleSizeInput').value, 10) || 25;
+  const reader = new FileReader();
+  reader.onload = evt => {
+    try {
+      let data = JSON.parse(evt.target.result);
+      // Handle both raw pause_candidates_result.json (flat list) and
+      // fusion_result.json (list of {candidate, fusion} objects)
+      candidates = data.map(item => {
+        if (item.candidate && item.fusion) {
+          return {
+            fragment: item.candidate.fragment,
+            pause_duration_s: item.candidate.pause_duration_s,
+            speaker: item.candidate.speaker,
+            speaker_changed: item.candidate.speaker_changed,
+            word_index: item.candidate.word_index,
+            pipeline_label: item.fusion.is_end_of_speech ? 'complete' : 'incomplete',
+            pipeline_confidence: item.fusion.confidence,
+          };
+        }
+        return {
+          fragment: item.fragment,
+          pause_duration_s: item.pause_duration_s,
+          speaker: item.speaker,
+          speaker_changed: item.speaker_changed,
+          word_index: item.word_index,
+          pipeline_label: item.semantic_label || null,
+          pipeline_confidence: item.semantic_confidence || null,
+        };
+      });
+      // Sort by UNCERTAINTY - fragments closest to the 0.5 decision
+      // threshold are the most informative to check (near-threshold
+      // calls are where errors are most likely to hide). Fragments the
+      // pipeline is very confident about barely need checking.
+      candidates.forEach(c => {
+        c._uncertainty = c.pipeline_confidence != null
+          ? 1 - Math.abs(c.pipeline_confidence - 0.5) * 2  // 1.0 = right at threshold, 0.0 = maximally confident
+          : 0.5; // unknown confidence - treat as medium priority
+      });
+      candidates.sort((a, b) => b._uncertainty - a._uncertainty);
+
+      // Only show the TARGET_SAMPLE_SIZE most informative fragments -
+      // this is intentional, not a shortcut. A small, well-chosen
+      // sample of near-threshold cases is far more informative than
+      // labeling everything, most of which the pipeline is already
+      // confident (and probably correct) about.
+      candidates = candidates.slice(0, TARGET_SAMPLE_SIZE);
+
+      el('loader').style.display = 'none';
+      el('main').style.display = 'block';
+      el('topbar').style.display = 'flex';
+      showCard();
+    } catch (err) {
+      alert('Could not parse this file as JSON: ' + err.message);
+    }
+  };
+  reader.readAsText(file);
+});
+
+function showCard() {
+  if (idx >= candidates.length) {
+    showSummary();
+    return;
+  }
+  const c = candidates[idx];
+  el('metaPause').textContent = c.pause_duration_s != null ? c.pause_duration_s + 's' : 'n/a';
+  el('metaSpeaker').textContent = c.speaker != null ? c.speaker : 'n/a';
+  el('metaSpkChg').textContent = c.speaker_changed ? 'yes' : 'no';
+  el('fragmentText').textContent = ' ' + c.fragment;
+
+  if (c.pipeline_label) {
+    el('pipelineHint').style.display = 'flex';
+    const badge = el('pipelineBadge');
+    badge.textContent = c.pipeline_label.toUpperCase();
+    badge.className = 'badge ' + (c.pipeline_label === 'complete' ? 'eos' : 'cont');
+    el('pipelineConf').textContent = c.pipeline_confidence != null
+      ? '(confidence ' + c.pipeline_confidence.toFixed(2) + ')' : '';
+  } else {
+    el('pipelineHint').style.display = 'none';
+  }
+
+  el('progressText').textContent = (idx + 1) + ' / ' + candidates.length;
+  const pct = Math.round(((idx) / candidates.length) * 100);
+  el('progressPct').textContent = pct + '%';
+  el('progressFill').style.width = pct + '%';
+}
+
+function label(choice) {
+  if (idx >= candidates.length) return;
+  const c = candidates[idx];
+  if (choice !== 'skip') {
+    results.push({
+      ...c,
+      human_label: choice,
+      agrees_with_pipeline: c.pipeline_label ? (c.pipeline_label === choice) : null,
+    });
+  }
+  idx++;
+  showCard();
+}
+
+function undo() {
+  if (results.length === 0) return;
+  results.pop();
+  idx = Math.max(0, idx - 1);
+  showCard();
+}
+
+el('btnComplete').addEventListener('click', () => label('complete'));
+el('btnIncomplete').addEventListener('click', () => label('incomplete'));
+el('btnSkip').addEventListener('click', () => label('skip'));
+
+document.addEventListener('keydown', e => {
+  if (el('main').style.display === 'none') return;
+  const k = e.key.toLowerCase();
+  if (k === 'c' || e.key === 'ArrowRight') label('complete');
+  else if (k === 'i' || e.key === 'ArrowLeft') label('incomplete');
+  else if (k === 's' || e.key === 'ArrowDown') label('skip');
+  else if (k === 'z') undo();
+});
+
+function showSummary() {
+  el('main').style.display = 'none';
+  el('summary').style.display = 'block';
+  el('summaryCount').textContent = results.length;
+
+  const withPipeline = results.filter(r => r.agrees_with_pipeline !== null);
+  if (withPipeline.length > 0) {
+    const agree = withPipeline.filter(r => r.agrees_with_pipeline).length;
+    const pct = Math.round((agree / withPipeline.length) * 100);
+    el('summaryAgree').textContent =
+      'Agreed with pipeline on ' + agree + '/' + withPipeline.length + ' (' + pct + '%)';
+  }
+}
+
+function exportResults() {
+  const blob = new Blob([JSON.stringify(results, null, 2)], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  const stamp = new Date().toISOString().replace(/[:.]/g, '-');
+  a.href = url;
+  a.download = 'annotation_session_' + stamp + '.json';
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
+el('exportBtn').addEventListener('click', exportResults);
+el('exportProgressBtn').addEventListener('click', () => {
+  if (results.length === 0) { alert('No labels yet.'); return; }
+  exportResults();
+});
+</script>
+
+</body>
+</html>

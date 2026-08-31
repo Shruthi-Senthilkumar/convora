@@ -1,0 +1,2664 @@
+{
+  "tolerance_s": 0.5,
+  "total_fn_vad": 113,
+  "summary": {
+    "silence_gap": {
+      "min": 0.0,
+      "median": 0.56,
+      "mean": 2.1892,
+      "max": 32.495,
+      "buckets": {
+        "<0.1s": 2,
+        "0.1-0.3s": 22,
+        "0.3-0.5s": 29,
+        "0.5-1.0s": 21,
+        ">1.0s": 39
+      }
+    },
+    "deepgram_diarization": {
+      "detected_speaker_change": 22,
+      "missed_speaker_change": 91,
+      "pct_detected": 19.47,
+      "pct_missed": 80.53
+    },
+    "nearest_candidate_distance_buckets": {
+      "<1s": 46,
+      "1-2s": 32,
+      "2-5s": 32,
+      ">5s": 3
+    }
+  },
+  "per_boundary": [
+    {
+      "gt_timestamp": 80.87,
+      "speaker_from": "A",
+      "speaker_to": "D",
+      "silence_gap_s": 1.2,
+      "prev_word": "designer",
+      "prev_end_s": 80.805,
+      "prev_deepgram_speaker": 2,
+      "next_word": "and",
+      "next_start_s": 82.005,
+      "next_deepgram_speaker": 0,
+      "deepgram_detected_speaker_change": true,
+      "speakers_in_2s_window": [
+        0,
+        2
+      ],
+      "nearest_candidate": {
+        "pause_start": 81.525,
+        "pause_duration_s": 0.48,
+        "speaker_changed_flag": true,
+        "is_end_of_speech": false,
+        "delta_s": 0.655
+      }
+    },
+    {
+      "gt_timestamp": 84.46,
+      "speaker_from": "D",
+      "speaker_to": "C",
+      "silence_gap_s": 2.265,
+      "prev_word": "marketing",
+      "prev_end_s": 83.765,
+      "prev_deepgram_speaker": 0,
+      "next_word": "expert",
+      "next_start_s": 86.03,
+      "next_deepgram_speaker": 0,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        0
+      ],
+      "nearest_candidate": {
+        "pause_start": 83.765,
+        "pause_duration_s": 2.265,
+        "speaker_changed_flag": false,
+        "is_end_of_speech": false,
+        "delta_s": 0.695
+      }
+    },
+    {
+      "gt_timestamp": 86.5,
+      "speaker_from": "D",
+      "speaker_to": "B",
+      "silence_gap_s": 3.225,
+      "prev_word": "marketing",
+      "prev_end_s": 83.765,
+      "prev_deepgram_speaker": 0,
+      "next_word": "i'm",
+      "next_start_s": 86.99,
+      "next_deepgram_speaker": 0,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        0
+      ],
+      "nearest_candidate": {
+        "pause_start": 88.99,
+        "pause_duration_s": 0.16,
+        "speaker_changed_flag": true,
+        "is_end_of_speech": false,
+        "delta_s": 2.49
+      }
+    },
+    {
+      "gt_timestamp": 141.53,
+      "speaker_from": "B",
+      "speaker_to": "A",
+      "silence_gap_s": 0.48,
+      "prev_word": "got",
+      "prev_end_s": 141.42,
+      "prev_deepgram_speaker": 1,
+      "next_word": "yeah",
+      "next_start_s": 141.9,
+      "next_deepgram_speaker": 1,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        0,
+        1
+      ],
+      "nearest_candidate": {
+        "pause_start": 142.38,
+        "pause_duration_s": 2.08,
+        "speaker_changed_flag": false,
+        "is_end_of_speech": false,
+        "delta_s": 0.85
+      }
+    },
+    {
+      "gt_timestamp": 206.672,
+      "speaker_from": "B",
+      "speaker_to": "D",
+      "silence_gap_s": 9.155,
+      "prev_word": "abigo",
+      "prev_end_s": 204.03,
+      "prev_deepgram_speaker": 0,
+      "next_word": "favorite",
+      "next_start_s": 213.185,
+      "next_deepgram_speaker": 0,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [],
+      "nearest_candidate": {
+        "pause_start": 204.03,
+        "pause_duration_s": 9.155,
+        "speaker_changed_flag": false,
+        "is_end_of_speech": false,
+        "delta_s": 2.642
+      }
+    },
+    {
+      "gt_timestamp": 237.96,
+      "speaker_from": "D",
+      "speaker_to": "A",
+      "silence_gap_s": 0.64,
+      "prev_word": "good",
+      "prev_end_s": 237.375,
+      "prev_deepgram_speaker": 0,
+      "next_word": "so",
+      "next_start_s": 238.015,
+      "next_deepgram_speaker": 0,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        0
+      ],
+      "nearest_candidate": {
+        "pause_start": 240.81502,
+        "pause_duration_s": 0.56,
+        "speaker_changed_flag": false,
+        "is_end_of_speech": false,
+        "delta_s": 2.855
+      }
+    },
+    {
+      "gt_timestamp": 239.245,
+      "speaker_from": "A",
+      "speaker_to": "D",
+      "silence_gap_s": 1.04,
+      "prev_word": "is",
+      "prev_end_s": 238.57501,
+      "prev_deepgram_speaker": 0,
+      "next_word": "blue",
+      "next_start_s": 239.615,
+      "next_deepgram_speaker": 0,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        0
+      ],
+      "nearest_candidate": {
+        "pause_start": 240.81502,
+        "pause_duration_s": 0.56,
+        "speaker_changed_flag": false,
+        "is_end_of_speech": false,
+        "delta_s": 1.57
+      }
+    },
+    {
+      "gt_timestamp": 245.744,
+      "speaker_from": "B",
+      "speaker_to": "C",
+      "silence_gap_s": 9.825,
+      "prev_word": "lovely",
+      "prev_end_s": 245.05501,
+      "prev_deepgram_speaker": 1,
+      "next_word": "well",
+      "next_start_s": 254.87999,
+      "next_deepgram_speaker": 0,
+      "deepgram_detected_speaker_change": true,
+      "speakers_in_2s_window": [
+        1
+      ],
+      "nearest_candidate": {
+        "pause_start": 245.05501,
+        "pause_duration_s": 9.825,
+        "speaker_changed_flag": true,
+        "is_end_of_speech": true,
+        "delta_s": 0.689
+      }
+    },
+    {
+      "gt_timestamp": 257.26,
+      "speaker_from": "C",
+      "speaker_to": "B",
+      "silence_gap_s": 11.235,
+      "prev_word": "monkey",
+      "prev_end_s": 256.63998,
+      "prev_deepgram_speaker": 0,
+      "next_word": "and",
+      "next_start_s": 267.875,
+      "next_deepgram_speaker": 0,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        0
+      ],
+      "nearest_candidate": {
+        "pause_start": 256.63998,
+        "pause_duration_s": 11.235,
+        "speaker_changed_flag": false,
+        "is_end_of_speech": true,
+        "delta_s": 0.62
+      }
+    },
+    {
+      "gt_timestamp": 267.921,
+      "speaker_from": "B",
+      "speaker_to": "A",
+      "silence_gap_s": 11.555,
+      "prev_word": "monkey",
+      "prev_end_s": 256.63998,
+      "prev_deepgram_speaker": 0,
+      "next_word": "then",
+      "next_start_s": 268.195,
+      "next_deepgram_speaker": 0,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        0
+      ],
+      "nearest_candidate": {
+        "pause_start": 273.635,
+        "pause_duration_s": 1.985,
+        "speaker_changed_flag": true,
+        "is_end_of_speech": true,
+        "delta_s": 5.714
+      }
+    },
+    {
+      "gt_timestamp": 267.435,
+      "speaker_from": "A",
+      "speaker_to": "C",
+      "silence_gap_s": 11.235,
+      "prev_word": "monkey",
+      "prev_end_s": 256.63998,
+      "prev_deepgram_speaker": 0,
+      "next_word": "and",
+      "next_start_s": 267.875,
+      "next_deepgram_speaker": 0,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        0
+      ],
+      "nearest_candidate": {
+        "pause_start": 273.635,
+        "pause_duration_s": 1.985,
+        "speaker_changed_flag": true,
+        "is_end_of_speech": true,
+        "delta_s": 6.2
+      }
+    },
+    {
+      "gt_timestamp": 274.992,
+      "speaker_from": "D",
+      "speaker_to": "C",
+      "silence_gap_s": 1.985,
+      "prev_word": "them",
+      "prev_end_s": 273.635,
+      "prev_deepgram_speaker": 0,
+      "next_word": "right",
+      "next_start_s": 275.62,
+      "next_deepgram_speaker": 1,
+      "deepgram_detected_speaker_change": true,
+      "speakers_in_2s_window": [
+        0,
+        1
+      ],
+      "nearest_candidate": {
+        "pause_start": 273.635,
+        "pause_duration_s": 1.985,
+        "speaker_changed_flag": true,
+        "is_end_of_speech": true,
+        "delta_s": 1.357
+      }
+    },
+    {
+      "gt_timestamp": 278.886,
+      "speaker_from": "C",
+      "speaker_to": "A",
+      "silence_gap_s": 4.0,
+      "prev_word": "cool",
+      "prev_end_s": 276.5,
+      "prev_deepgram_speaker": 1,
+      "next_word": "that's",
+      "next_start_s": 280.5,
+      "next_deepgram_speaker": 2,
+      "deepgram_detected_speaker_change": true,
+      "speakers_in_2s_window": [
+        2
+      ],
+      "nearest_candidate": {
+        "pause_start": 276.5,
+        "pause_duration_s": 4.0,
+        "speaker_changed_flag": true,
+        "is_end_of_speech": true,
+        "delta_s": 2.386
+      }
+    },
+    {
+      "gt_timestamp": 283.0,
+      "speaker_from": "C",
+      "speaker_to": "A",
+      "silence_gap_s": 3.84,
+      "prev_word": "gear",
+      "prev_end_s": 282.02002,
+      "prev_deepgram_speaker": 2,
+      "next_word": "you",
+      "next_start_s": 285.86,
+      "next_deepgram_speaker": 1,
+      "deepgram_detected_speaker_change": true,
+      "speakers_in_2s_window": [
+        2
+      ],
+      "nearest_candidate": {
+        "pause_start": 282.02002,
+        "pause_duration_s": 3.84,
+        "speaker_changed_flag": true,
+        "is_end_of_speech": true,
+        "delta_s": 0.98
+      }
+    },
+    {
+      "gt_timestamp": 282.696,
+      "speaker_from": "A",
+      "speaker_to": "B",
+      "silence_gap_s": 3.84,
+      "prev_word": "gear",
+      "prev_end_s": 282.02002,
+      "prev_deepgram_speaker": 2,
+      "next_word": "you",
+      "next_start_s": 285.86,
+      "next_deepgram_speaker": 1,
+      "deepgram_detected_speaker_change": true,
+      "speakers_in_2s_window": [
+        2
+      ],
+      "nearest_candidate": {
+        "pause_start": 282.02002,
+        "pause_duration_s": 3.84,
+        "speaker_changed_flag": true,
+        "is_end_of_speech": true,
+        "delta_s": 0.676
+      }
+    },
+    {
+      "gt_timestamp": 290.31,
+      "speaker_from": "B",
+      "speaker_to": "A",
+      "silence_gap_s": 0.48,
+      "prev_word": "to",
+      "prev_end_s": 289.905,
+      "prev_deepgram_speaker": 1,
+      "next_word": "oh",
+      "next_start_s": 290.385,
+      "next_deepgram_speaker": 1,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        1
+      ],
+      "nearest_candidate": {
+        "pause_start": 293.505,
+        "pause_duration_s": 0.0,
+        "speaker_changed_flag": true,
+        "is_end_of_speech": true,
+        "delta_s": 3.195
+      }
+    },
+    {
+      "gt_timestamp": 291.4,
+      "speaker_from": "A",
+      "speaker_to": "B",
+      "silence_gap_s": 0.4,
+      "prev_word": "we",
+      "prev_end_s": 291.185,
+      "prev_deepgram_speaker": 1,
+      "next_word": "don't",
+      "next_start_s": 291.58502,
+      "next_deepgram_speaker": 1,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        1
+      ],
+      "nearest_candidate": {
+        "pause_start": 293.505,
+        "pause_duration_s": 0.0,
+        "speaker_changed_flag": true,
+        "is_end_of_speech": true,
+        "delta_s": 2.105
+      }
+    },
+    {
+      "gt_timestamp": 290.59,
+      "speaker_from": "B",
+      "speaker_to": "C",
+      "silence_gap_s": 0.24,
+      "prev_word": "oh",
+      "prev_end_s": 290.465,
+      "prev_deepgram_speaker": 1,
+      "next_word": "we",
+      "next_start_s": 290.70502,
+      "next_deepgram_speaker": 1,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        1
+      ],
+      "nearest_candidate": {
+        "pause_start": 293.505,
+        "pause_duration_s": 0.0,
+        "speaker_changed_flag": true,
+        "is_end_of_speech": true,
+        "delta_s": 2.915
+      }
+    },
+    {
+      "gt_timestamp": 292.275,
+      "speaker_from": "C",
+      "speaker_to": "B",
+      "silence_gap_s": 0.08,
+      "prev_word": "feel",
+      "prev_end_s": 292.225,
+      "prev_deepgram_speaker": 1,
+      "next_word": "you're",
+      "next_start_s": 292.305,
+      "next_deepgram_speaker": 1,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        1,
+        2
+      ],
+      "nearest_candidate": {
+        "pause_start": 293.505,
+        "pause_duration_s": 0.0,
+        "speaker_changed_flag": true,
+        "is_end_of_speech": true,
+        "delta_s": 1.23
+      }
+    },
+    {
+      "gt_timestamp": 298.97,
+      "speaker_from": "B",
+      "speaker_to": "D",
+      "silence_gap_s": 0.24,
+      "prev_word": "might",
+      "prev_end_s": 298.945,
+      "prev_deepgram_speaker": 1,
+      "next_word": "might",
+      "next_start_s": 299.185,
+      "next_deepgram_speaker": 1,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        0,
+        1
+      ],
+      "nearest_candidate": {
+        "pause_start": 297.98502,
+        "pause_duration_s": 0.0,
+        "speaker_changed_flag": true,
+        "is_end_of_speech": true,
+        "delta_s": 0.985
+      }
+    },
+    {
+      "gt_timestamp": 301.248,
+      "speaker_from": "D",
+      "speaker_to": "B",
+      "silence_gap_s": 0.64,
+      "prev_word": "i",
+      "prev_end_s": 300.625,
+      "prev_deepgram_speaker": 1,
+      "next_word": "don't",
+      "next_start_s": 301.265,
+      "next_deepgram_speaker": 1,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        1
+      ],
+      "nearest_candidate": {
+        "pause_start": 300.625,
+        "pause_duration_s": 0.64,
+        "speaker_changed_flag": false,
+        "is_end_of_speech": false,
+        "delta_s": 0.623
+      }
+    },
+    {
+      "gt_timestamp": 301.607,
+      "speaker_from": "C",
+      "speaker_to": "B",
+      "silence_gap_s": 0.16,
+      "prev_word": "don't",
+      "prev_end_s": 301.505,
+      "prev_deepgram_speaker": 1,
+      "next_word": "what",
+      "next_start_s": 301.665,
+      "next_deepgram_speaker": 1,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        1
+      ],
+      "nearest_candidate": {
+        "pause_start": 300.625,
+        "pause_duration_s": 0.64,
+        "speaker_changed_flag": false,
+        "is_end_of_speech": false,
+        "delta_s": 0.982
+      }
+    },
+    {
+      "gt_timestamp": 309.12,
+      "speaker_from": "B",
+      "speaker_to": "C",
+      "silence_gap_s": 0.96,
+      "prev_word": "impressionist",
+      "prev_end_s": 308.29,
+      "prev_deepgram_speaker": 0,
+      "next_word": "is",
+      "next_start_s": 309.25,
+      "next_deepgram_speaker": 0,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        0
+      ],
+      "nearest_candidate": {
+        "pause_start": 308.29,
+        "pause_duration_s": 0.96,
+        "speaker_changed_flag": false,
+        "is_end_of_speech": false,
+        "delta_s": 0.83
+      }
+    },
+    {
+      "gt_timestamp": 309.412,
+      "speaker_from": "C",
+      "speaker_to": "A",
+      "silence_gap_s": 3.84,
+      "prev_word": "impressionist",
+      "prev_end_s": 308.29,
+      "prev_deepgram_speaker": 0,
+      "next_word": "that",
+      "next_start_s": 312.13,
+      "next_deepgram_speaker": 1,
+      "deepgram_detected_speaker_change": true,
+      "speakers_in_2s_window": [
+        0
+      ],
+      "nearest_candidate": {
+        "pause_start": 310.05002,
+        "pause_duration_s": 2.08,
+        "speaker_changed_flag": true,
+        "is_end_of_speech": false,
+        "delta_s": 0.638
+      }
+    },
+    {
+      "gt_timestamp": 311.028,
+      "speaker_from": "A",
+      "speaker_to": "C",
+      "silence_gap_s": 2.08,
+      "prev_word": "is",
+      "prev_end_s": 310.05002,
+      "prev_deepgram_speaker": 0,
+      "next_word": "that",
+      "next_start_s": 312.13,
+      "next_deepgram_speaker": 1,
+      "deepgram_detected_speaker_change": true,
+      "speakers_in_2s_window": [
+        0,
+        1
+      ],
+      "nearest_candidate": {
+        "pause_start": 310.05002,
+        "pause_duration_s": 2.08,
+        "speaker_changed_flag": true,
+        "is_end_of_speech": false,
+        "delta_s": 0.978
+      }
+    },
+    {
+      "gt_timestamp": 311.102,
+      "speaker_from": "C",
+      "speaker_to": "B",
+      "silence_gap_s": 2.08,
+      "prev_word": "is",
+      "prev_end_s": 310.05002,
+      "prev_deepgram_speaker": 0,
+      "next_word": "that",
+      "next_start_s": 312.13,
+      "next_deepgram_speaker": 1,
+      "deepgram_detected_speaker_change": true,
+      "speakers_in_2s_window": [
+        0,
+        1
+      ],
+      "nearest_candidate": {
+        "pause_start": 310.05002,
+        "pause_duration_s": 2.08,
+        "speaker_changed_flag": true,
+        "is_end_of_speech": false,
+        "delta_s": 1.052
+      }
+    },
+    {
+      "gt_timestamp": 315.6,
+      "speaker_from": "B",
+      "speaker_to": "A",
+      "silence_gap_s": 6.085,
+      "prev_word": "yay",
+      "prev_end_s": 313.88998,
+      "prev_deepgram_speaker": 1,
+      "next_word": "well",
+      "next_start_s": 319.975,
+      "next_deepgram_speaker": 2,
+      "deepgram_detected_speaker_change": true,
+      "speakers_in_2s_window": [
+        1
+      ],
+      "nearest_candidate": {
+        "pause_start": 313.88998,
+        "pause_duration_s": 6.085,
+        "speaker_changed_flag": true,
+        "is_end_of_speech": true,
+        "delta_s": 1.71
+      }
+    },
+    {
+      "gt_timestamp": 328.76,
+      "speaker_from": "A",
+      "speaker_to": "B",
+      "silence_gap_s": 0.24,
+      "prev_word": "animal",
+      "prev_end_s": 328.615,
+      "prev_deepgram_speaker": 2,
+      "next_word": "so",
+      "next_start_s": 328.855,
+      "next_deepgram_speaker": 2,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        2
+      ],
+      "nearest_candidate": {
+        "pause_start": 329.495,
+        "pause_duration_s": 0.56,
+        "speaker_changed_flag": false,
+        "is_end_of_speech": false,
+        "delta_s": 0.735
+      }
+    },
+    {
+      "gt_timestamp": 328.53,
+      "speaker_from": "B",
+      "speaker_to": "A",
+      "silence_gap_s": 0.24,
+      "prev_word": "to",
+      "prev_end_s": 328.375,
+      "prev_deepgram_speaker": 2,
+      "next_word": "fur",
+      "next_start_s": 328.615,
+      "next_deepgram_speaker": 2,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        2
+      ],
+      "nearest_candidate": {
+        "pause_start": 329.495,
+        "pause_duration_s": 0.56,
+        "speaker_changed_flag": false,
+        "is_end_of_speech": false,
+        "delta_s": 0.965
+      }
+    },
+    {
+      "gt_timestamp": 338.036,
+      "speaker_from": "A",
+      "speaker_to": "C",
+      "silence_gap_s": 1.12,
+      "prev_word": "sight",
+      "prev_end_s": 337.07,
+      "prev_deepgram_speaker": 2,
+      "next_word": "they're",
+      "next_start_s": 338.19,
+      "next_deepgram_speaker": 3,
+      "deepgram_detected_speaker_change": true,
+      "speakers_in_2s_window": [
+        2,
+        3
+      ],
+      "nearest_candidate": {
+        "pause_start": 338.83002,
+        "pause_duration_s": 0.0,
+        "speaker_changed_flag": true,
+        "is_end_of_speech": false,
+        "delta_s": 0.794
+      }
+    },
+    {
+      "gt_timestamp": 337.588,
+      "speaker_from": "C",
+      "speaker_to": "D",
+      "silence_gap_s": 1.12,
+      "prev_word": "sight",
+      "prev_end_s": 337.07,
+      "prev_deepgram_speaker": 2,
+      "next_word": "they're",
+      "next_start_s": 338.19,
+      "next_deepgram_speaker": 3,
+      "deepgram_detected_speaker_change": true,
+      "speakers_in_2s_window": [
+        2,
+        3
+      ],
+      "nearest_candidate": {
+        "pause_start": 337.07,
+        "pause_duration_s": 1.12,
+        "speaker_changed_flag": true,
+        "is_end_of_speech": true,
+        "delta_s": 0.518
+      }
+    },
+    {
+      "gt_timestamp": 337.987,
+      "speaker_from": "D",
+      "speaker_to": "A",
+      "silence_gap_s": 1.12,
+      "prev_word": "sight",
+      "prev_end_s": 337.07,
+      "prev_deepgram_speaker": 2,
+      "next_word": "they're",
+      "next_start_s": 338.19,
+      "next_deepgram_speaker": 3,
+      "deepgram_detected_speaker_change": true,
+      "speakers_in_2s_window": [
+        2,
+        3
+      ],
+      "nearest_candidate": {
+        "pause_start": 338.83002,
+        "pause_duration_s": 0.0,
+        "speaker_changed_flag": true,
+        "is_end_of_speech": false,
+        "delta_s": 0.843
+      }
+    },
+    {
+      "gt_timestamp": 346.85,
+      "speaker_from": "B",
+      "speaker_to": "D",
+      "silence_gap_s": 4.415,
+      "prev_word": "about",
+      "prev_end_s": 345.31,
+      "prev_deepgram_speaker": 1,
+      "next_word": "superb",
+      "next_start_s": 349.725,
+      "next_deepgram_speaker": 0,
+      "deepgram_detected_speaker_change": true,
+      "speakers_in_2s_window": [
+        1
+      ],
+      "nearest_candidate": {
+        "pause_start": 345.31,
+        "pause_duration_s": 4.415,
+        "speaker_changed_flag": true,
+        "is_end_of_speech": false,
+        "delta_s": 1.54
+      }
+    },
+    {
+      "gt_timestamp": 355.385,
+      "speaker_from": "A",
+      "speaker_to": "B",
+      "silence_gap_s": 0.24,
+      "prev_word": "was",
+      "prev_end_s": 355.32498,
+      "prev_deepgram_speaker": 1,
+      "next_word": "choose",
+      "next_start_s": 355.565,
+      "next_deepgram_speaker": 1,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        1,
+        2
+      ],
+      "nearest_candidate": {
+        "pause_start": 354.685,
+        "pause_duration_s": 0.0,
+        "speaker_changed_flag": true,
+        "is_end_of_speech": false,
+        "delta_s": 0.7
+      }
+    },
+    {
+      "gt_timestamp": 357.54,
+      "speaker_from": "B",
+      "speaker_to": "D",
+      "silence_gap_s": 0.64,
+      "prev_word": "well",
+      "prev_end_s": 356.925,
+      "prev_deepgram_speaker": 1,
+      "next_word": "but",
+      "next_start_s": 357.565,
+      "next_deepgram_speaker": 1,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        1
+      ],
+      "nearest_candidate": {
+        "pause_start": 356.925,
+        "pause_duration_s": 0.64,
+        "speaker_changed_flag": false,
+        "is_end_of_speech": false,
+        "delta_s": 0.615
+      }
+    },
+    {
+      "gt_timestamp": 355.715,
+      "speaker_from": "D",
+      "speaker_to": "B",
+      "silence_gap_s": 0.24,
+      "prev_word": "gonna",
+      "prev_end_s": 355.565,
+      "prev_deepgram_speaker": 1,
+      "next_word": "a",
+      "next_start_s": 355.805,
+      "next_deepgram_speaker": 1,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        1,
+        2
+      ],
+      "nearest_candidate": {
+        "pause_start": 354.685,
+        "pause_duration_s": 0.0,
+        "speaker_changed_flag": true,
+        "is_end_of_speech": false,
+        "delta_s": 1.03
+      }
+    },
+    {
+      "gt_timestamp": 380.833,
+      "speaker_from": "C",
+      "speaker_to": "B",
+      "silence_gap_s": 0.16,
+      "prev_word": "good",
+      "prev_end_s": 380.815,
+      "prev_deepgram_speaker": 1,
+      "next_word": "you",
+      "next_start_s": 380.975,
+      "next_deepgram_speaker": 1,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        0,
+        1
+      ],
+      "nearest_candidate": {
+        "pause_start": 381.45502,
+        "pause_duration_s": 1.2,
+        "speaker_changed_flag": true,
+        "is_end_of_speech": true,
+        "delta_s": 0.622
+      }
+    },
+    {
+      "gt_timestamp": 380.06,
+      "speaker_from": "B",
+      "speaker_to": "D",
+      "silence_gap_s": 0.24,
+      "prev_word": "you",
+      "prev_end_s": 380.015,
+      "prev_deepgram_speaker": 1,
+      "next_word": "that's",
+      "next_start_s": 380.255,
+      "next_deepgram_speaker": 1,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        0,
+        1
+      ],
+      "nearest_candidate": {
+        "pause_start": 379.535,
+        "pause_duration_s": 0.0,
+        "speaker_changed_flag": true,
+        "is_end_of_speech": true,
+        "delta_s": 0.525
+      }
+    },
+    {
+      "gt_timestamp": 380.14,
+      "speaker_from": "D",
+      "speaker_to": "B",
+      "silence_gap_s": 0.24,
+      "prev_word": "you",
+      "prev_end_s": 380.015,
+      "prev_deepgram_speaker": 1,
+      "next_word": "that's",
+      "next_start_s": 380.255,
+      "next_deepgram_speaker": 1,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        0,
+        1
+      ],
+      "nearest_candidate": {
+        "pause_start": 379.535,
+        "pause_duration_s": 0.0,
+        "speaker_changed_flag": true,
+        "is_end_of_speech": true,
+        "delta_s": 0.605
+      }
+    },
+    {
+      "gt_timestamp": 384.896,
+      "speaker_from": "C",
+      "speaker_to": "A",
+      "silence_gap_s": 9.565,
+      "prev_word": "rooster",
+      "prev_end_s": 383.695,
+      "prev_deepgram_speaker": 0,
+      "next_word": "what",
+      "next_start_s": 393.26,
+      "next_deepgram_speaker": 0,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        0
+      ],
+      "nearest_candidate": {
+        "pause_start": 383.695,
+        "pause_duration_s": 9.565,
+        "speaker_changed_flag": false,
+        "is_end_of_speech": true,
+        "delta_s": 1.201
+      }
+    },
+    {
+      "gt_timestamp": 384.881,
+      "speaker_from": "A",
+      "speaker_to": "B",
+      "silence_gap_s": 9.565,
+      "prev_word": "rooster",
+      "prev_end_s": 383.695,
+      "prev_deepgram_speaker": 0,
+      "next_word": "what",
+      "next_start_s": 393.26,
+      "next_deepgram_speaker": 0,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        0
+      ],
+      "nearest_candidate": {
+        "pause_start": 383.695,
+        "pause_duration_s": 9.565,
+        "speaker_changed_flag": false,
+        "is_end_of_speech": true,
+        "delta_s": 1.186
+      }
+    },
+    {
+      "gt_timestamp": 389.07,
+      "speaker_from": "B",
+      "speaker_to": "D",
+      "silence_gap_s": 9.565,
+      "prev_word": "rooster",
+      "prev_end_s": 383.695,
+      "prev_deepgram_speaker": 0,
+      "next_word": "what",
+      "next_start_s": 393.26,
+      "next_deepgram_speaker": 0,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [],
+      "nearest_candidate": {
+        "pause_start": 383.695,
+        "pause_duration_s": 9.565,
+        "speaker_changed_flag": false,
+        "is_end_of_speech": true,
+        "delta_s": 5.375
+      }
+    },
+    {
+      "gt_timestamp": 405.71,
+      "speaker_from": "B",
+      "speaker_to": "D",
+      "silence_gap_s": 0.56,
+      "prev_word": "wags",
+      "prev_end_s": 405.625,
+      "prev_deepgram_speaker": 1,
+      "next_word": "very",
+      "next_start_s": 406.185,
+      "next_deepgram_speaker": 1,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        1
+      ],
+      "nearest_candidate": {
+        "pause_start": 401.41998,
+        "pause_duration_s": 1.725,
+        "speaker_changed_flag": false,
+        "is_end_of_speech": false,
+        "delta_s": 4.29
+      }
+    },
+    {
+      "gt_timestamp": 405.584,
+      "speaker_from": "D",
+      "speaker_to": "A",
+      "silence_gap_s": 0.72,
+      "prev_word": "teal",
+      "prev_end_s": 404.905,
+      "prev_deepgram_speaker": 1,
+      "next_word": "he's",
+      "next_start_s": 405.625,
+      "next_deepgram_speaker": 1,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        1
+      ],
+      "nearest_candidate": {
+        "pause_start": 401.41998,
+        "pause_duration_s": 1.725,
+        "speaker_changed_flag": false,
+        "is_end_of_speech": false,
+        "delta_s": 4.164
+      }
+    },
+    {
+      "gt_timestamp": 406.388,
+      "speaker_from": "A",
+      "speaker_to": "B",
+      "silence_gap_s": 0.4,
+      "prev_word": "very",
+      "prev_end_s": 406.345,
+      "prev_deepgram_speaker": 1,
+      "next_word": "and",
+      "next_start_s": 406.745,
+      "next_deepgram_speaker": 1,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        1
+      ],
+      "nearest_candidate": {
+        "pause_start": 401.41998,
+        "pause_duration_s": 1.725,
+        "speaker_changed_flag": false,
+        "is_end_of_speech": false,
+        "delta_s": 4.968
+      }
+    },
+    {
+      "gt_timestamp": 430.28,
+      "speaker_from": "B",
+      "speaker_to": "A",
+      "silence_gap_s": 0.24,
+      "prev_word": "well",
+      "prev_end_s": 430.205,
+      "prev_deepgram_speaker": 1,
+      "next_word": "is",
+      "next_start_s": 430.445,
+      "next_deepgram_speaker": 1,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        0,
+        1
+      ],
+      "nearest_candidate": {
+        "pause_start": 431.245,
+        "pause_duration_s": 0.0,
+        "speaker_changed_flag": true,
+        "is_end_of_speech": true,
+        "delta_s": 0.965
+      }
+    },
+    {
+      "gt_timestamp": 431.78,
+      "speaker_from": "B",
+      "speaker_to": "D",
+      "silence_gap_s": 0.16,
+      "prev_word": "aware",
+      "prev_end_s": 431.725,
+      "prev_deepgram_speaker": 0,
+      "next_word": "this",
+      "next_start_s": 431.885,
+      "next_deepgram_speaker": 0,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        0,
+        1
+      ],
+      "nearest_candidate": {
+        "pause_start": 431.245,
+        "pause_duration_s": 0.0,
+        "speaker_changed_flag": true,
+        "is_end_of_speech": true,
+        "delta_s": 0.535
+      }
+    },
+    {
+      "gt_timestamp": 436.84,
+      "speaker_from": "B",
+      "speaker_to": "D",
+      "silence_gap_s": 0.4,
+      "prev_word": "dinner",
+      "prev_end_s": 436.605,
+      "prev_deepgram_speaker": 1,
+      "next_word": "and",
+      "next_start_s": 437.005,
+      "next_deepgram_speaker": 1,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        1
+      ],
+      "nearest_candidate": {
+        "pause_start": 433.725,
+        "pause_duration_s": 0.0,
+        "speaker_changed_flag": true,
+        "is_end_of_speech": true,
+        "delta_s": 3.115
+      }
+    },
+    {
+      "gt_timestamp": 437.264,
+      "speaker_from": "D",
+      "speaker_to": "B",
+      "silence_gap_s": 0.96,
+      "prev_word": "dinner",
+      "prev_end_s": 436.605,
+      "prev_deepgram_speaker": 1,
+      "next_word": "he'll",
+      "next_start_s": 437.565,
+      "next_deepgram_speaker": 1,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        1
+      ],
+      "nearest_candidate": {
+        "pause_start": 433.725,
+        "pause_duration_s": 0.0,
+        "speaker_changed_flag": true,
+        "is_end_of_speech": true,
+        "delta_s": 3.539
+      }
+    },
+    {
+      "gt_timestamp": 443.21,
+      "speaker_from": "A",
+      "speaker_to": "B",
+      "silence_gap_s": 0.455,
+      "prev_word": "dog",
+      "prev_end_s": 443.085,
+      "prev_deepgram_speaker": 2,
+      "next_word": "yeah",
+      "next_start_s": 443.54,
+      "next_deepgram_speaker": 2,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        0,
+        1,
+        2
+      ],
+      "nearest_candidate": {
+        "pause_start": 443.94,
+        "pause_duration_s": 0.0,
+        "speaker_changed_flag": true,
+        "is_end_of_speech": false,
+        "delta_s": 0.73
+      }
+    },
+    {
+      "gt_timestamp": 445.502,
+      "speaker_from": "B",
+      "speaker_to": "D",
+      "silence_gap_s": 0.32,
+      "prev_word": "got",
+      "prev_end_s": 445.3,
+      "prev_deepgram_speaker": 0,
+      "next_word": "of",
+      "next_start_s": 445.62,
+      "next_deepgram_speaker": 0,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        0,
+        2
+      ],
+      "nearest_candidate": {
+        "pause_start": 443.94,
+        "pause_duration_s": 0.0,
+        "speaker_changed_flag": true,
+        "is_end_of_speech": false,
+        "delta_s": 1.562
+      }
+    },
+    {
+      "gt_timestamp": 450.7,
+      "speaker_from": "B",
+      "speaker_to": "D",
+      "silence_gap_s": 1.28,
+      "prev_word": "maybe",
+      "prev_end_s": 449.7,
+      "prev_deepgram_speaker": 1,
+      "next_word": "where",
+      "next_start_s": 450.98,
+      "next_deepgram_speaker": 1,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        1
+      ],
+      "nearest_candidate": {
+        "pause_start": 449.7,
+        "pause_duration_s": 0.88,
+        "speaker_changed_flag": false,
+        "is_end_of_speech": false,
+        "delta_s": 1.0
+      }
+    },
+    {
+      "gt_timestamp": 450.929,
+      "speaker_from": "D",
+      "speaker_to": "B",
+      "silence_gap_s": 1.28,
+      "prev_word": "maybe",
+      "prev_end_s": 449.7,
+      "prev_deepgram_speaker": 1,
+      "next_word": "where",
+      "next_start_s": 450.98,
+      "next_deepgram_speaker": 1,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        1
+      ],
+      "nearest_candidate": {
+        "pause_start": 449.7,
+        "pause_duration_s": 0.88,
+        "speaker_changed_flag": false,
+        "is_end_of_speech": false,
+        "delta_s": 1.229
+      }
+    },
+    {
+      "gt_timestamp": 453.425,
+      "speaker_from": "A",
+      "speaker_to": "B",
+      "silence_gap_s": 6.935,
+      "prev_word": "here",
+      "prev_end_s": 453.14,
+      "prev_deepgram_speaker": 1,
+      "next_word": "what",
+      "next_start_s": 460.07498,
+      "next_deepgram_speaker": 1,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        1
+      ],
+      "nearest_candidate": {
+        "pause_start": 453.94,
+        "pause_duration_s": 6.135,
+        "speaker_changed_flag": false,
+        "is_end_of_speech": false,
+        "delta_s": 0.515
+      }
+    },
+    {
+      "gt_timestamp": 497.6,
+      "speaker_from": "D",
+      "speaker_to": "B",
+      "silence_gap_s": 0.56,
+      "prev_word": "that",
+      "prev_end_s": 497.385,
+      "prev_deepgram_speaker": 0,
+      "next_word": "sure",
+      "next_start_s": 497.945,
+      "next_deepgram_speaker": 0,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        0
+      ],
+      "nearest_candidate": {
+        "pause_start": 498.74503,
+        "pause_duration_s": 1.04,
+        "speaker_changed_flag": false,
+        "is_end_of_speech": false,
+        "delta_s": 1.145
+      }
+    },
+    {
+      "gt_timestamp": 518.91,
+      "speaker_from": "B",
+      "speaker_to": "D",
+      "silence_gap_s": 0.4,
+      "prev_word": "our",
+      "prev_end_s": 518.725,
+      "prev_deepgram_speaker": 0,
+      "next_word": "our",
+      "next_start_s": 519.125,
+      "next_deepgram_speaker": 0,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        0,
+        1
+      ],
+      "nearest_candidate": {
+        "pause_start": 518.40497,
+        "pause_duration_s": 0.0,
+        "speaker_changed_flag": true,
+        "is_end_of_speech": true,
+        "delta_s": 0.505
+      }
+    },
+    {
+      "gt_timestamp": 520.65,
+      "speaker_from": "D",
+      "speaker_to": "B",
+      "silence_gap_s": 0.24,
+      "prev_word": "is",
+      "prev_end_s": 520.645,
+      "prev_deepgram_speaker": 1,
+      "next_word": "sale",
+      "next_start_s": 520.885,
+      "next_deepgram_speaker": 1,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        0,
+        1
+      ],
+      "nearest_candidate": {
+        "pause_start": 519.605,
+        "pause_duration_s": 0.0,
+        "speaker_changed_flag": true,
+        "is_end_of_speech": false,
+        "delta_s": 1.045
+      }
+    },
+    {
+      "gt_timestamp": 538.19,
+      "speaker_from": "B",
+      "speaker_to": "D",
+      "silence_gap_s": 0.72,
+      "prev_word": "at",
+      "prev_end_s": 537.97003,
+      "prev_deepgram_speaker": 1,
+      "next_word": "yes",
+      "next_start_s": 538.69,
+      "next_deepgram_speaker": 1,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        1
+      ],
+      "nearest_candidate": {
+        "pause_start": 539.97003,
+        "pause_duration_s": 8.135,
+        "speaker_changed_flag": true,
+        "is_end_of_speech": false,
+        "delta_s": 1.78
+      }
+    },
+    {
+      "gt_timestamp": 539.424,
+      "speaker_from": "D",
+      "speaker_to": "B",
+      "silence_gap_s": 0.24,
+      "prev_word": "i",
+      "prev_end_s": 539.33,
+      "prev_deepgram_speaker": 1,
+      "next_word": "it",
+      "next_start_s": 539.57,
+      "next_deepgram_speaker": 1,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        1
+      ],
+      "nearest_candidate": {
+        "pause_start": 539.97003,
+        "pause_duration_s": 8.135,
+        "speaker_changed_flag": true,
+        "is_end_of_speech": false,
+        "delta_s": 0.546
+      }
+    },
+    {
+      "gt_timestamp": 541.17,
+      "speaker_from": "B",
+      "speaker_to": "D",
+      "silence_gap_s": 8.135,
+      "prev_word": "will",
+      "prev_end_s": 539.97003,
+      "prev_deepgram_speaker": 1,
+      "next_word": "well",
+      "next_start_s": 548.105,
+      "next_deepgram_speaker": 0,
+      "deepgram_detected_speaker_change": true,
+      "speakers_in_2s_window": [
+        1
+      ],
+      "nearest_candidate": {
+        "pause_start": 539.97003,
+        "pause_duration_s": 8.135,
+        "speaker_changed_flag": true,
+        "is_end_of_speech": false,
+        "delta_s": 1.2
+      }
+    },
+    {
+      "gt_timestamp": 540.94,
+      "speaker_from": "D",
+      "speaker_to": "B",
+      "silence_gap_s": 8.135,
+      "prev_word": "will",
+      "prev_end_s": 539.97003,
+      "prev_deepgram_speaker": 1,
+      "next_word": "well",
+      "next_start_s": 548.105,
+      "next_deepgram_speaker": 0,
+      "deepgram_detected_speaker_change": true,
+      "speakers_in_2s_window": [
+        1
+      ],
+      "nearest_candidate": {
+        "pause_start": 539.97003,
+        "pause_duration_s": 8.135,
+        "speaker_changed_flag": true,
+        "is_end_of_speech": false,
+        "delta_s": 0.97
+      }
+    },
+    {
+      "gt_timestamp": 546.06,
+      "speaker_from": "B",
+      "speaker_to": "D",
+      "silence_gap_s": 8.135,
+      "prev_word": "will",
+      "prev_end_s": 539.97003,
+      "prev_deepgram_speaker": 1,
+      "next_word": "well",
+      "next_start_s": 548.105,
+      "next_deepgram_speaker": 0,
+      "deepgram_detected_speaker_change": true,
+      "speakers_in_2s_window": [],
+      "nearest_candidate": {
+        "pause_start": 550.105,
+        "pause_duration_s": 1.28,
+        "speaker_changed_flag": false,
+        "is_end_of_speech": false,
+        "delta_s": 4.045
+      }
+    },
+    {
+      "gt_timestamp": 554.46,
+      "speaker_from": "B",
+      "speaker_to": "D",
+      "silence_gap_s": 0.4,
+      "prev_word": "yeah",
+      "prev_end_s": 554.425,
+      "prev_deepgram_speaker": 1,
+      "next_word": "and",
+      "next_start_s": 554.825,
+      "next_deepgram_speaker": 1,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        0,
+        1
+      ],
+      "nearest_candidate": {
+        "pause_start": 553.865,
+        "pause_duration_s": 0.0,
+        "speaker_changed_flag": true,
+        "is_end_of_speech": true,
+        "delta_s": 0.595
+      }
+    },
+    {
+      "gt_timestamp": 568.3,
+      "speaker_from": "B",
+      "speaker_to": "D",
+      "silence_gap_s": 0.4,
+      "prev_word": "be",
+      "prev_end_s": 567.98,
+      "prev_deepgram_speaker": 1,
+      "next_word": "suppose",
+      "next_start_s": 568.38,
+      "next_deepgram_speaker": 1,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        1
+      ],
+      "nearest_candidate": {
+        "pause_start": 571.26,
+        "pause_duration_s": 0.0,
+        "speaker_changed_flag": true,
+        "is_end_of_speech": false,
+        "delta_s": 2.96
+      }
+    },
+    {
+      "gt_timestamp": 566.7,
+      "speaker_from": "D",
+      "speaker_to": "B",
+      "silence_gap_s": 0.4,
+      "prev_word": "remote",
+      "prev_end_s": 566.62,
+      "prev_deepgram_speaker": 1,
+      "next_word": "do",
+      "next_start_s": 567.01996,
+      "next_deepgram_speaker": 1,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        0,
+        1
+      ],
+      "nearest_candidate": {
+        "pause_start": 565.33997,
+        "pause_duration_s": 0.0,
+        "speaker_changed_flag": true,
+        "is_end_of_speech": false,
+        "delta_s": 1.36
+      }
+    },
+    {
+      "gt_timestamp": 583.5,
+      "speaker_from": "D",
+      "speaker_to": "B",
+      "silence_gap_s": 0.8,
+      "prev_word": "okay",
+      "prev_end_s": 582.91504,
+      "prev_deepgram_speaker": 0,
+      "next_word": "then",
+      "next_start_s": 583.715,
+      "next_deepgram_speaker": 0,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        0,
+        1
+      ],
+      "nearest_candidate": {
+        "pause_start": 582.91504,
+        "pause_duration_s": 0.56,
+        "speaker_changed_flag": false,
+        "is_end_of_speech": false,
+        "delta_s": 0.585
+      }
+    },
+    {
+      "gt_timestamp": 583.9,
+      "speaker_from": "B",
+      "speaker_to": "D",
+      "silence_gap_s": 0.4,
+      "prev_word": "then",
+      "prev_end_s": 583.875,
+      "prev_deepgram_speaker": 0,
+      "next_word": "then",
+      "next_start_s": 584.275,
+      "next_deepgram_speaker": 0,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        0
+      ],
+      "nearest_candidate": {
+        "pause_start": 582.91504,
+        "pause_duration_s": 0.56,
+        "speaker_changed_flag": false,
+        "is_end_of_speech": false,
+        "delta_s": 0.985
+      }
+    },
+    {
+      "gt_timestamp": 600.43,
+      "speaker_from": "B",
+      "speaker_to": "D",
+      "silence_gap_s": 0.56,
+      "prev_word": "the",
+      "prev_end_s": 599.93,
+      "prev_deepgram_speaker": 1,
+      "next_word": "like",
+      "next_start_s": 600.49,
+      "next_deepgram_speaker": 1,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        1
+      ],
+      "nearest_candidate": {
+        "pause_start": 603.025,
+        "pause_duration_s": 0.0,
+        "speaker_changed_flag": true,
+        "is_end_of_speech": false,
+        "delta_s": 2.595
+      }
+    },
+    {
+      "gt_timestamp": 600.064,
+      "speaker_from": "D",
+      "speaker_to": "B",
+      "silence_gap_s": 0.56,
+      "prev_word": "the",
+      "prev_end_s": 599.93,
+      "prev_deepgram_speaker": 1,
+      "next_word": "like",
+      "next_start_s": 600.49,
+      "next_deepgram_speaker": 1,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        1
+      ],
+      "nearest_candidate": {
+        "pause_start": 603.025,
+        "pause_duration_s": 0.0,
+        "speaker_changed_flag": true,
+        "is_end_of_speech": false,
+        "delta_s": 2.961
+      }
+    },
+    {
+      "gt_timestamp": 620.06,
+      "speaker_from": "B",
+      "speaker_to": "D",
+      "silence_gap_s": 0.56,
+      "prev_word": "marketing",
+      "prev_end_s": 619.7,
+      "prev_deepgram_speaker": 1,
+      "next_word": "marketing",
+      "next_start_s": 620.26,
+      "next_deepgram_speaker": 1,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        1
+      ],
+      "nearest_candidate": {
+        "pause_start": 622.74,
+        "pause_duration_s": 32.495,
+        "speaker_changed_flag": true,
+        "is_end_of_speech": false,
+        "delta_s": 2.68
+      }
+    },
+    {
+      "gt_timestamp": 620.167,
+      "speaker_from": "D",
+      "speaker_to": "B",
+      "silence_gap_s": 0.56,
+      "prev_word": "marketing",
+      "prev_end_s": 619.7,
+      "prev_deepgram_speaker": 1,
+      "next_word": "marketing",
+      "next_start_s": 620.26,
+      "next_deepgram_speaker": 1,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        1
+      ],
+      "nearest_candidate": {
+        "pause_start": 622.74,
+        "pause_duration_s": 32.495,
+        "speaker_changed_flag": true,
+        "is_end_of_speech": false,
+        "delta_s": 2.573
+      }
+    },
+    {
+      "gt_timestamp": 621.09,
+      "speaker_from": "B",
+      "speaker_to": "D",
+      "silence_gap_s": 0.16,
+      "prev_word": "thoughts",
+      "prev_end_s": 621.06,
+      "prev_deepgram_speaker": 1,
+      "next_word": "gosh",
+      "next_start_s": 621.22,
+      "next_deepgram_speaker": 1,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        1
+      ],
+      "nearest_candidate": {
+        "pause_start": 622.74,
+        "pause_duration_s": 32.495,
+        "speaker_changed_flag": true,
+        "is_end_of_speech": false,
+        "delta_s": 1.65
+      }
+    },
+    {
+      "gt_timestamp": 620.64,
+      "speaker_from": "D",
+      "speaker_to": "B",
+      "silence_gap_s": 0.48,
+      "prev_word": "marketing",
+      "prev_end_s": 620.57996,
+      "prev_deepgram_speaker": 1,
+      "next_word": "oh",
+      "next_start_s": 621.06,
+      "next_deepgram_speaker": 1,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        1
+      ],
+      "nearest_candidate": {
+        "pause_start": 622.74,
+        "pause_duration_s": 32.495,
+        "speaker_changed_flag": true,
+        "is_end_of_speech": false,
+        "delta_s": 2.1
+      }
+    },
+    {
+      "gt_timestamp": 624.87,
+      "speaker_from": "B",
+      "speaker_to": "D",
+      "silence_gap_s": 32.495,
+      "prev_word": "down",
+      "prev_end_s": 622.74,
+      "prev_deepgram_speaker": 1,
+      "next_word": "right",
+      "next_start_s": 655.235,
+      "next_deepgram_speaker": 0,
+      "deepgram_detected_speaker_change": true,
+      "speakers_in_2s_window": [],
+      "nearest_candidate": {
+        "pause_start": 622.74,
+        "pause_duration_s": 32.495,
+        "speaker_changed_flag": true,
+        "is_end_of_speech": false,
+        "delta_s": 2.13
+      }
+    },
+    {
+      "gt_timestamp": 665.64,
+      "speaker_from": "D",
+      "speaker_to": "B",
+      "silence_gap_s": 0.32,
+      "prev_word": "basic",
+      "prev_end_s": 665.39496,
+      "prev_deepgram_speaker": 0,
+      "next_word": "something",
+      "next_start_s": 665.71497,
+      "next_deepgram_speaker": 0,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        0
+      ],
+      "nearest_candidate": {
+        "pause_start": 667.955,
+        "pause_duration_s": 2.315,
+        "speaker_changed_flag": false,
+        "is_end_of_speech": false,
+        "delta_s": 2.315
+      }
+    },
+    {
+      "gt_timestamp": 665.84,
+      "speaker_from": "B",
+      "speaker_to": "D",
+      "silence_gap_s": 0.24,
+      "prev_word": "yeah",
+      "prev_end_s": 665.71497,
+      "prev_deepgram_speaker": 0,
+      "next_word": "other",
+      "next_start_s": 665.955,
+      "next_deepgram_speaker": 0,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        0
+      ],
+      "nearest_candidate": {
+        "pause_start": 667.955,
+        "pause_duration_s": 2.315,
+        "speaker_changed_flag": false,
+        "is_end_of_speech": false,
+        "delta_s": 2.115
+      }
+    },
+    {
+      "gt_timestamp": 677.852,
+      "speaker_from": "D",
+      "speaker_to": "B",
+      "silence_gap_s": 0.24,
+      "prev_word": "yeah",
+      "prev_end_s": 677.79004,
+      "prev_deepgram_speaker": 1,
+      "next_word": "how",
+      "next_start_s": 678.03,
+      "next_deepgram_speaker": 1,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        0,
+        1
+      ],
+      "nearest_candidate": {
+        "pause_start": 676.67004,
+        "pause_duration_s": 0.16,
+        "speaker_changed_flag": true,
+        "is_end_of_speech": false,
+        "delta_s": 1.182
+      }
+    },
+    {
+      "gt_timestamp": 729.45,
+      "speaker_from": "B",
+      "speaker_to": "D",
+      "silence_gap_s": 0.32,
+      "prev_word": "useful",
+      "prev_end_s": 729.27496,
+      "prev_deepgram_speaker": 1,
+      "next_word": "wouldn't",
+      "next_start_s": 729.595,
+      "next_deepgram_speaker": 1,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        1
+      ],
+      "nearest_candidate": {
+        "pause_start": 727.195,
+        "pause_duration_s": 0.4,
+        "speaker_changed_flag": true,
+        "is_end_of_speech": false,
+        "delta_s": 2.255
+      }
+    },
+    {
+      "gt_timestamp": 729.232,
+      "speaker_from": "D",
+      "speaker_to": "B",
+      "silence_gap_s": 0.32,
+      "prev_word": "be",
+      "prev_end_s": 728.955,
+      "prev_deepgram_speaker": 1,
+      "next_word": "though",
+      "next_start_s": 729.27496,
+      "next_deepgram_speaker": 1,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        1
+      ],
+      "nearest_candidate": {
+        "pause_start": 727.195,
+        "pause_duration_s": 0.4,
+        "speaker_changed_flag": true,
+        "is_end_of_speech": false,
+        "delta_s": 2.037
+      }
+    },
+    {
+      "gt_timestamp": 773.41,
+      "speaker_from": "D",
+      "speaker_to": "B",
+      "silence_gap_s": 0.32,
+      "prev_word": "getting",
+      "prev_end_s": 773.19,
+      "prev_deepgram_speaker": 1,
+      "next_word": "end",
+      "next_start_s": 773.51,
+      "next_deepgram_speaker": 1,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        0,
+        1
+      ],
+      "nearest_candidate": {
+        "pause_start": 772.39,
+        "pause_duration_s": 0.32,
+        "speaker_changed_flag": true,
+        "is_end_of_speech": true,
+        "delta_s": 1.02
+      }
+    },
+    {
+      "gt_timestamp": 776.97,
+      "speaker_from": "B",
+      "speaker_to": "D",
+      "silence_gap_s": 0.64,
+      "prev_word": "mean",
+      "prev_end_s": 776.685,
+      "prev_deepgram_speaker": 0,
+      "next_word": "yeah",
+      "next_start_s": 777.325,
+      "next_deepgram_speaker": 0,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        0,
+        1
+      ],
+      "nearest_candidate": {
+        "pause_start": 776.125,
+        "pause_duration_s": 0.0,
+        "speaker_changed_flag": true,
+        "is_end_of_speech": true,
+        "delta_s": 0.845
+      }
+    },
+    {
+      "gt_timestamp": 801.75,
+      "speaker_from": "D",
+      "speaker_to": "C",
+      "silence_gap_s": 0.88,
+      "prev_word": "right",
+      "prev_end_s": 801.16003,
+      "prev_deepgram_speaker": 0,
+      "next_word": "them",
+      "next_start_s": 802.04004,
+      "next_deepgram_speaker": 0,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        0
+      ],
+      "nearest_candidate": {
+        "pause_start": 801.16003,
+        "pause_duration_s": 0.56,
+        "speaker_changed_flag": false,
+        "is_end_of_speech": false,
+        "delta_s": 0.59
+      }
+    },
+    {
+      "gt_timestamp": 804.33,
+      "speaker_from": "C",
+      "speaker_to": "D",
+      "silence_gap_s": 0.32,
+      "prev_word": "a",
+      "prev_end_s": 804.16504,
+      "prev_deepgram_speaker": 0,
+      "next_word": "right",
+      "next_start_s": 804.48505,
+      "next_deepgram_speaker": 0,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        0
+      ],
+      "nearest_candidate": {
+        "pause_start": 801.16003,
+        "pause_duration_s": 0.56,
+        "speaker_changed_flag": false,
+        "is_end_of_speech": false,
+        "delta_s": 3.17
+      }
+    },
+    {
+      "gt_timestamp": 820.83,
+      "speaker_from": "B",
+      "speaker_to": "D",
+      "silence_gap_s": 0.8001,
+      "prev_word": "like",
+      "prev_end_s": 820.44995,
+      "prev_deepgram_speaker": 0,
+      "next_word": "what",
+      "next_start_s": 821.25,
+      "next_deepgram_speaker": 0,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        0,
+        1
+      ],
+      "nearest_candidate": {
+        "pause_start": 819.81,
+        "pause_duration_s": 0.0,
+        "speaker_changed_flag": true,
+        "is_end_of_speech": false,
+        "delta_s": 1.02
+      }
+    },
+    {
+      "gt_timestamp": 840.68,
+      "speaker_from": "D",
+      "speaker_to": "B",
+      "silence_gap_s": 0.4,
+      "prev_word": "control",
+      "prev_end_s": 840.315,
+      "prev_deepgram_speaker": 0,
+      "next_word": "such",
+      "next_start_s": 840.71497,
+      "next_deepgram_speaker": 0,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        0
+      ],
+      "nearest_candidate": {
+        "pause_start": 843.115,
+        "pause_duration_s": 0.8,
+        "speaker_changed_flag": true,
+        "is_end_of_speech": false,
+        "delta_s": 2.435
+      }
+    },
+    {
+      "gt_timestamp": 840.69,
+      "speaker_from": "B",
+      "speaker_to": "D",
+      "silence_gap_s": 0.4,
+      "prev_word": "control",
+      "prev_end_s": 840.315,
+      "prev_deepgram_speaker": 0,
+      "next_word": "such",
+      "next_start_s": 840.71497,
+      "next_deepgram_speaker": 0,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        0
+      ],
+      "nearest_candidate": {
+        "pause_start": 843.115,
+        "pause_duration_s": 0.8,
+        "speaker_changed_flag": true,
+        "is_end_of_speech": false,
+        "delta_s": 2.425
+      }
+    },
+    {
+      "gt_timestamp": 844.096,
+      "speaker_from": "D",
+      "speaker_to": "B",
+      "silence_gap_s": 1.04,
+      "prev_word": "or",
+      "prev_end_s": 843.115,
+      "prev_deepgram_speaker": 0,
+      "next_word": "even",
+      "next_start_s": 844.15497,
+      "next_deepgram_speaker": 1,
+      "deepgram_detected_speaker_change": true,
+      "speakers_in_2s_window": [
+        0,
+        1
+      ],
+      "nearest_candidate": {
+        "pause_start": 843.115,
+        "pause_duration_s": 0.8,
+        "speaker_changed_flag": true,
+        "is_end_of_speech": false,
+        "delta_s": 0.981
+      }
+    },
+    {
+      "gt_timestamp": 851.55,
+      "speaker_from": "B",
+      "speaker_to": "D",
+      "silence_gap_s": 0.4,
+      "prev_word": "idea",
+      "prev_end_s": 851.26,
+      "prev_deepgram_speaker": 1,
+      "next_word": "extra",
+      "next_start_s": 851.66,
+      "next_deepgram_speaker": 1,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        0,
+        1
+      ],
+      "nearest_candidate": {
+        "pause_start": 852.94,
+        "pause_duration_s": 0.0,
+        "speaker_changed_flag": true,
+        "is_end_of_speech": true,
+        "delta_s": 1.39
+      }
+    },
+    {
+      "gt_timestamp": 851.42,
+      "speaker_from": "D",
+      "speaker_to": "B",
+      "silence_gap_s": 0.4,
+      "prev_word": "idea",
+      "prev_end_s": 851.26,
+      "prev_deepgram_speaker": 1,
+      "next_word": "extra",
+      "next_start_s": 851.66,
+      "next_deepgram_speaker": 1,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        0,
+        1
+      ],
+      "nearest_candidate": {
+        "pause_start": 852.94,
+        "pause_duration_s": 0.0,
+        "speaker_changed_flag": true,
+        "is_end_of_speech": true,
+        "delta_s": 1.52
+      }
+    },
+    {
+      "gt_timestamp": 914.44,
+      "speaker_from": "A",
+      "speaker_to": "B",
+      "silence_gap_s": 0.56,
+      "prev_word": "the",
+      "prev_end_s": 914.065,
+      "prev_deepgram_speaker": 2,
+      "next_word": "yeah",
+      "next_start_s": 914.625,
+      "next_deepgram_speaker": 2,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        1,
+        2,
+        3
+      ],
+      "nearest_candidate": {
+        "pause_start": 915.105,
+        "pause_duration_s": 0.0,
+        "speaker_changed_flag": true,
+        "is_end_of_speech": false,
+        "delta_s": 0.665
+      }
+    },
+    {
+      "gt_timestamp": 920.04,
+      "speaker_from": "B",
+      "speaker_to": "A",
+      "silence_gap_s": 0.48,
+      "prev_word": "yep",
+      "prev_end_s": 919.985,
+      "prev_deepgram_speaker": 1,
+      "next_word": "i",
+      "next_start_s": 920.465,
+      "next_deepgram_speaker": 1,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        1
+      ],
+      "nearest_candidate": {
+        "pause_start": 922.78503,
+        "pause_duration_s": 2.4,
+        "speaker_changed_flag": false,
+        "is_end_of_speech": true,
+        "delta_s": 2.745
+      }
+    },
+    {
+      "gt_timestamp": 926.64,
+      "speaker_from": "B",
+      "speaker_to": "D",
+      "silence_gap_s": 1.005,
+      "prev_word": "sure",
+      "prev_end_s": 926.065,
+      "prev_deepgram_speaker": 0,
+      "next_word": "maybe",
+      "next_start_s": 927.07,
+      "next_deepgram_speaker": 1,
+      "deepgram_detected_speaker_change": true,
+      "speakers_in_2s_window": [
+        0,
+        1
+      ],
+      "nearest_candidate": {
+        "pause_start": 926.065,
+        "pause_duration_s": 0.445,
+        "speaker_changed_flag": true,
+        "is_end_of_speech": false,
+        "delta_s": 0.575
+      }
+    },
+    {
+      "gt_timestamp": 933.48,
+      "speaker_from": "D",
+      "speaker_to": "B",
+      "silence_gap_s": 0.32,
+      "prev_word": "the",
+      "prev_end_s": 933.23,
+      "prev_deepgram_speaker": 0,
+      "next_word": "and",
+      "next_start_s": 933.55,
+      "next_deepgram_speaker": 0,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        0
+      ],
+      "nearest_candidate": {
+        "pause_start": 936.99,
+        "pause_duration_s": 0.0,
+        "speaker_changed_flag": true,
+        "is_end_of_speech": true,
+        "delta_s": 3.51
+      }
+    },
+    {
+      "gt_timestamp": 933.296,
+      "speaker_from": "B",
+      "speaker_to": "D",
+      "silence_gap_s": 0.32,
+      "prev_word": "the",
+      "prev_end_s": 933.23,
+      "prev_deepgram_speaker": 0,
+      "next_word": "and",
+      "next_start_s": 933.55,
+      "next_deepgram_speaker": 0,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        0
+      ],
+      "nearest_candidate": {
+        "pause_start": 936.99,
+        "pause_duration_s": 0.0,
+        "speaker_changed_flag": true,
+        "is_end_of_speech": true,
+        "delta_s": 3.694
+      }
+    },
+    {
+      "gt_timestamp": 948.04,
+      "speaker_from": "B",
+      "speaker_to": "D",
+      "silence_gap_s": 0.96,
+      "prev_word": "about",
+      "prev_end_s": 947.505,
+      "prev_deepgram_speaker": 0,
+      "next_word": "it",
+      "next_start_s": 948.465,
+      "next_deepgram_speaker": 0,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        0,
+        1
+      ],
+      "nearest_candidate": {
+        "pause_start": 946.465,
+        "pause_duration_s": 0.0,
+        "speaker_changed_flag": true,
+        "is_end_of_speech": true,
+        "delta_s": 1.575
+      }
+    },
+    {
+      "gt_timestamp": 954.2,
+      "speaker_from": "D",
+      "speaker_to": "B",
+      "silence_gap_s": 0.16,
+      "prev_word": "yeah",
+      "prev_end_s": 954.1,
+      "prev_deepgram_speaker": 0,
+      "next_word": "or",
+      "next_start_s": 954.26,
+      "next_deepgram_speaker": 0,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        0,
+        1
+      ],
+      "nearest_candidate": {
+        "pause_start": 952.705,
+        "pause_duration_s": 0.275,
+        "speaker_changed_flag": true,
+        "is_end_of_speech": true,
+        "delta_s": 1.495
+      }
+    },
+    {
+      "gt_timestamp": 954.42,
+      "speaker_from": "B",
+      "speaker_to": "D",
+      "silence_gap_s": 0.0,
+      "prev_word": "or",
+      "prev_end_s": 954.42,
+      "prev_deepgram_speaker": 0,
+      "next_word": "whatever",
+      "next_start_s": 954.42,
+      "next_deepgram_speaker": 0,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        0,
+        1
+      ],
+      "nearest_candidate": {
+        "pause_start": 952.705,
+        "pause_duration_s": 0.275,
+        "speaker_changed_flag": true,
+        "is_end_of_speech": true,
+        "delta_s": 1.715
+      }
+    },
+    {
+      "gt_timestamp": 963.91,
+      "speaker_from": "D",
+      "speaker_to": "B",
+      "silence_gap_s": 0.16,
+      "prev_word": "having",
+      "prev_end_s": 963.77997,
+      "prev_deepgram_speaker": 0,
+      "next_word": "you",
+      "next_start_s": 963.94,
+      "next_deepgram_speaker": 0,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        0,
+        1
+      ],
+      "nearest_candidate": {
+        "pause_start": 963.06,
+        "pause_duration_s": 0.0,
+        "speaker_changed_flag": true,
+        "is_end_of_speech": true,
+        "delta_s": 0.85
+      }
+    },
+    {
+      "gt_timestamp": 994.81,
+      "speaker_from": "B",
+      "speaker_to": "A",
+      "silence_gap_s": 0.32,
+      "prev_word": "of",
+      "prev_end_s": 994.675,
+      "prev_deepgram_speaker": 1,
+      "next_word": "so",
+      "next_start_s": 994.995,
+      "next_deepgram_speaker": 1,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        1
+      ],
+      "nearest_candidate": {
+        "pause_start": 996.59503,
+        "pause_duration_s": 1.28,
+        "speaker_changed_flag": false,
+        "is_end_of_speech": true,
+        "delta_s": 1.785
+      }
+    },
+    {
+      "gt_timestamp": 994.02,
+      "speaker_from": "A",
+      "speaker_to": "B",
+      "silence_gap_s": 0.32,
+      "prev_word": "actual",
+      "prev_end_s": 993.875,
+      "prev_deepgram_speaker": 1,
+      "next_word": "design",
+      "next_start_s": 994.195,
+      "next_deepgram_speaker": 1,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        1
+      ],
+      "nearest_candidate": {
+        "pause_start": 992.61,
+        "pause_duration_s": 0.545,
+        "speaker_changed_flag": false,
+        "is_end_of_speech": false,
+        "delta_s": 1.41
+      }
+    },
+    {
+      "gt_timestamp": 1022.56,
+      "speaker_from": "B",
+      "speaker_to": "D",
+      "silence_gap_s": 5.8551,
+      "prev_word": "okay",
+      "prev_end_s": 1020.01,
+      "prev_deepgram_speaker": 0,
+      "next_word": "yeah",
+      "next_start_s": 1025.8651,
+      "next_deepgram_speaker": 1,
+      "deepgram_detected_speaker_change": true,
+      "speakers_in_2s_window": [],
+      "nearest_candidate": {
+        "pause_start": 1020.01,
+        "pause_duration_s": 5.855,
+        "speaker_changed_flag": true,
+        "is_end_of_speech": false,
+        "delta_s": 2.55
+      }
+    },
+    {
+      "gt_timestamp": 1025.056,
+      "speaker_from": "D",
+      "speaker_to": "B",
+      "silence_gap_s": 5.8551,
+      "prev_word": "okay",
+      "prev_end_s": 1020.01,
+      "prev_deepgram_speaker": 0,
+      "next_word": "yeah",
+      "next_start_s": 1025.8651,
+      "next_deepgram_speaker": 1,
+      "deepgram_detected_speaker_change": true,
+      "speakers_in_2s_window": [
+        1
+      ],
+      "nearest_candidate": {
+        "pause_start": 1026.745,
+        "pause_duration_s": 1.36,
+        "speaker_changed_flag": false,
+        "is_end_of_speech": false,
+        "delta_s": 1.689
+      }
+    },
+    {
+      "gt_timestamp": 1056.51,
+      "speaker_from": "D",
+      "speaker_to": "B",
+      "silence_gap_s": 0.3201,
+      "prev_word": "something",
+      "prev_end_s": 1056.495,
+      "prev_deepgram_speaker": 0,
+      "next_word": "yeah",
+      "next_start_s": 1056.8151,
+      "next_deepgram_speaker": 0,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        0
+      ],
+      "nearest_candidate": {
+        "pause_start": 1057.615,
+        "pause_duration_s": 3.36,
+        "speaker_changed_flag": false,
+        "is_end_of_speech": false,
+        "delta_s": 1.105
+      }
+    },
+    {
+      "gt_timestamp": 1074.44,
+      "speaker_from": "D",
+      "speaker_to": "B",
+      "silence_gap_s": 0.5599,
+      "prev_word": "okay",
+      "prev_end_s": 1073.9601,
+      "prev_deepgram_speaker": 1,
+      "next_word": "just",
+      "next_start_s": 1074.52,
+      "next_deepgram_speaker": 1,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        0,
+        1
+      ],
+      "nearest_candidate": {
+        "pause_start": 1073.48,
+        "pause_duration_s": 0.08,
+        "speaker_changed_flag": true,
+        "is_end_of_speech": false,
+        "delta_s": 0.96
+      }
+    },
+    {
+      "gt_timestamp": 1079.1,
+      "speaker_from": "B",
+      "speaker_to": "D",
+      "silence_gap_s": 0.3199,
+      "prev_word": "to",
+      "prev_end_s": 1078.8401,
+      "prev_deepgram_speaker": 1,
+      "next_word": "i",
+      "next_start_s": 1079.16,
+      "next_deepgram_speaker": 1,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        1
+      ],
+      "nearest_candidate": {
+        "pause_start": 1077.08,
+        "pause_duration_s": 0.72,
+        "speaker_changed_flag": false,
+        "is_end_of_speech": false,
+        "delta_s": 2.02
+      }
+    },
+    {
+      "gt_timestamp": 1078.06,
+      "speaker_from": "D",
+      "speaker_to": "B",
+      "silence_gap_s": 0.24,
+      "prev_word": "i",
+      "prev_end_s": 1078.04,
+      "prev_deepgram_speaker": 1,
+      "next_word": "that's",
+      "next_start_s": 1078.28,
+      "next_deepgram_speaker": 1,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        1
+      ],
+      "nearest_candidate": {
+        "pause_start": 1077.08,
+        "pause_duration_s": 0.72,
+        "speaker_changed_flag": false,
+        "is_end_of_speech": false,
+        "delta_s": 0.98
+      }
+    },
+    {
+      "gt_timestamp": 1082.39,
+      "speaker_from": "B",
+      "speaker_to": "D",
+      "silence_gap_s": 0.145,
+      "prev_word": "of",
+      "prev_end_s": 1082.36,
+      "prev_deepgram_speaker": 1,
+      "next_word": "so",
+      "next_start_s": 1082.505,
+      "next_deepgram_speaker": 1,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        1
+      ],
+      "nearest_candidate": {
+        "pause_start": 1083.145,
+        "pause_duration_s": 1.36,
+        "speaker_changed_flag": false,
+        "is_end_of_speech": false,
+        "delta_s": 0.755
+      }
+    },
+    {
+      "gt_timestamp": 1082.38,
+      "speaker_from": "D",
+      "speaker_to": "B",
+      "silence_gap_s": 0.145,
+      "prev_word": "of",
+      "prev_end_s": 1082.36,
+      "prev_deepgram_speaker": 1,
+      "next_word": "so",
+      "next_start_s": 1082.505,
+      "next_deepgram_speaker": 1,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        1
+      ],
+      "nearest_candidate": {
+        "pause_start": 1083.145,
+        "pause_duration_s": 1.36,
+        "speaker_changed_flag": false,
+        "is_end_of_speech": false,
+        "delta_s": 0.765
+      }
+    },
+    {
+      "gt_timestamp": 1094.9,
+      "speaker_from": "A",
+      "speaker_to": "D",
+      "silence_gap_s": 1.445,
+      "prev_word": "okay",
+      "prev_end_s": 1094.185,
+      "prev_deepgram_speaker": 1,
+      "next_word": "yeah",
+      "next_start_s": 1095.63,
+      "next_deepgram_speaker": 1,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        1,
+        2
+      ],
+      "nearest_candidate": {
+        "pause_start": 1094.185,
+        "pause_duration_s": 1.445,
+        "speaker_changed_flag": false,
+        "is_end_of_speech": false,
+        "delta_s": 0.715
+      }
+    },
+    {
+      "gt_timestamp": 1098.43,
+      "speaker_from": "A",
+      "speaker_to": "B",
+      "silence_gap_s": 0.64,
+      "prev_word": "main",
+      "prev_end_s": 1097.9501,
+      "prev_deepgram_speaker": 2,
+      "next_word": "okay",
+      "next_start_s": 1098.5901,
+      "next_deepgram_speaker": 2,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        1,
+        2
+      ],
+      "nearest_candidate": {
+        "pause_start": 1099.15,
+        "pause_duration_s": 0.24,
+        "speaker_changed_flag": true,
+        "is_end_of_speech": false,
+        "delta_s": 0.72
+      }
+    },
+    {
+      "gt_timestamp": 1105.728,
+      "speaker_from": "D",
+      "speaker_to": "B",
+      "silence_gap_s": 3.68,
+      "prev_word": "mhmm",
+      "prev_end_s": 1102.83,
+      "prev_deepgram_speaker": 1,
+      "next_word": "thank",
+      "next_start_s": 1106.51,
+      "next_deepgram_speaker": 1,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        1
+      ],
+      "nearest_candidate": {
+        "pause_start": 1107.4701,
+        "pause_duration_s": 3.485,
+        "speaker_changed_flag": false,
+        "is_end_of_speech": true,
+        "delta_s": 1.7421
+      }
+    },
+    {
+      "gt_timestamp": 1109.39,
+      "speaker_from": "B",
+      "speaker_to": "D",
+      "silence_gap_s": 3.4849,
+      "prev_word": "coming",
+      "prev_end_s": 1107.4701,
+      "prev_deepgram_speaker": 1,
+      "next_word": "good",
+      "next_start_s": 1110.955,
+      "next_deepgram_speaker": 1,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        1
+      ],
+      "nearest_candidate": {
+        "pause_start": 1107.4701,
+        "pause_duration_s": 3.485,
+        "speaker_changed_flag": false,
+        "is_end_of_speech": true,
+        "delta_s": 1.9199
+      }
+    },
+    {
+      "gt_timestamp": 1108.117,
+      "speaker_from": "D",
+      "speaker_to": "A",
+      "silence_gap_s": 3.4849,
+      "prev_word": "coming",
+      "prev_end_s": 1107.4701,
+      "prev_deepgram_speaker": 1,
+      "next_word": "good",
+      "next_start_s": 1110.955,
+      "next_deepgram_speaker": 1,
+      "deepgram_detected_speaker_change": false,
+      "speakers_in_2s_window": [
+        1
+      ],
+      "nearest_candidate": {
+        "pause_start": 1107.4701,
+        "pause_duration_s": 3.485,
+        "speaker_changed_flag": false,
+        "is_end_of_speech": true,
+        "delta_s": 0.6469
+      }
+    }
+  ]
+}

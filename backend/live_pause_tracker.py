@@ -150,7 +150,7 @@ class LivePauseTracker:
             has_speaker = (last_word.get("speaker") is not None and first_new_word.get("speaker") is not None)
             speaker_changed = has_speaker and (last_word["speaker"] != first_new_word["speaker"])
             
-            if gap >= 0.4 or speaker_changed:
+            if gap >= 0.3 or speaker_changed:
                 ts = last_word["end"]
                 pause_dur = max(0.0, round(gap, 3))
                 if self._should_evaluate_candidate(ts, pause_dur, "gap_or_speaker_change"):
@@ -171,7 +171,7 @@ class LivePauseTracker:
             segment_end = message.start + message.duration
             pause_duration = segment_end - last_word["end"]
             if pause_duration < 0.0:
-                pause_duration = 0.4  # Fallback to the minimum threshold
+                pause_duration = 0.3  # Fallback to the minimum threshold
                 
             ts = last_word["end"]
             pause_dur = max(0.0, round(pause_duration, 3))

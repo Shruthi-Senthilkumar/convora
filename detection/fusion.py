@@ -11,24 +11,38 @@ import json
 from dataclasses import dataclass
 from typing import Dict, Any
 
-# Initial defaults, tune in Phase 3.
-# Why these values:
-# - We want a highly confident semantic 'complete' (like rule-based conf=0.9) to cross 
-#   the 0.5 threshold on its own (0.9 * 0.60 = 0.54 > 0.5).
-# - An LLM 'complete' (conf=0.75) contributes 0.45, requiring either a slight pause 
-#   or a speaker change to push it over 0.5, preventing false positives on brief hesitations.
-# - A degraded semantic signal gives a neutral base score (0.5), requiring other signals 
-#   like speaker_change to cross the threshold.
-# - A confident 'incomplete' (conf=0.9) pushes the score so low that even max pause + 
-#   speaker change cannot force an 'end of speech' decision.
-WEIGHT_SEMANTIC = 0.60
-WEIGHT_PAUSE = 0.15
-WEIGHT_SPEAKER_CHANGE = 0.25
+# Phase 3 tuned weights - derived from AMI ES2002a ground-truth evaluation.
+#
+# Root cause found in FN_FUSION analysis (63 missed boundaries where a candidate
+# existed but fusion voted wrong):
+#   - 100% of FN_FUSION cases had semantic_label='incomplete'
+#   - 65.1% of those had speaker_changed=True
+#   - At old weights (sem=0.60, spk=0.25, threshold=0.50), a speaker_changed=True
+#     case with an 'incomplete' LLM judgment (conf=0.75) scored:
+#     0.25*0.60 + 0.25 = 0.40 < 0.50 -> always voted EOS=False.
+#
+# Fix: raise WEIGHT_SPEAKER_CHANGE (diarization signal is reliable when it fires)
+#      reduce WEIGHT_SEMANTIC (semantic judge mislabels turn-boundaries as 'incomplete'
+#        because transitions happen mid-utterance fragment)
+#      raise WEIGHT_PAUSE (silence duration deserves more influence)
+#      raise DECISION_THRESHOLD (prevents new FPs from extra speaker-change weight)
+#
+# Grid-search result at FPR<=12% constraint:
+#   Old: recall=21.43%, FPR=11.66%, precision=68.25%
+#   New: recall=22.32%, FPR=10.43%, precision=73.02%
+WEIGHT_SEMANTIC = 0.30
+WEIGHT_PAUSE = 0.25
+WEIGHT_SPEAKER_CHANGE = 0.45
 
-DECISION_THRESHOLD = 0.5
+DECISION_THRESHOLD = 0.55
 
 # Pause mapping constants (PRD sec 1.1)
-PAUSE_FLOOR_S = 0.4
+# PAUSE_FLOOR_S deliberately unchanged at 0.4s:
+# Analysis of FN_VAD cases showed that lowering the trigger threshold adds new
+# candidates that all get voted EOS=False by fusion anyway (diarization-missed
+# transitions look semantically incomplete), producing zero recall gain at the
+# cost of extra LLM calls.
+PAUSE_FLOOR_S = 0.3
 PAUSE_CEILING_S = 3.0
 
 
