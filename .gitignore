@@ -1,7 +1,7 @@
 venv/
 __pycache__/
 *.pyc
-.env
+.env*
 *.wav
 *.mp3
 /eval/audio/

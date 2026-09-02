@@ -51,6 +51,7 @@ class EndOfSpeechDetector:
 
         # 4. Fuse and Filter
         events = []
+        all_candidates = []
         rule_count = 0
         llm_count = 0
         degraded_count = 0
@@ -66,6 +67,18 @@ class EndOfSpeechDetector:
                 degraded_count += 1
 
             fusion_res = fuse(candidate)
+
+            candidate_entry = {
+                "timestamp_s": candidate.get("pause_start"),
+                "is_end_of_speech": fusion_res.is_end_of_speech,
+                "confidence": fusion_res.confidence,
+                "speaker": candidate.get("speaker"),
+                "speaker_changed": candidate.get("speaker_changed", False),
+                "fragment": candidate.get("fragment"),
+                "contributing_signals": fusion_res.contributing_signals
+            }
+            all_candidates.append(candidate_entry)
+
             if fusion_res.is_end_of_speech:
                 events.append({
                     "event_type": "end_of_speech",
@@ -82,6 +95,7 @@ class EndOfSpeechDetector:
             "audio_file": audio_path,
             "duration_s": duration,
             "events": events,
+            "all_candidates": all_candidates,
             "metadata": {
                 "total_pause_candidates": len(candidates),
                 "resolved_to_end_of_speech": len(events),
@@ -148,6 +162,19 @@ if __name__ == "__main__":
             if "fragment" not in ev: errors.append(f"Event {i} missing 'fragment'")
             if "contributing_signals" not in ev or not isinstance(ev["contributing_signals"], dict):
                 errors.append(f"Event {i} missing/invalid 'contributing_signals'")
+
+    if "all_candidates" not in result or not isinstance(result["all_candidates"], list):
+        errors.append("Missing or invalid 'all_candidates' list")
+    else:
+        for i, cand in enumerate(result["all_candidates"]):
+            if "timestamp_s" not in cand: errors.append(f"Candidate {i} missing 'timestamp_s'")
+            if "is_end_of_speech" not in cand: errors.append(f"Candidate {i} missing 'is_end_of_speech'")
+            if "confidence" not in cand: errors.append(f"Candidate {i} missing 'confidence'")
+            if "speaker" not in cand: errors.append(f"Candidate {i} missing 'speaker'")
+            if "speaker_changed" not in cand: errors.append(f"Candidate {i} missing 'speaker_changed'")
+            if "fragment" not in cand: errors.append(f"Candidate {i} missing 'fragment'")
+            if "contributing_signals" not in cand or not isinstance(cand["contributing_signals"], dict):
+                errors.append(f"Candidate {i} missing/invalid 'contributing_signals'")
 
     if "metadata" not in result or not isinstance(result["metadata"], dict):
         errors.append("Missing or invalid 'metadata' dict")

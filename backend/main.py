@@ -32,8 +32,9 @@ import json
 import logging
 import os
 import time
+from fastapi.middleware.cors import CORSMiddleware
 from typing import Dict, Any
-
+from backend.file_upload_api import router as file_upload_router
 from dotenv import load_dotenv
 from fastapi import FastAPI, WebSocket, WebSocketDisconnect
 from deepgram import AsyncDeepgramClient
@@ -60,7 +61,14 @@ DEEPGRAM_ENCODING = "linear16"  # Raw PCM 16-bit little-endian
 DEEPGRAM_CHANNELS = 1
 
 app = FastAPI(title="Convora Streaming Backend")
-
+app.include_router(file_upload_router)
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:3000"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 # ---------------------------------------------------------------------------
 # WebSocket endpoint
