@@ -1,0 +1,149 @@
+{
+  "meeting_id": "ES2002a",
+  "audio_file": "C:\\Users\\shrut\\ami-corpus-data\\amicorpus\\ES2002a\\audio\\ES2002a.Mix-Headset.wav",
+  "verdict": "KEPT",
+  "methodology_limitations": "Full-dataset weights (sem=0.20, pause=0.20, spk=0.40, pros=0.20, th=0.55) were selected via grid search on ES2002a. To test for overfitting, 2-fold chronological cross-validation was conducted (Half A vs Half B). While held-out generalization was confirmed within ES2002a across both temporal folds, cross-meeting and cross-corpus generalization remains unverified.",
+  "weights_2signal": {
+    "semantic": 0.3,
+    "pause": 0.25,
+    "speaker_change": 0.45,
+    "threshold": 0.55
+  },
+  "weights_3signal": {
+    "semantic": 0.2,
+    "pause": 0.2,
+    "speaker_change": 0.4,
+    "prosody": 0.2,
+    "threshold": 0.55
+  },
+  "extraction_stats": {
+    "total_candidates": 286,
+    "status_breakdown": {
+      "ok": 194,
+      "unvoiced": 36,
+      "low_energy": 56
+    }
+  },
+  "full_dataset_evaluation_0_5s": {
+    "2_signal": {
+      "metrics": {
+        "accuracy": 0.7378,
+        "precision": 0.6344,
+        "false_positive_rate_early_cutoff": 0.1828
+      },
+      "gt_metrics": {
+        "recall_gt_centric": 0.2902,
+        "fnr_gt_centric": 0.7098,
+        "precision_gt_centric": 0.6129,
+        "f1_gt_centric": 0.3939
+      },
+      "confusion_matrix": {
+        "TP": 59,
+        "FP": 34,
+        "FN": 41,
+        "TN": 152
+      },
+      "gt_level": {
+        "gt_tp": 65,
+        "gt_fn_total": 159,
+        "gt_fn_fusion": 49,
+        "gt_fn_vad": 110
+      }
+    },
+    "3_signal": {
+      "metrics": {
+        "accuracy": 0.7692,
+        "precision": 0.67,
+        "false_positive_rate_early_cutoff": 0.1774
+      },
+      "gt_metrics": {
+        "recall_gt_centric": 0.3304,
+        "fnr_gt_centric": 0.6696,
+        "precision_gt_centric": 0.65,
+        "f1_gt_centric": 0.4381
+      },
+      "confusion_matrix": {
+        "TP": 67,
+        "FP": 33,
+        "FN": 33,
+        "TN": 153
+      },
+      "gt_level": {
+        "gt_tp": 74,
+        "gt_fn_total": 150,
+        "gt_fn_fusion": 40,
+        "gt_fn_vad": 110
+      }
+    },
+    "deltas": {
+      "recall": 4.020000000000001,
+      "fnr": -4.020000000000001,
+      "precision": 3.5600000000000076,
+      "fpr": -0.5399999999999988,
+      "f1": 0.04420000000000002,
+      "accuracy": 3.1399999999999983
+    }
+  },
+  "held_out_cross_validation": {
+    "fold_1_train_A_test_B": {
+      "train_half_A_weights": {
+        "semantic": 0.2,
+        "pause": 0.2,
+        "speaker_change": 0.35,
+        "prosody": 0.25,
+        "threshold": 0.52
+      },
+      "test_half_B_2signal": {
+        "recall": 0.3596,
+        "precision": 0.6222,
+        "fpr": 0.2048,
+        "f1": 0.4433,
+        "gt_tp": 32,
+        "total_gt": 89
+      },
+      "test_half_B_3signal": {
+        "recall": 0.4157,
+        "precision": 0.6275,
+        "fpr": 0.2289,
+        "f1": 0.4872,
+        "gt_tp": 37,
+        "total_gt": 89
+      },
+      "deltas": {
+        "recall": 5.610000000000004,
+        "precision": 0.5299999999999971,
+        "f1": 0.043899999999999995
+      }
+    },
+    "fold_2_train_B_test_A": {
+      "train_half_B_weights": {
+        "semantic": 0.2,
+        "pause": 0.15,
+        "speaker_change": 0.45,
+        "prosody": 0.2,
+        "threshold": 0.6
+      },
+      "test_half_A_2signal": {
+        "recall": 0.2444,
+        "precision": 0.6458,
+        "fpr": 0.165,
+        "f1": 0.3547,
+        "gt_tp": 33,
+        "total_gt": 135
+      },
+      "test_half_A_3signal": {
+        "recall": 0.2741,
+        "precision": 0.6863,
+        "fpr": 0.1553,
+        "f1": 0.3917,
+        "gt_tp": 37,
+        "total_gt": 135
+      },
+      "deltas": {
+        "recall": 2.9700000000000006,
+        "precision": 4.049999999999998,
+        "f1": 0.03699999999999998
+      }
+    }
+  }
+}

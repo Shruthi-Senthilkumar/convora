@@ -1,6 +1,6 @@
-﻿# Phase 3 Baseline Comparison: Silence-Threshold and Deepgram Native Endpointing Controls
+# Phase 3 Baseline Comparison: Silence-Threshold and Deepgram Native Endpointing Controls
 
-This document presents a side-by-side empirical comparison of Convora's tuned end-of-speech (EOS) detection pipeline against two standalone controls on official human-annotated turn boundaries from the **AMI Meeting Corpus** (meeting `ES2002a`, 4 speakers, 1,272 seconds).
+This document presents a side-by-side empirical comparison of Convora's tuned end-of-speech (EOS) detection pipeline (3-signal fusion: semantic + pause + speaker-change + prosody) against two standalone controls on official human-annotated turn boundaries from the **AMI Meeting Corpus** (meeting `ES2002a`, 4 speakers, 1,272 seconds).
 
 ---
 
@@ -14,7 +14,7 @@ All metrics are evaluated against the same **224 genuine floor-transfer turn bou
 | **Naive Silence @ 500ms** | 20.54% | 79.46% | 26.28% | 0.2281 | 61.83% | 39.16% |
 | **Naive Silence @ 700ms** | 17.41% | 82.59% | 26.72% | 0.2084 | 51.61% | 43.71% |
 | **Deepgram Native Endpointing** | **43.75%** | **56.25%** | 46.49% | **0.4404** | 53.23% | 60.49% |
-| **Convora Tuned Pipeline (v2)** | 29.02% | **70.98%** | **63.44%** | 0.3939 | **18.28%** | **73.78%** |
+| **Convora Tuned Pipeline (3-Signal Fusion)** | 33.04% | **66.96%** | **67.00%** | 0.4381 | **17.74%** | **76.92%** |
 
 ---
 
@@ -22,17 +22,21 @@ All metrics are evaluated against the same **224 genuine floor-transfer turn bou
 
 ### 2.1 Convora Tuned Pipeline vs. Naive Silence Controls
 * **Convora Decisively Beats Silence Controls on All Fronts**:
-  * **Recall**: Convora detects **29.02%** of boundaries, outperforming the 300ms silence control (**24.11%**), 500ms control (**20.54%**), and 700ms control (**17.41%**).
-  * **Precision**: Convora's precision (**63.44%**) is more than **double** that of any silence control (which hover between 23% and 27%).
-  * **Early Cutoffs (FPR)**: A naive 300ms silence timer cuts off the speaker early on **84.41%** of natural pauses. Even at 700ms, it cuts off early **51.61%** of the time. Convora reduces this critical user-experience failure mode to just **18.28%** (a **64%-78% relative reduction** in false cuts).
+  * **Recall**: Convora detects **33.04%** of boundaries, outperforming the 300ms silence control (**24.11%**), 500ms control (**20.54%**), and 700ms control (**17.41%**).
+  * **Precision**: Convora's precision (**67.00%**) is more than **2.5x** that of any silence control (which hover between 23% and 27%).
+  * **Early Cutoffs (FPR)**: A naive 300ms silence timer cuts off the speaker early on **84.41%** of natural pauses. Even at 700ms, it cuts off early **51.61%** of the time. Convora reduces this critical user-experience failure mode to just **17.74%** (a **66%-79% relative reduction** in false cuts).
   * **Conclusion**: Convora meets the PRD Section 2.1 validation target: it is significantly superior to naive silence-thresholding.
 
 ### 2.2 Convora Tuned Pipeline vs. Deepgram Native Endpointing
 * **Deepgram Native Endpointing is High-Recall but extremely noisy**:
   * Deepgram's native punctuation/sentence segmentation achieves the highest recall (**43.75%**) and lowest FNR (**56.25%**), with an F1 score of **0.4404**.
   * However, this comes at the cost of a **53.23% False Positive Rate** (FPR). If we trust Deepgram alone, it triggers an early cutoff on more than half of all natural pauses.
-  * Convora's tuned pipeline uses LLM context and speaker changes to **suppress nearly two-thirds of Deepgram's false positives** (FPR falls from `53.23%` -> `18.28%`), which increases Precision from `46.49%` to `63.44%` and Overall Accuracy from `60.49%` to `73.78%`.
+  * Convora's tuned 3-signal pipeline uses semantic context, diarization cues, and Praat pitch/intensity prosody to **suppress two-thirds of Deepgram's false positives** (FPR falls from `53.23%` -> `17.74%`), which increases Precision from `46.49%` to `67.00%`, brings F1 to `0.4381` (comparable to Deepgram's 0.4404 but with 67% fewer interruptions), and raises Overall Accuracy from `60.49%` to `76.92%`.
   * **Conclusion**: Deepgram's native endpointing is too aggressive for conversational agents because it interrupts users constantly. Convora successfully tames this noise using multi-signal fusion.
+
+> [!NOTE]
+> **Methodology Note on Deepgram Native Endpointing**:
+> The Deepgram endpointing control is an offline approximation derived directly from punctuation-based sentence boundaries (`.`, `?`, `!`) in Deepgram's batch transcription output ([`eval/baseline_deepgram_endpointing.py`](file:///c:/Users/shrut/convora/eval/baseline_deepgram_endpointing.py)), **not** a live capture of real-time streaming `speech_final` or `UtteranceEnd` events. Because Deepgram's batch acoustic/language model inserts terminal punctuation heavily at acoustic pauses and clause breaks, it correlates closely with silence detection while adding syntactic segmentation.
 
 ---
 
@@ -57,7 +61,7 @@ Since it uses only duration, it triggers EOS on any pause $\ge 500$ms, generatin
 | `53.88s` | **True** | **FP** | N/A | okay right kinda all okay right |
 
 ### 3.2 Deepgram Native Endpointing Baseline
-Deepgram puts sentence punctuation at almost every pause. While it hits several speaker changes, it also triggers early cutoffs (FPs) on almost every natural hesitation.
+Deepgram's batch transcription inserts sentence-ending punctuation (`.`, `?`, `!`) at major acoustic pauses and clause breaks. While it captures turn completions, it also triggers early cutoffs (FPs) on almost every natural hesitation.
 
 | PauseStart | Predicted EOS | Match Status | Delta | Fragment / Context |
 | :--- | :---: | :---: | :---: | :--- |
@@ -72,8 +76,8 @@ Deepgram puts sentence punctuation at almost every pause. While it hits several 
 | `49.08s` | **True** | **FP** | N/A | okay right kinda all okay |
 | `53.88s` | **True** | **FP** | N/A | okay right kinda all okay right |
 
-### 3.3 Convora Tuned Pipeline (v2)
-By incorporating semantic and diarization cues, Convora correctly identifies hesitations and natural flow, only triggering EOS on genuine turn transfers (yielding far fewer FPs).
+### 3.3 Convora Tuned Pipeline (3-Signal Fusion with Prosody)
+By incorporating semantic, diarization, and pitch/intensity prosody cues, Convora correctly identifies hesitations and natural flow, triggering EOS on genuine turn transfers with high precision.
 
 | PauseStart | Predicted EOS | Match Status | Delta | Fragment / Context |
 | :--- | :---: | :---: | :---: | :--- |
@@ -81,7 +85,7 @@ By incorporating semantic and diarization cues, Convora correctly identifies hes
 | `9.44s` | False | **TN** | N/A | i think it's already on actually |
 | `16.23s` | False | **TN** | N/A | think it's already on actually god how |
 | `35.84s` | **True** | **FP** | N/A | make this thing work i've plugged it i |
-| `39.20s` | False | **TN** | N/A | it's got it |
+| `39.20s` | **True** | **FP** | N/A | it's got it |
 | `39.68s` | False | **TN** | N/A | okay |
 | `40.80s` | False | **TN** | N/A | okay right |
 | `42.35s` | False | **TN** | N/A | okay right kinda all |
@@ -113,7 +117,6 @@ python eval/baseline_silence_threshold.py
 # Deepgram native endpointing control
 python eval/baseline_deepgram_endpointing.py
 
-# Convora pipeline
+# Convora 3-signal pipeline
 python eval/evaluate_against_ami_ground_truth.py
 ```
-
