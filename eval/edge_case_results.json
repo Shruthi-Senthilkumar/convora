@@ -1,0 +1,319 @@
+{
+  "meeting_id": "ES2002a",
+  "total_candidates": 286,
+  "tolerance_s": 0.5,
+  "slices": {
+    "backchannels": {
+      "category": "backchannels",
+      "candidate_count": 22,
+      "meets_prd_min_sample_size": true,
+      "confusion_matrix": {
+        "TP": 5,
+        "FP": 0,
+        "FN": 6,
+        "TN": 11
+      },
+      "precision": 1.0,
+      "false_positive_rate": 0.0,
+      "accuracy": 0.7273,
+      "suppression_rate": 0.7727272727272727,
+      "sample_candidates": [
+        {
+          "pause_start": 39.68,
+          "pred_eos": false,
+          "confidence": 0.15703703703703703,
+          "match_status": "TN",
+          "fragment": "okay"
+        },
+        {
+          "pause_start": 40.8,
+          "pred_eos": false,
+          "confidence": 0.11748551771024018,
+          "match_status": "TN",
+          "fragment": "okay right"
+        },
+        {
+          "pause_start": 216.465,
+          "pred_eos": false,
+          "confidence": 0.4979091195470816,
+          "match_status": "FN",
+          "fragment": "yeah"
+        },
+        {
+          "pause_start": 244.09502,
+          "pred_eos": false,
+          "confidence": 0.13333333333333333,
+          "match_status": "TN",
+          "fragment": "right"
+        },
+        {
+          "pause_start": 293.98502,
+          "pred_eos": true,
+          "confidence": 0.6281481481481481,
+          "match_status": "TP",
+          "fragment": "okay"
+        }
+      ]
+    },
+    "trailing_questions": {
+      "category": "trailing_questions",
+      "candidate_count": 28,
+      "meets_prd_min_sample_size": true,
+      "confusion_matrix": {
+        "TP": 9,
+        "FP": 1,
+        "FN": 2,
+        "TN": 16
+      },
+      "precision": 0.9,
+      "false_positive_rate": 0.0588,
+      "accuracy": 0.8929,
+      "suppression_rate": null,
+      "sample_candidates": [
+        {
+          "pause_start": 67.77,
+          "pred_eos": false,
+          "confidence": 0.20547149734611675,
+          "match_status": "TN",
+          "fragment": "what we're gonna be doing over the next twenty five minutes mhmm"
+        },
+        {
+          "pause_start": 77.445,
+          "pred_eos": true,
+          "confidence": 0.6135161765765565,
+          "match_status": "TP",
+          "fragment": "i'm the project manager great do you want to introduce yourself again"
+        },
+        {
+          "pause_start": 215.74501,
+          "pred_eos": false,
+          "confidence": 0.52,
+          "match_status": "TN",
+          "fragment": "favorite animal is like abigo favorite characteristics of it is that right"
+        },
+        {
+          "pause_start": 224.52002,
+          "pred_eos": false,
+          "confidence": 0.1511111111111111,
+          "match_status": "TN",
+          "fragment": "for me is that they be willing to take a lot of"
+        },
+        {
+          "pause_start": 226.52002,
+          "pred_eos": false,
+          "confidence": 0.16333333333333333,
+          "match_status": "TN",
+          "fragment": "is that they be willing to take a lot of physical affection"
+        }
+      ]
+    },
+    "prosodic_uptalk_mismatch": {
+      "category": "prosodic_uptalk_mismatch",
+      "candidate_count": 36,
+      "meets_prd_min_sample_size": true,
+      "confusion_matrix": {
+        "TP": 4,
+        "FP": 8,
+        "FN": 7,
+        "TN": 17
+      },
+      "precision": 0.3333,
+      "false_positive_rate": 0.32,
+      "accuracy": 0.5833,
+      "suppression_rate": null,
+      "sample_candidates": [
+        {
+          "pause_start": 16.225,
+          "pred_eos": false,
+          "confidence": 0.37499896717596715,
+          "match_status": "TN",
+          "fragment": "think it's already on actually god how do make this thing work"
+        },
+        {
+          "pause_start": 35.84,
+          "pred_eos": true,
+          "confidence": 0.6748587212979347,
+          "match_status": "FP",
+          "fragment": "make this thing work i've plugged it in the back but yep"
+        },
+        {
+          "pause_start": 53.875,
+          "pred_eos": false,
+          "confidence": 0.26379346036069395,
+          "match_status": "TN",
+          "fragment": "okay right kinda all okay right"
+        },
+        {
+          "pause_start": 83.765,
+          "pred_eos": false,
+          "confidence": 0.303905762401043,
+          "match_status": "TN",
+          "fragment": "and i'm andrew and i'm a marketing"
+        },
+        {
+          "pause_start": 98.19,
+          "pred_eos": false,
+          "confidence": 0.05294217197362136,
+          "match_status": "TN",
+          "fragment": "new remote control and oh i have to record he's here actually"
+        }
+      ]
+    },
+    "list_enumeration": {
+      "category": "list_enumeration",
+      "candidate_count": 10,
+      "meets_prd_min_sample_size": true,
+      "confusion_matrix": {
+        "TP": 1,
+        "FP": 0,
+        "FN": 0,
+        "TN": 9
+      },
+      "precision": 1.0,
+      "false_positive_rate": 0.0,
+      "accuracy": 1.0,
+      "suppression_rate": null,
+      "sample_candidates": [
+        {
+          "pause_start": 147.58,
+          "pred_eos": false,
+          "confidence": 0.25148148148148153,
+          "match_status": "TN",
+          "fragment": "we're gonna have like individual work and then a meeting about it"
+        },
+        {
+          "pause_start": 148.46,
+          "pred_eos": false,
+          "confidence": 0.1783505004332973,
+          "match_status": "TN",
+          "fragment": "gonna have like individual work and then a meeting about it and"
+        },
+        {
+          "pause_start": 150.93999,
+          "pred_eos": false,
+          "confidence": 0.4524842384465673,
+          "match_status": "TN",
+          "fragment": "and then a meeting about it and repeat that process three times"
+        },
+        {
+          "pause_start": 167.045,
+          "pred_eos": true,
+          "confidence": 0.6578385886383233,
+          "match_status": "TP",
+          "fragment": "your favorite characteristics of it so who would like to go first"
+        },
+        {
+          "pause_start": 324.375,
+          "pred_eos": false,
+          "confidence": 0.2226602920832922,
+          "match_status": "TN",
+          "fragment": "first animal i can think of off the top of my head"
+        }
+      ]
+    },
+    "self_corrections_restarts": {
+      "category": "self_corrections_restarts",
+      "candidate_count": 44,
+      "meets_prd_min_sample_size": true,
+      "confusion_matrix": {
+        "TP": 7,
+        "FP": 2,
+        "FN": 1,
+        "TN": 34
+      },
+      "precision": 0.7778,
+      "false_positive_rate": 0.0556,
+      "accuracy": 0.9318,
+      "suppression_rate": null,
+      "sample_candidates": [
+        {
+          "pause_start": 9.44,
+          "pred_eos": false,
+          "confidence": 0.3433859911286725,
+          "match_status": "TN",
+          "fragment": "i think it's already on actually"
+        },
+        {
+          "pause_start": 16.225,
+          "pred_eos": false,
+          "confidence": 0.37499896717596715,
+          "match_status": "TN",
+          "fragment": "think it's already on actually god how do make this thing work"
+        },
+        {
+          "pause_start": 59.53,
+          "pred_eos": false,
+          "confidence": 0.3156017701457883,
+          "match_status": "TN",
+          "fragment": "okay right well this is the kickoff meeting for our our project"
+        },
+        {
+          "pause_start": 62.969997,
+          "pred_eos": false,
+          "confidence": 0.23711189852666043,
+          "match_status": "TN",
+          "fragment": "right well this is the kickoff meeting for our our project and"
+        },
+        {
+          "pause_start": 98.19,
+          "pred_eos": false,
+          "confidence": 0.05294217197362136,
+          "match_status": "TN",
+          "fragment": "new remote control and oh i have to record he's here actually"
+        }
+      ]
+    },
+    "trailing_filler": {
+      "category": "trailing_filler",
+      "candidate_count": 29,
+      "meets_prd_min_sample_size": true,
+      "confusion_matrix": {
+        "TP": 5,
+        "FP": 3,
+        "FN": 3,
+        "TN": 18
+      },
+      "precision": 0.625,
+      "false_positive_rate": 0.1429,
+      "accuracy": 0.7931,
+      "suppression_rate": null,
+      "sample_candidates": [
+        {
+          "pause_start": 62.969997,
+          "pred_eos": false,
+          "confidence": 0.23711189852666043,
+          "match_status": "TN",
+          "fragment": "right well this is the kickoff meeting for our our project and"
+        },
+        {
+          "pause_start": 95.549995,
+          "pred_eos": false,
+          "confidence": 0.15013042327124662,
+          "match_status": "TN",
+          "fragment": "great okay so we're designing a new remote control and"
+        },
+        {
+          "pause_start": 121.71,
+          "pred_eos": false,
+          "confidence": 0.2222222222222222,
+          "match_status": "TN",
+          "fragment": "and user friendly so that's kind of our our brief so and"
+        },
+        {
+          "pause_start": 148.46,
+          "pred_eos": false,
+          "confidence": 0.1783505004332973,
+          "match_status": "TN",
+          "fragment": "gonna have like individual work and then a meeting about it and"
+        },
+        {
+          "pause_start": 192.265,
+          "pred_eos": false,
+          "confidence": 0.32,
+          "match_status": "TN",
+          "fragment": "here right mhmm okay very nice alright my favorite animal is like"
+        }
+      ]
+    }
+  }
+}
