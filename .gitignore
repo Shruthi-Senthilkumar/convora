@@ -1,4 +1,4 @@
-﻿venv/
+venv/
 __pycache__/
 *.pyc
 .env
@@ -7,3 +7,5 @@ __pycache__/
 /eval/audio/
 node_modules/
 .next/
+models/
+*.onnx
