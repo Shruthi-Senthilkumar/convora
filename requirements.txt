@@ -9,3 +9,5 @@ pandas
 matplotlib
 spacy
 sounddevice
+elevenlabs
+python-multipart
