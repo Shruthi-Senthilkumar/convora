@@ -116,4 +116,13 @@ python backend/live_mic_test.py
 
 ---
 
+## Live demo
+
+- Frontend: https://convora-dev.vercel.app
+- Backend API docs: https://convora-dtiv.onrender.com/docs
+
+Note: the backend is on Render's free tier and sleeps after 15 minutes
+of inactivity — the first request after idle may take 30-50 seconds
+to wake up.
+
 *Built solo, end to end - architecture, backend, AI integration, and evaluation - as a portfolio project in public.*
