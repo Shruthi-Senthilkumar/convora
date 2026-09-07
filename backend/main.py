@@ -64,7 +64,7 @@ app = FastAPI(title="Convora Streaming Backend")
 app.include_router(file_upload_router)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000" , "https://convora-dtiv.onrender.com"],
+    allow_origins=["http://localhost:3000" , "https://convora-dtiv.onrender.com" , "https://convora-dev.vercel.app",],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
