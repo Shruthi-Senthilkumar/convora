@@ -1,0 +1,12 @@
+﻿venv/
+frontend/
+node_modules/
+.next/
+.git/
+docs/
+eval/
+models/
+ami-corpus-data/
+*.pyc
+__pycache__/
+.env
